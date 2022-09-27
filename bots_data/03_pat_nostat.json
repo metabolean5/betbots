@@ -1,0 +1,306 @@
+{
+    "total_bets_made": 2,
+    "successful_bets": 0,
+    "unsuccessful_bets": 0,
+    "money": -20,
+    "current_bets": {
+        "Round 9": [
+            {
+                "cotes": {
+                    "3": "4.00",
+                    "1": "3.80",
+                    "0": "1.80"
+                },
+                "info": {
+                    "teams": "AngersANG-MarseilleOM",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "2.75",
+                    "1": "3.50",
+                    "0": "2.40"
+                },
+                "info": {
+                    "teams": "Strasbourg AlsaceRCS-Stade RennesREN",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    1,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 1
+            },
+            {
+                "cotes": {
+                    "3": "1.17",
+                    "1": "7.50",
+                    "0": "15.00"
+                },
+                "info": {
+                    "teams": "PSGPSG-NiceNIC",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "prediction": "3"
+            },
+            {
+                "cotes": {
+                    "3": "2.90",
+                    "1": "3.50",
+                    "0": "2.30"
+                },
+                "info": {
+                    "teams": "LorientFCL-LilleLIL",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "2.15",
+                    "1": "3.20",
+                    "0": "3.40"
+                },
+                "info": {
+                    "teams": "AC AjaccioACA-Clermont FootCFA",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    3,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "2.50",
+                    "1": "3.50",
+                    "0": "2.63"
+                },
+                "info": {
+                    "teams": "AuxerreAUX-Stade Brest 29STB",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.95",
+                    "1": "3.80",
+                    "0": "3.50"
+                },
+                "info": {
+                    "teams": "ToulouseTFC-MontpellierMHS",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "2.55",
+                    "1": "3.50",
+                    "0": "2.55"
+                },
+                "info": {
+                    "teams": "TroyesEST-ReimsSDR",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    1,
+                    3,
+                    3,
+                    0,
+                    0,
+                    1,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.53",
+                    "1": "4.50",
+                    "0": "5.25"
+                },
+                "info": {
+                    "teams": "MonacoASM-NantesFCN",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    1,
+                    0,
+                    0,
+                    3,
+                    0
+                ],
+                "prediction": "3"
+            },
+            {
+                "cotes": {
+                    "3": "2.63",
+                    "1": "3.75",
+                    "0": "2.38"
+                },
+                "info": {
+                    "teams": "LensRCL-LyonOL",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    1,
+                    3,
+                    3,
+                    0,
+                    0,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            }
+        ]
+    },
+    "confirmed_bets": {
+        "2": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.17",
+                    "1": "7.50",
+                    "0": "15.00"
+                },
+                "info": {
+                    "teams": "PSGPSG-NiceNIC",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    1,
+                    3,
+                    1,
+                    0
+                ],
+                "prediction": "3"
+            },
+            "potential_gain": 11.7
+        },
+        "3": {
+            "bet_data": {
+                "cotes": {
+                    "3": "2.90",
+                    "1": "3.50",
+                    "0": "2.30"
+                },
+                "info": {
+                    "teams": "LorientFCL-LilleLIL",
+                    "date": "Ligue 1 | Round 9"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 29.0
+        }
+    }
+}
