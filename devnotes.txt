@@ -1,0 +1,4 @@
+=todolist=
+-add round saving in memory ({"round": "round/21-3"})
+-add number of bets (total,success, etc)
+-MAKE NEW MODEL
