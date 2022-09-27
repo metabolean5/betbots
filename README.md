@@ -39,7 +39,7 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 La saison 1 fut évidemment haute en couleur. Ce fut en toute évidence le moment ultime de la création, de l'engendrement de la forme à partir du de chaos que sont les paris sportifs.
 
-L'apparition progressive de Risky Rifky, de Pat et des Vents d'Ofsky ont marqué une sorte d'âge d'or qui se présente seulement sous la forme de Commencements. Nous avons cela dit la fois du renouveau et du devenir, la duende fougueux de l'anarchie ontologique qui nous surprend et sur lequel nous jouissons de nos outputs => turfutodays's betbots 100 seasons, turfutodays's betbots a 100 years.
+L'apparition progressive de Risky Rifky, de Pat et des Vents d'Ofsky ont marqué une sorte d'âge d'or qui se présente seulement sous la forme de Commencements. Nous avons cela dit la foi du renouveau et du devenir, du duende fougueux de l'anarchie ontologique qui nous surprend et sur lequel nous jouissons de nos outputs => turfutodays's betbots 100 seasons, turfutodays's betbots a 100 years.
 
 **Graphe évolutions**
 ![alt text](https://github.com/metabolean5/betbots/blob/main/bot_pics/wallstats.png?raw=true)
