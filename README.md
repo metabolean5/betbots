@@ -13,8 +13,8 @@ Cette ligue étant toutefois très peu populaire, il se trouve qu'il est actuell
 
 ## Robots
 
-Les robots actuels utilisent des stratégies qui ne demandent qu' à être perfectionnées ou alors radicalement transformées. 
-Tous les robots, mis à part Pat Nostat, utilisent un algorithme d'apprentissage statistiques rudimentaires pour effectuer leur prédiction.
+Les robots actuels utilisent des stratégies qui ne demandent qu'à être perfectionnées ou alors radicalement transformées. 
+Tous les robots, mis à part Pat Nostat, utilisent un algorithme d'apprentissage statistique rudimentaire pour effectuer leur prédiction.
 Bien que la modélisation et l'apprentissage machine soient des domaines plus que fascinants, elle n'est d'aucune importance ici puisque nous jouons à un jeu de hasard.
 Les stratégies sont donc les seules parties qui nous intéressent. Par exemple, les robots Vent d'ofsky utilisent des parties combinées et nous paraissent comme étant très prometteurs.
 Pour le reste nous vous renvoyons vers le code.
