@@ -1,0 +1,331 @@
+{
+    "total_bets_made": 4,
+    "successful_bets": 3,
+    "unsuccessful_bets": 0,
+    "money": 13.900000000000006,
+    "current_bets": {
+        "Round 4": [
+            {
+                "cotes": {
+                    "3": "5.25",
+                    "1": "3.80",
+                    "0": "1.65"
+                },
+                "info": {
+                    "teams": "Crystal PalacePAL-TottenhamTOT",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    1,
+                    0,
+                    1,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "5.50",
+                    "1": "3.80",
+                    "0": "1.60"
+                },
+                "info": {
+                    "teams": "LeicesterLEI-Man CityMNC",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "3.25",
+                    "1": "3.20",
+                    "0": "2.25"
+                },
+                "info": {
+                    "teams": "WatfordWAT-WolverhamptonWOL",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    0,
+                    3,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "3.30",
+                    "1": "3.40",
+                    "0": "2.20"
+                },
+                "info": {
+                    "teams": "SouthamptonSOT-West HamWHU",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    1,
+                    0,
+                    0,
+                    1,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "1.20",
+                    "1": "7.00",
+                    "0": "13.00"
+                },
+                "info": {
+                    "teams": "Man UtdMNU-NewcastleNEW",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    3,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.45",
+                    "1": "4.20",
+                    "0": "6.50"
+                },
+                "info": {
+                    "teams": "ArsenalARS-NorwichNOR",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "2.70",
+                    "1": "3.20",
+                    "0": "2.70"
+                },
+                "info": {
+                    "teams": "BrentfordBRE-BrightonBHA",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    1,
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.29",
+                    "1": "5.00",
+                    "0": "10.00"
+                },
+                "info": {
+                    "teams": "ChelseaCFC-Aston VillaVIL",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    3,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "5.00",
+                    "1": "4.00",
+                    "0": "1.62"
+                },
+                "info": {
+                    "teams": "Leeds UnitedLEE-LiverpoolLFC",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    1,
+                    0,
+                    1,
+                    1,
+                    3,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.70",
+                    "1": "3.60",
+                    "0": "5.25"
+                },
+                "info": {
+                    "teams": "EvertonEVE-BurnleyBUR",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    1,
+                    3,
+                    0,
+                    1,
+                    3,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            }
+        ]
+    },
+    "confirmed_bets": {
+        "4": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.20",
+                    "1": "7.00",
+                    "0": "13.00"
+                },
+                "info": {
+                    "teams": "Man UtdMNU-NewcastleNEW",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    3,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            }
+        },
+        "5": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.45",
+                    "1": "4.20",
+                    "0": "6.50"
+                },
+                "info": {
+                    "teams": "ArsenalARS-NorwichNOR",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            }
+        },
+        "7": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.29",
+                    "1": "5.00",
+                    "0": "10.00"
+                },
+                "info": {
+                    "teams": "ChelseaCFC-Aston VillaVIL",
+                    "date": "Premier League | Round 4"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    3,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            }
+        },
+        "potential_gain": 44.892
+    }
+}

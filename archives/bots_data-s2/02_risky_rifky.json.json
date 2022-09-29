@@ -1,0 +1,294 @@
+{
+    "confirmed_bets": {
+        "4": {
+            "bet_data": {
+                "cotes": {
+                    "0": "2.80",
+                    "1": "3.50",
+                    "3": "2.45"
+                },
+                "info": {
+                    "date": "Premier League | Round 7",
+                    "teams": "Aston VillaVIL-SouthamptonSOT"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    1,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 61.25000000000001
+        },
+        "7": {
+            "bet_data": {
+                "cotes": {
+                    "0": "5.50",
+                    "1": "4.00",
+                    "3": "1.61"
+                },
+                "info": {
+                    "date": "Premier League | Round 7",
+                    "teams": "TottenhamTOT-BrightonBHA"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    1,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 40.25
+        }
+    },
+    "current_bets": {
+        "Round 7": [
+            {
+                "cotes": {
+                    "0": "4.20",
+                    "1": "3.20",
+                    "3": "2.00"
+                },
+                "info": {
+                    "date": "30/10/20 - 21:00",
+                    "teams": "WolverhamptonWOL-Crystal PalacePAL"
+                },
+                "last5vec": [],
+                "prediction": 1
+            },
+            {
+                "cotes": {
+                    "0": "1.28",
+                    "1": "6.00",
+                    "3": "9.50"
+                },
+                "info": {
+                    "date": "Premier League | Round 7",
+                    "teams": "SheffieldSHU-Man CityMNC"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3,
+                    1,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "0": "1.55",
+                    "1": "4.33",
+                    "3": "5.75"
+                },
+                "info": {
+                    "date": "Premier League | Round 7",
+                    "teams": "BurnleyBUR-ChelseaCFC"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3,
+                    1,
+                    1,
+                    1,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "8.00",
+                    "1": "5.25",
+                    "3": "1.36"
+                },
+                "info": {
+                    "date": "Premier League | Round 7",
+                    "teams": "LiverpoolLFC-West HamWHU"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    1,
+                    0,
+                    1,
+                    1,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.80",
+                    "1": "3.50",
+                    "3": "2.45"
+                },
+                "info": {
+                    "date": "Premier League | Round 7",
+                    "teams": "Aston VillaVIL-SouthamptonSOT"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    1,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.05",
+                    "1": "3.50",
+                    "3": "3.60"
+                },
+                "info": {
+                    "date": "Premier League | Round 7",
+                    "teams": "NewcastleNEW-EvertonEVE"
+                },
+                "last5vec": [
+                    1,
+                    0,
+                    3,
+                    3,
+                    1,
+                    0,
+                    1,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "3.60",
+                    "1": "3.60",
+                    "3": "2.00"
+                },
+                "info": {
+                    "date": "Premier League | Round 7",
+                    "teams": "Man UtdMNU-ArsenalARS"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "5.50",
+                    "1": "4.00",
+                    "3": "1.61"
+                },
+                "info": {
+                    "date": "Premier League | Round 7",
+                    "teams": "TottenhamTOT-BrightonBHA"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    1,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "3.00",
+                    "1": "3.30",
+                    "3": "2.40"
+                },
+                "info": {
+                    "date": "Premier League | Round 7",
+                    "teams": "FulhamFUL-West BromwichWBA"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.62",
+                    "1": "3.60",
+                    "3": "2.50"
+                },
+                "info": {
+                    "date": "Premier League | Round 7",
+                    "teams": "LeedsLU-LeicesterLEI"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    1,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    0
+                ]
+            }
+        ]
+    },
+    "money": -9.75,
+    "successful_bets": 0,
+    "total_bets_made": 0,
+    "unsuccessful_bets": 0
+}

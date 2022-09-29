@@ -38,7 +38,7 @@ vent_dofsky.verifyBets(round1)
 
 
 """
-risky_vent_dofsky.makeModification2()
+
 print("\nGathering fixture data for bots...")
 #OPEN BETS (scrap data)
 billy_bayes.get_bets(billy_bayes)

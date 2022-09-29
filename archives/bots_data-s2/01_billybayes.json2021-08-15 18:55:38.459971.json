@@ -1,0 +1,333 @@
+{
+    "confirmed_bets": {
+        "0": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.20",
+                    "1": "6.50",
+                    "0": "15.00"
+                },
+                "info": {
+                    "teams": "LiverpoolLFC-BurnleyBUR",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    1,
+                    0,
+                    3,
+                    0,
+                    0,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 42.0
+        },
+        "4": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.75",
+                    "1": "3.75",
+                    "0": "4.50"
+                },
+                "info": {
+                    "teams": "Aston VillaVIL-NewcastleNEW",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    3,
+                    3,
+                    1,
+                    3
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 61.25
+        },
+        "9": {
+            "bet_data": {
+                "cotes": {
+                    "3": "2.63",
+                    "1": "3.40",
+                    "0": "2.55"
+                },
+                "info": {
+                    "teams": "West HamWHU-LeicesterLEI",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 92.05
+        }
+    },
+    "current_bets": {
+        "Round 2": [
+            {
+                "cotes": {
+                    "3": "1.20",
+                    "1": "6.50",
+                    "0": "15.00"
+                },
+                "info": {
+                    "teams": "LiverpoolLFC-BurnleyBUR",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    1,
+                    0,
+                    3,
+                    0,
+                    0,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "2.10",
+                    "1": "3.60",
+                    "0": "3.25"
+                },
+                "info": {
+                    "teams": "Leeds UnitedLEE-EvertonEVE",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "1.10",
+                    "1": "9.50",
+                    "0": "19.00"
+                },
+                "info": {
+                    "teams": "Man CityMNC-NorwichNOR",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    3,
+                    3,
+                    3,
+                    0,
+                    0,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "2.40",
+                    "1": "3.25",
+                    "0": "2.90"
+                },
+                "info": {
+                    "teams": "Crystal PalacePAL-BrentfordBRE",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    1,
+                    3,
+                    3,
+                    3,
+                    0,
+                    1,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.75",
+                    "1": "3.75",
+                    "0": "4.50"
+                },
+                "info": {
+                    "teams": "Aston VillaVIL-NewcastleNEW",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    3,
+                    3,
+                    1,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.70",
+                    "1": "3.50",
+                    "0": "5.00"
+                },
+                "info": {
+                    "teams": "BrightonBHA-WatfordWAT",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    1,
+                    0,
+                    3,
+                    3,
+                    0,
+                    1,
+                    1,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "5.00",
+                    "1": "3.80",
+                    "0": "1.67"
+                },
+                "info": {
+                    "teams": "SouthamptonSOT-Man UtdMNU",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    1,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "3.75",
+                    "1": "3.25",
+                    "0": "2.05"
+                },
+                "info": {
+                    "teams": "WolverhamptonWOL-TottenhamTOT",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    3,
+                    1,
+                    0,
+                    3,
+                    3,
+                    1,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "4.75",
+                    "1": "3.60",
+                    "0": "1.75"
+                },
+                "info": {
+                    "teams": "ArsenalARS-ChelseaCFC",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    3,
+                    3,
+                    1,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "2.63",
+                    "1": "3.40",
+                    "0": "2.55"
+                },
+                "info": {
+                    "teams": "West HamWHU-LeicesterLEI",
+                    "date": "Premier League | Round 2"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            }
+        ]
+    },
+    "money": -20.55000000000001,
+    "successful_bets": 8,
+    "total_bets_made": 19,
+    "unsuccessful_bets": 7
+}

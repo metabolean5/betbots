@@ -1,0 +1,306 @@
+{
+    "confirmed_bets": {
+        "0": {
+            "bet_data": {
+                "cotes": {
+                    "0": "1.45",
+                    "1": "4.50",
+                    "3": "6.00"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "NewcastleNEW-ChelseaCFC"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    1,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 14.5
+        },
+        "9": {
+            "bet_data": {
+                "cotes": {
+                    "0": "2.15",
+                    "1": "3.40",
+                    "3": "3.25"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "LeedsLU-ArsenalARS"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    3,
+                    0,
+                    1,
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 21.5
+        }
+    },
+    "current_bets": {
+        "Round 9": [
+            {
+                "cotes": {
+                    "0": "1.45",
+                    "1": "4.50",
+                    "3": "6.00"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "NewcastleNEW-ChelseaCFC"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    1,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "0": "9.00",
+                    "1": "5.00",
+                    "3": "1.33"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "Man UtdMNU-West BromwichWBA"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    3,
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "3.20",
+                    "1": "3.30",
+                    "3": "2.25"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "WolverhamptonWOL-SouthamptonSOT"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    1,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.80",
+                    "1": "3.25",
+                    "3": "2.50"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "BurnleyBUR-Crystal PalacePAL"
+                },
+                "last5vec": [
+                    1,
+                    0,
+                    0,
+                    1,
+                    0,
+                    3,
+                    0,
+                    3,
+                    1,
+                    0
+                ],
+                "prediction": 1
+            },
+            {
+                "cotes": {
+                    "0": "6.00",
+                    "1": "4.00",
+                    "3": "1.53"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "LiverpoolLFC-LeicesterLEI"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "1.83",
+                    "1": "3.75",
+                    "3": "4.00"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "FulhamFUL-EvertonEVE"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "0": "3.10",
+                    "1": "3.25",
+                    "3": "2.30"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "Aston VillaVIL-BrightonBHA"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    3,
+                    3,
+                    1,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "1.75",
+                    "1": "3.75",
+                    "3": "4.50"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "TottenhamTOT-Man CityMNC"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1,
+                    3,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.60",
+                    "1": "3.25",
+                    "3": "2.70"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "SheffieldSHU-West HamWHU"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    3,
+                    0,
+                    1,
+                    1,
+                    3
+                ],
+                "prediction": 1
+            },
+            {
+                "cotes": {
+                    "0": "2.15",
+                    "1": "3.40",
+                    "3": "3.25"
+                },
+                "info": {
+                    "date": "Premier League | Round 9",
+                    "teams": "LeedsLU-ArsenalARS"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    3,
+                    0,
+                    1,
+                    0,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 0
+            }
+        ]
+    },
+    "money": -65.5,
+    "successful_bets": 1,
+    "total_bets_made": 4,
+    "unsuccessful_bets": 3
+}

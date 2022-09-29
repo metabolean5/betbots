@@ -46,7 +46,7 @@ class Betbot:
 
     def get_bets(self,bot):  # load bets to memory
         if self.id == '01':  # Billy Bayes
-            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/94033/fixtures") #2021-2022
+            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/94211/fixtures") #2022-2023
 
         if self.id == '02':  # Risky Rifki
             self.memory['current_bets'] = bot.getMemory()["current_bets"]
@@ -106,6 +106,7 @@ class Betbot:
         print('\n-'+self.name + "'s data saved")
 
     def apply_strategy(self,y_predictions, proba):
+
 
         if self.id == '01':  # Billy Bayes
             i=0
@@ -247,10 +248,15 @@ class Betbot:
                             j+=1
                     i+=1
 
+         
 
-            self.memory["confirmed_bets"]["potential_gain"] = float(15 * final_cote)
-            self.memory["money"] -= 15
-            self.memory["total_bets_made"] +=1
+            if len(self.memory["confirmed_bets"]) >= 1:
+                self.memory["confirmed_bets"]["potential_gain"] = float(15 * final_cote)
+                self.memory["money"] -= 15
+                self.memory["total_bets_made"] +=1
+            else:
+                self.memory["confirmed_bets"]["potential_gain"] = 0
+
 
         if self.id == '05':  # Vent d'Ofsky
 
@@ -282,10 +288,12 @@ class Betbot:
                             j+=1
                     i+=1
 
-
-            self.memory["confirmed_bets"]["potential_gain"] = 20 * final_cote
-            self.memory["money"] -= 20
-            self.memory["total_bets_made"] +=1
+            if len(self.memory["confirmed_bets"]) >= 1:
+                self.memory["confirmed_bets"]["potential_gain"] = 20 * final_cote
+                self.memory["money"] -= 20
+                self.memory["total_bets_made"] +=1
+            else:
+                self.memory["confirmed_bets"]["potential_gain"] = 0
 
 
 
@@ -300,7 +308,7 @@ class Betbot:
 
 
     def makeModification2(self):
-        self.memory["money"] -= 41.2125
+        print("code here")
 
     
 

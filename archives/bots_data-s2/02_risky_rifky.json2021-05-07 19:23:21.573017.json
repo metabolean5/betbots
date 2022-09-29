@@ -1,0 +1,387 @@
+{
+    "confirmed_bets": {
+        "2": {
+            "bet_data": {
+                "cotes": {
+                    "0": "2.45",
+                    "1": "3.20",
+                    "3": "3.00"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "SheffieldSHU-Crystal PalacePAL"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    3
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 61.25000000000001
+        },
+        "4": {
+            "bet_data": {
+                "cotes": {
+                    "0": "11.00",
+                    "1": "6.00",
+                    "3": "1.25"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "LiverpoolLFC-SouthamptonSOT"
+                },
+                "last5vec": [
+                    1,
+                    1,
+                    1,
+                    3,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 31.25
+        },
+        "5": {
+            "bet_data": {
+                "cotes": {
+                    "0": "2.20",
+                    "1": "3.30",
+                    "3": "3.30"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "WolverhamptonWOL-BrightonBHA"
+                },
+                "last5vec": [
+                    1,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 82.5
+        },
+        "8": {
+            "bet_data": {
+                "cotes": {
+                    "0": "7.00",
+                    "1": "4.50",
+                    "3": "1.44"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "ArsenalARS-West BromwichWBA"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 175.0
+        },
+        "9": {
+            "bet_data": {
+                "cotes": {
+                    "0": "3.30",
+                    "1": "3.40",
+                    "3": "2.20"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "FulhamFUL-BurnleyBUR"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 55.00000000000001
+        }
+    },
+    "current_bets": {
+        "Round 35": [
+            {
+                "cotes": {
+                    "0": "8.50",
+                    "1": "4.75",
+                    "3": "1.36"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "LeicesterLEI-NewcastleNEW"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    3,
+                    3,
+                    0,
+                    0,
+                    1,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.00",
+                    "1": "3.80",
+                    "3": "3.40"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "LeedsLU-TottenhamTOT"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.45",
+                    "1": "3.20",
+                    "3": "3.00"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "SheffieldSHU-Crystal PalacePAL"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "0": "4.20",
+                    "1": "3.40",
+                    "3": "1.91"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "Man CityMNC-ChelseaCFC"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "11.00",
+                    "1": "6.00",
+                    "3": "1.25"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "LiverpoolLFC-SouthamptonSOT"
+                },
+                "last5vec": [
+                    1,
+                    1,
+                    1,
+                    3,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.20",
+                    "1": "3.30",
+                    "3": "3.30"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "WolverhamptonWOL-BrightonBHA"
+                },
+                "last5vec": [
+                    1,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "1.80",
+                    "1": "3.80",
+                    "3": "4.20"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "Aston VillaVIL-Man UtdMNU"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    0,
+                    0,
+                    3,
+                    0,
+                    3,
+                    1,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "3.20",
+                    "1": "3.50",
+                    "3": "2.20"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "West HamWHU-EvertonEVE"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1,
+                    1,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "7.00",
+                    "1": "4.50",
+                    "3": "1.44"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "ArsenalARS-West BromwichWBA"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "0": "3.30",
+                    "1": "3.40",
+                    "3": "2.20"
+                },
+                "info": {
+                    "date": "Premier League | Round 35",
+                    "teams": "FulhamFUL-BurnleyBUR"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            }
+        ]
+    },
+    "money": -296.0,
+    "successful_bets": 4,
+    "total_bets_made": 21,
+    "unsuccessful_bets": 12
+}

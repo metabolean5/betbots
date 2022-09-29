@@ -19,8 +19,6 @@ import datetime
 
 
 
-
-
 def scrap_fixtures_01(fixtures):
 
 	fixtures_features = {}

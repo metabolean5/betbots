@@ -1,0 +1,333 @@
+{
+    "confirmed_bets": {
+        "0": {
+            "bet_data": {
+                "cotes": {
+                    "0": "2.10",
+                    "1": "3.75",
+                    "3": "3.10"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "SouthamptonSOT-LeicesterLEI"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    0
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 21.0
+        },
+        "2": {
+            "bet_data": {
+                "cotes": {
+                    "0": "3.30",
+                    "1": "3.40",
+                    "3": "2.20"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "BrightonBHA-LeedsLU"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 33.0
+        },
+        "3": {
+            "bet_data": {
+                "cotes": {
+                    "0": "8.00",
+                    "1": "4.50",
+                    "3": "1.40"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "ChelseaCFC-FulhamFUL"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    3,
+                    0,
+                    3,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 14.0
+        }
+    },
+    "current_bets": {
+        "Round 34": [
+            {
+                "cotes": {
+                    "0": "2.10",
+                    "1": "3.75",
+                    "3": "3.10"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "SouthamptonSOT-LeicesterLEI"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    0
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "0": "1.30",
+                    "1": "5.00",
+                    "3": "11.00"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "Crystal PalacePAL-Man CityMNC1"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    1,
+                    3,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "3.30",
+                    "1": "3.40",
+                    "3": "2.20"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "BrightonBHA-LeedsLU"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "0": "8.00",
+                    "1": "4.50",
+                    "3": "1.40"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "ChelseaCFC-FulhamFUL"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    3,
+                    0,
+                    3,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "3.75",
+                    "1": "3.60",
+                    "3": "1.95"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "EvertonEVE-Aston VillaVIL"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    1,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "1.80",
+                    "1": "3.75",
+                    "3": "4.33"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "NewcastleNEW-ArsenalARS"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    3,
+                    1,
+                    0,
+                    0,
+                    1,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.50",
+                    "1": "3.60",
+                    "3": "2.63"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "Man UtdMNU-LiverpoolLFC"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    1,
+                    1,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "10.00",
+                    "1": "5.50",
+                    "3": "1.29"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "TottenhamTOT-SheffieldSHU"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    1,
+                    0,
+                    1,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.38",
+                    "1": "3.20",
+                    "3": "3.10"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "West BromwichWBA-WolverhamptonWOL"
+                },
+                "last5vec": [
+                    1,
+                    0,
+                    3,
+                    3,
+                    0,
+                    0,
+                    3,
+                    3,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.10",
+                    "1": "3.60",
+                    "3": "3.30"
+                },
+                "info": {
+                    "date": "Premier League | Round 34",
+                    "teams": "BurnleyBUR-West HamWHU"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            }
+        ]
+    },
+    "money": -66.7,
+    "successful_bets": 4,
+    "total_bets_made": 9,
+    "unsuccessful_bets": 5
+}

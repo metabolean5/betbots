@@ -1,0 +1,331 @@
+{
+    "total_bets_made": 3,
+    "successful_bets": 3,
+    "unsuccessful_bets": 0,
+    "money": 75.6825,
+    "current_bets": {
+        "Round 3": [
+            {
+                "cotes": {
+                    "3": "1.25",
+                    "1": "6.00",
+                    "0": "10.00"
+                },
+                "info": {
+                    "teams": "Man CityMNC-ArsenalARS",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    3,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "4.75",
+                    "1": "3.60",
+                    "0": "1.73"
+                },
+                "info": {
+                    "teams": "NorwichNOR-LeicesterLEI",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "2.00",
+                    "1": "3.50",
+                    "0": "3.60"
+                },
+                "info": {
+                    "teams": "Aston VillaVIL-BrentfordBRE",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    3,
+                    0,
+                    1,
+                    3,
+                    3,
+                    0,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "2.30",
+                    "1": "3.20",
+                    "0": "3.30"
+                },
+                "info": {
+                    "teams": "BrightonBHA-EvertonEVE",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    0,
+                    1,
+                    0,
+                    1,
+                    3,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "1.57",
+                    "1": "4.00",
+                    "0": "6.00"
+                },
+                "info": {
+                    "teams": "West HamWHU-Crystal PalacePAL",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    0,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "2.60",
+                    "1": "3.30",
+                    "0": "2.63"
+                },
+                "info": {
+                    "teams": "NewcastleNEW-SouthamptonSOT",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    3,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "2.40",
+                    "1": "3.40",
+                    "0": "2.88"
+                },
+                "info": {
+                    "teams": "LiverpoolLFC-ChelseaCFC",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    1,
+                    0,
+                    3,
+                    3,
+                    3,
+                    1,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.40",
+                    "1": "4.33",
+                    "0": "7.50"
+                },
+                "info": {
+                    "teams": "TottenhamTOT-WatfordWAT",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    3,
+                    1,
+                    0,
+                    3,
+                    0,
+                    1,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "3.10",
+                    "1": "3.50",
+                    "0": "2.20"
+                },
+                "info": {
+                    "teams": "BurnleyBUR-Leeds UnitedLEE",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    0,
+                    3,
+                    3,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "5.00",
+                    "1": "3.60",
+                    "0": "1.70"
+                },
+                "info": {
+                    "teams": "WolverhamptonWOL-Man UtdMNU",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    0,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3,
+                    1,
+                    0
+                ],
+                "prediction": 1
+            }
+        ]
+    },
+    "confirmed_bets": {
+        "0": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.25",
+                    "1": "6.00",
+                    "0": "10.00"
+                },
+                "info": {
+                    "teams": "Man CityMNC-ArsenalARS",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    3,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "prediction": 3
+            }
+        },
+        "4": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.57",
+                    "1": "4.00",
+                    "0": "6.00"
+                },
+                "info": {
+                    "teams": "West HamWHU-Crystal PalacePAL",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    0,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            }
+        },
+        "7": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.40",
+                    "1": "4.33",
+                    "0": "7.50"
+                },
+                "info": {
+                    "teams": "TottenhamTOT-WatfordWAT",
+                    "date": "Premier League | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    3,
+                    1,
+                    0,
+                    3,
+                    0,
+                    1,
+                    1
+                ],
+                "prediction": 3
+            }
+        },
+        "potential_gain": 41.2125
+    }
+}

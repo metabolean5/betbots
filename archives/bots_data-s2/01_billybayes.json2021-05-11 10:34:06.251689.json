@@ -1,0 +1,279 @@
+{
+    "confirmed_bets": {
+        "1": {
+            "bet_data": {
+                "cotes": {
+                    "0": "5.00",
+                    "1": "3.90",
+                    "3": "1.67"
+                },
+                "info": {
+                    "date": "Premier League | Round 36",
+                    "teams": "ChelseaCFC-ArsenalARS"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    1,
+                    3,
+                    3,
+                    1,
+                    3,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 58.449999999999996
+        }
+    },
+    "current_bets": {
+        "Round 36": [
+            {
+                "cotes": {
+                    "0": "2.80",
+                    "1": "3.40",
+                    "3": "2.50"
+                },
+                "info": {
+                    "date": "Premier League | Round 36",
+                    "teams": "Man UtdMNU-LeicesterLEI"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    1,
+                    3,
+                    0,
+                    1,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "5.00",
+                    "1": "3.90",
+                    "3": "1.67"
+                },
+                "info": {
+                    "date": "Premier League | Round 36",
+                    "teams": "ChelseaCFC-ArsenalARS"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    1,
+                    3,
+                    3,
+                    1,
+                    3,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "1.25",
+                    "1": "5.50",
+                    "3": "13.00"
+                },
+                "info": {
+                    "date": "Premier League | Round 36",
+                    "teams": "NewcastleNEW-Man CityMNC1"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    1,
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.30",
+                    "1": "3.60",
+                    "3": "2.90"
+                },
+                "info": {
+                    "date": "Premier League | Round 36",
+                    "teams": "BurnleyBUR-LeedsLU"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    0,
+                    0,
+                    3,
+                    0,
+                    1,
+                    1,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "0": "3.75",
+                    "1": "3.40",
+                    "3": "2.00"
+                },
+                "info": {
+                    "date": "Premier League | Round 36",
+                    "teams": "SouthamptonSOT-FulhamFUL"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.55",
+                    "1": "3.50",
+                    "3": "2.60"
+                },
+                "info": {
+                    "date": "Premier League | Round 36",
+                    "teams": "BrightonBHA-West HamWHU"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    0,
+                    1,
+                    1,
+                    0,
+                    3,
+                    0,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "2.30",
+                    "1": "3.40",
+                    "3": "3.00"
+                },
+                "info": {
+                    "date": "Premier League | Round 36",
+                    "teams": "Crystal PalacePAL-Aston VillaVIL"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    3,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "0": "6.50",
+                    "1": "4.33",
+                    "3": "1.50"
+                },
+                "info": {
+                    "date": "Premier League | Round 36",
+                    "teams": "TottenhamTOT-WolverhamptonWOL"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    0,
+                    3,
+                    1,
+                    3,
+                    1,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "0": "1.25",
+                    "1": "5.75",
+                    "3": "11.00"
+                },
+                "info": {
+                    "date": "Premier League | Round 36",
+                    "teams": "West BromwichWBA-LiverpoolLFC1"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    1,
+                    0,
+                    3,
+                    3,
+                    1,
+                    1,
+                    1,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "0": "8.00",
+                    "1": "4.00",
+                    "3": "1.44"
+                },
+                "info": {
+                    "date": "Premier League | Round 36",
+                    "teams": "EvertonEVE-SheffieldSHU"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            }
+        ]
+    },
+    "money": -32.8,
+    "successful_bets": 6,
+    "total_bets_made": 13,
+    "unsuccessful_bets": 6
+}

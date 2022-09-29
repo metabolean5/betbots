@@ -1,0 +1,63 @@
+{
+    "confirmed_bets": {
+        "0": {
+            "bet_data": {
+                "cotes": {
+                    "0": "8.50",
+                    "1": "4.60",
+                    "3": "1.40"
+                },
+                "info": {
+                    "date": "Premier League | Round 33",
+                    "teams": "LeicesterLEI-Crystal PalacePAL"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    0,
+                    0,
+                    3,
+                    0,
+                    1,
+                    3,
+                    0,
+                    1
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 14.0
+        }
+    },
+    "current_bets": {
+        "Round 33": [
+            {
+                "cotes": {
+                    "0": "8.50",
+                    "1": "4.60",
+                    "3": "1.40"
+                },
+                "info": {
+                    "date": "Premier League | Round 33",
+                    "teams": "LeicesterLEI-Crystal PalacePAL"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    0,
+                    0,
+                    3,
+                    0,
+                    1,
+                    3,
+                    0,
+                    1
+                ],
+                "prediction": 3
+            }
+        ]
+    },
+    "money": 13.2,
+    "successful_bets": 4,
+    "total_bets_made": 9,
+    "unsuccessful_bets": 4
+}
