@@ -33,7 +33,7 @@ array([[0.07342209, 0.14820677, 0.77837113],
        [0.22416424, 0.13586867, 0.63996709]]) //proba pour deux matchs (droite : victoire, centre : nul, gauche : défaite)
 
 ```
-## Prochain Paris (Journée du 1er Octobre 2022)
+## Prochain Paris : INEDIT spécial Champions League 5 octobre
 
 ![alt text](https://github.com/metabolean5/betbots/blob/main/bot_pics/curr_stats.png?raw=true)
 
