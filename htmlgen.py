@@ -33,10 +33,13 @@ for bot in botlist:
 	botdic = {}
 	for bet in bot.memory["confirmed_bets"]:
 		currbet = bot.memory["confirmed_bets"][bet]
+		prediction = "unknown"
 
 		if "potential_gain" not in bot.memory["confirmed_bets"]:
 
-			if currbet["bet_data"]["prediction"] == 3:
+			print(currbet["bet_data"]["prediction"])
+
+			if int(currbet["bet_data"]["prediction"]) == 3:
 				prediction = "Home Win"
 			else:
 				prediction = "Away Win"
@@ -45,7 +48,9 @@ for bot in botlist:
 		else:
 			if bet == "potential_gain": continue
 
-			if currbet["bet_data"]["prediction"] == 3:
+			print(currbet["bet_data"]["prediction"])
+
+			if int(currbet["bet_data"]["prediction"]) == 3:
 				prediction = "Home Win"
 			else:
 				prediction = "Away Win"
@@ -94,11 +99,4 @@ htmlfile.write("</body></html>")
 
 htmlfile.close()
 
-from html2image import Html2Image
-hti = Html2Image()
 
-html = str(open("betbot.html").read())
-css = str(open("table.css").read())
-
-# screenshot an HTML string (css is optional)
-hti.screenshot(html_str=html, css_str=css, save_as='page.png')

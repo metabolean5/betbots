@@ -46,7 +46,7 @@ class Betbot:
 
     def get_bets(self,bot):  # load bets to memory
         if self.id == '01':  # Billy Bayes
-            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/94211/fixtures") #2022-2023
+            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/93959/fixtures") #2022-2023
 
         if self.id == '02':  # Risky Rifki
             self.memory['current_bets'] = bot.getMemory()["current_bets"]
@@ -79,6 +79,7 @@ class Betbot:
                 if len(bet["last5vec"]) > 5:
                     X_bets.append(bet['last5vec'])
 
+        y_predictions = self.model.predict(X_bets)
         try: #in case robot does not use machine learning models
             y_predictions = self.model.predict(X_bets)
             proba = self.model.predict_proba(X_bets)
@@ -106,6 +107,8 @@ class Betbot:
         print('\n-'+self.name + "'s data saved")
 
     def apply_strategy(self,y_predictions, proba):
+
+        print(proba)
 
 
         if self.id == '01':  # Billy Bayes

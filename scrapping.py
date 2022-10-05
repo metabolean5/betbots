@@ -53,7 +53,7 @@ def scrap_fixtures_01(fixtures):
 
 		xpath = "/html/body/div[1]/div/div/div/div[4]/div/div/div/div/div[2]/div/div/div/table/tbody/tr["+str(i+3)+"]"
 
-		driver.find_element_by_xpath(xpath).click() #accessing head to head feature
+		driver.find_element('xpath',xpath).click() #accessing head to head feature
 		time.sleep(2)
 		print(driver.current_url)
 		soup = bs(driver.page_source, features="lxml")
@@ -121,7 +121,7 @@ def betSuccess(bet,betkey ,urlround):
 	chrome_options = Options()  
 	chrome_options.add_argument("--headless")
 	driver = webdriver.Chrome(options=chrome_options)
-	url = str(fixtures)+ urlround
+	url = str("https://s5.sir.sportradar.com/bet365/en/1/season/94211/fixtures/")+ urlround
 	driver.get(url)
 	print(url)
 
@@ -129,7 +129,6 @@ def betSuccess(bet,betkey ,urlround):
 
 	soup = bs(driver.page_source, features="lxml")
 	table = soup.findAll('table', {'class': "table"})
-
 	trs = table[0].findAll("tr")
 	roundnum = trs[1].text
 

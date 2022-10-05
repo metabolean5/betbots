@@ -29,15 +29,15 @@ botlist = [
 #billy_bayes.makeModification2()
 
 """
-round1 = "round/21-3"
+round1 = "round/21-10"
 billy_bayes.verifyBets(round1)
 risky_rifki.verifyBets(round1)
 pat_nostat.verifyBets(round1)
 risky_vent_dofsky.verifyBets(round1)
 vent_dofsky.verifyBets(round1)
-
-
 """
+
+
 
 print("\nGathering fixture data for bots...")
 #OPEN BETS (scrap data)
