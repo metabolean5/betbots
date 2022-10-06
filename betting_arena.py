@@ -26,15 +26,15 @@ botlist = [
 		  ]
 
 
-#billy_bayes.makeModification2()
-
+billy_bayes.makeModification2()
 """
-round1 = "round/21-10"
+round1 = "round/21-3" #21-3 for UCL | 21-10 for Ligue 2
 billy_bayes.verifyBets(round1)
 risky_rifki.verifyBets(round1)
 pat_nostat.verifyBets(round1)
 risky_vent_dofsky.verifyBets(round1)
 vent_dofsky.verifyBets(round1)
+
 """
 
 
@@ -47,6 +47,7 @@ pat_nostat.get_bets(billy_bayes)
 risky_vent_dofsky.get_bets(billy_bayes)
 vent_dofsky.get_bets(billy_bayes)
 
+
 print("\nPlacing bets...")
 #PLACE BETS
 billy_bayes.place_bets()
@@ -56,12 +57,15 @@ vent_dofsky.place_bets()
 risky_vent_dofsky.place_bets()
 
 
+
 #PRINTING AND MODIF ARENA
 billy_bayes.printConfirmedBets()
 risky_rifki.printConfirmedBets()
 pat_nostat.printConfirmedBets()
 risky_vent_dofsky.printConfirmedBets()
 vent_dofsky.printConfirmedBets()
+
+
 
 print("\n\nPERFORMANCE RANKINGS")
 printClassification(botlist)
@@ -73,8 +77,9 @@ input("presse enter if you REALLY want to save")
 print("\nSaving bots data...")
 #POST BET CONFIGURATIONS
 risky_rifki.save_bot_data()
-pat_nostat.save_bot_data()
 billy_bayes.save_bot_data()
 risky_vent_dofsky.save_bot_data()
 vent_dofsky.save_bot_data()
+pat_nostat.save_bot_data()
+
 

@@ -1,0 +1,258 @@
+{
+    "total_bets_made": 2,
+    "successful_bets": 2,
+    "unsuccessful_bets": 0,
+    "money": -0.9000000000000057,
+    "current_bets": {
+        "Round 3": [
+            {
+                "cotes": {
+                    "3": "1.73",
+                    "1": "3.80",
+                    "0": "4.75"
+                },
+                "info": {
+                    "teams": "SalzburgSAL-Dinamo ZagrebDIN",
+                    "date": "UEFA Champions League, Group E | Round 3"
+                },
+                "last5vec": [
+                    1,
+                    1,
+                    1,
+                    3,
+                    1,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.55",
+                    "1": "4.50",
+                    "0": "5.25"
+                },
+                "info": {
+                    "teams": "LeipzigRBL-CelticCEL",
+                    "date": "UEFA Champions League, Group F | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    3,
+                    0,
+                    3,
+                    0,
+                    1,
+                    0,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "1.70",
+                    "1": "3.80",
+                    "0": "5.00"
+                },
+                "info": {
+                    "teams": "ChelseaCHE-MilanACM",
+                    "date": "UEFA Champions League, Group E | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    0,
+                    3,
+                    0,
+                    3,
+                    0,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.22",
+                    "1": "7.50",
+                    "0": "10.00"
+                },
+                "info": {
+                    "teams": "Real MadridRMA-ShakhtarSHA",
+                    "date": "UEFA Champions League, Group F | Round 3"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    1,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.04",
+                    "1": "15.00",
+                    "0": "41.00"
+                },
+                "info": {
+                    "teams": "Man CityMCI-CopenhagenFCC",
+                    "date": "UEFA Champions League, Group G | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    3,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "3.00",
+                    "1": "3.50",
+                    "0": "2.30"
+                },
+                "info": {
+                    "teams": "SevillaSEV-DortmundBVB",
+                    "date": "UEFA Champions League, Group G | Round 3"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    1,
+                    3,
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.33",
+                    "1": "5.50",
+                    "0": "8.00"
+                },
+                "info": {
+                    "teams": "JuventusJUV-Maccabi HaifaMAH",
+                    "date": "UEFA Champions League, Group H | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    1,
+                    0,
+                    3,
+                    0,
+                    0,
+                    3,
+                    0
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "4.33",
+                    "1": "4.33",
+                    "0": "1.73"
+                },
+                "info": {
+                    "teams": "Benfica LisbonBEN-PSGPSG",
+                    "date": "UEFA Champions League, Group H | Round 3"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            }
+        ]
+    },
+    "confirmed_bets": {
+        "3": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.22",
+                    "1": "7.50",
+                    "0": "10.00"
+                },
+                "info": {
+                    "teams": "Real MadridRMA-ShakhtarSHA",
+                    "date": "UEFA Champions League, Group F | Round 3"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    1,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 42.699999999999996
+        },
+        "4": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.04",
+                    "1": "15.00",
+                    "0": "41.00"
+                },
+                "info": {
+                    "teams": "Man CityMCI-CopenhagenFCC",
+                    "date": "UEFA Champions League, Group G | Round 3"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    3,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 36.4
+        }
+    }
+}

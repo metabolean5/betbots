@@ -45,8 +45,15 @@ class Betbot:
 
 
     def get_bets(self,bot):  # load bets to memory
+
+        '''
+        Links 2022/2023
+        Link for champions league : https://s5.sir.sportradar.com/bet365/en/1/season/93959/fixtures
+        Link for Europa League : https://s5.sir.sportradar.com/bet365/en/1/season/95895/fixtures
+        '''
+
         if self.id == '01':  # Billy Bayes
-            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/93959/fixtures") #2022-2023
+            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/95895/fixtures") #2022-2023
 
         if self.id == '02':  # Risky Rifki
             self.memory['current_bets'] = bot.getMemory()["current_bets"]
@@ -79,7 +86,6 @@ class Betbot:
                 if len(bet["last5vec"]) > 5:
                     X_bets.append(bet['last5vec'])
 
-        y_predictions = self.model.predict(X_bets)
         try: #in case robot does not use machine learning models
             y_predictions = self.model.predict(X_bets)
             proba = self.model.predict_proba(X_bets)
@@ -306,12 +312,15 @@ class Betbot:
         self.save_bot_data()
 
     def makeModification(self):
-        print("code here")
-
+        self.memory["money"] += 9.1
+        
+        
 
 
     def makeModification2(self):
-        print("code here")
+        self.memory["money"] += 43.25 + 42.5
+        self.memory["successful_bets"] += 2
+        self.memory["unsuccessful_bets"] += 3
 
     
 

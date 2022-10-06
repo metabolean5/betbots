@@ -4,7 +4,7 @@ import glob, re
 import pprint as pp
 import matplotlib.pyplot as plt
 
-files = glob.glob("bots_data-s2/*.*")
+files = glob.glob("bots_data/*.*")
 files.sort(key=os.path.getmtime)
 
 bot_wallets = {}
@@ -26,6 +26,8 @@ for filepath in files:
 		bot_wallets.setdefault(key,[jsonf["money"]])
 	else:
 		bot_wallets[key].append(jsonf["money"])
+
+	bot_wallets[key].insert(0,0)
 
 
 
