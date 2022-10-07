@@ -33,10 +33,13 @@ array([[0.07342209, 0.14820677, 0.77837113],
        [0.22416424, 0.13586867, 0.63996709]]) //proba pour deux matchs (droite : victoire, centre : nul, gauche : défaite)
 
 ```
-## Prochain Paris (Journée du 6 Octobre 2022)
+## Prochain Paris (Journée du 8 Octobre 2022)
 
 ![alt text](https://github.com/metabolean5/betbots/blob/main/bot_pics/curr_stats.png?raw=true)
 
+## Statistiques sur la saison 22-23
+
+![alt text](https://github.com/metabolean5/betbots/blob/main/bot_pics/curr_wallstats.png?raw=true)
 
 ## Archives
 

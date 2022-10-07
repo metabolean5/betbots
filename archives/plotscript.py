@@ -3,6 +3,7 @@ import os
 import glob, re
 import pprint as pp
 import matplotlib.pyplot as plt
+import numpy as np
 
 files = glob.glob("bots_data/*.*")
 files.sort(key=os.path.getmtime)
@@ -37,11 +38,11 @@ plt.ylabel("Money in euros")
 plt.grid()
 
 
-plt.plot(list(dict.fromkeys(bot_wallets['01'])), label="Billy Bayes")
-plt.plot(list(dict.fromkeys(bot_wallets['02'])),label="Risky Rifki" )
-plt.plot(list(dict.fromkeys(bot_wallets['03'])),label="Pat Nostat")
-plt.plot(list(dict.fromkeys(bot_wallets['04'])), label="Vent d'Ofsky")
-plt.plot(list(dict.fromkeys(bot_wallets['05'])), label="Risky Vent d'Ofsky")
+plt.plot(list(dict.fromkeys(bot_wallets['01']))[0::2], label="Billy Bayes")
+plt.plot(list(dict.fromkeys(bot_wallets['02']))[0::2],label="Risky Rifki" )
+plt.plot(list(dict.fromkeys(bot_wallets['03']))[0::2],label="Pat Nostat")
+plt.plot(list(dict.fromkeys(bot_wallets['04']))[0::2], label="Risky Vent d'Ofsky")
+plt.plot(list(dict.fromkeys(bot_wallets['05']))[0::2], label="Vent d'Ofsky")
 plt.legend(loc="upper left")
 
 plt.show()

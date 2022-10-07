@@ -26,9 +26,8 @@ botlist = [
 		  ]
 
 
-billy_bayes.makeModification2()
 """
-round1 = "round/21-3" #21-3 for UCL | 21-10 for Ligue 2
+round1 = "round/31-3" #21-3 for UCL  | 21-10 for Ligue 2 | 31-3 for Europa L
 billy_bayes.verifyBets(round1)
 risky_rifki.verifyBets(round1)
 pat_nostat.verifyBets(round1)
@@ -82,4 +81,4 @@ risky_vent_dofsky.save_bot_data()
 vent_dofsky.save_bot_data()
 pat_nostat.save_bot_data()
 
-
+exec(open("htmlgen.py").read())
