@@ -1,3 +1,11 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+__author__ = "mpdev"
+__copyright__ = "Copyright 2022, Turfutoday's Betbots"
+__license__ = "CC BY-SA 2.0 FR"
+__email__ = "turfutoday@turfutoday.com"
+
+
 import json
 import pprint as pp
 import pickle
@@ -27,7 +35,7 @@ botlist = [
 
 
 """
-round1 = "round/31-3" #21-3 for UCL  | 21-10 for Ligue 2 | 31-3 for Europa L
+round1 = "round/21-11" #21-3 for UCL  | 21-11 for Ligue 2 | 31-3 for Europa L
 billy_bayes.verifyBets(round1)
 risky_rifki.verifyBets(round1)
 pat_nostat.verifyBets(round1)
@@ -50,10 +58,11 @@ vent_dofsky.get_bets(billy_bayes)
 print("\nPlacing bets...")
 #PLACE BETS
 billy_bayes.place_bets()
-risky_rifki.place_bets()
 pat_nostat.place_bets()
 vent_dofsky.place_bets()
 risky_vent_dofsky.place_bets()
+risky_rifki.place_bets()
+
 
 
 

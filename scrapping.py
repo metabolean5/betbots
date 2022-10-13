@@ -1,3 +1,10 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+__author__ = "mpdev"
+__copyright__ = "Copyright 2022, Turfutoday's Betbots"
+__license__ = "CC BY-SA 2.0 FR"
+__email__ = "turfutoday@turfutoday.com"
+
 import requests
 import re
 import time
@@ -121,7 +128,7 @@ def betSuccess(bet,betkey ,urlround):
 	chrome_options = Options()  
 	chrome_options.add_argument("--headless")
 	driver = webdriver.Chrome(options=chrome_options)
-	url = str("https://s5.sir.sportradar.com/bet365/en/1/season/95895/fixtures/")+ urlround
+	url = str("https://s5.sir.sportradar.com/bet365/en/1/season/94211/fixtures/")+ urlround
 	driver.get(url)
 	print(url)
 

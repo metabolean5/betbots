@@ -33,7 +33,7 @@ array([[0.07342209, 0.14820677, 0.77837113],
        [0.22416424, 0.13586867, 0.63996709]]) //proba pour deux matchs (droite : victoire, centre : nul, gauche : défaite)
 
 ```
-## Prochain Paris (Journée du 8 Octobre 2022)
+## Prochain Paris (Journée du 13 Octobre 2022)
 
 ![alt text](https://github.com/metabolean5/betbots/blob/main/bot_pics/curr_stats.png?raw=true)
 
@@ -58,7 +58,8 @@ L'apparition progressive de Risky Rifky, de Pat et des Vents d'Ofsky ont marqué
 
 
 
-
+<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+<br/>Turfutodays's betbots is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 2.0 France (CC BY-SA 2.0 FR)</a>.
 
 
 

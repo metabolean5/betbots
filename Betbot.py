@@ -1,5 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+__author__ = "mpdev"
+__copyright__ = "Copyright 2022, Turfutoday's Betbots"
+__license__ = "CC BY-SA 2.0 FR"
+__email__ = "turfutoday@turfutoday.com"
+import copy
+
 
 exec(open('scrapping.py').read())
 
@@ -17,7 +23,8 @@ class Betbot:
 
         try: #in case robot is new
             with open(memorypath) as json_file:
-                self.memory = json.load(json_file)
+                #avoid making a deep copy of json object
+                self.memory = json.load(json_file).copy()
         
         except:
             self.memory = {}
@@ -44,6 +51,8 @@ class Betbot:
         return self.name
 
 
+
+
     def get_bets(self,bot):  # load bets to memory
 
         '''
@@ -54,19 +63,19 @@ class Betbot:
         '''
 
         if self.id == '01':  # Billy Bayes
-            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/94211/fixtures") #2022-2023
+            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/95895/fixtures") #2022-2023
 
         if self.id == '02':  # Risky Rifki
-            self.memory['current_bets'] = bot.getMemory()["current_bets"]
+            self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
 
         if self.id == '03':  # Pat Nostat
-            self.memory['current_bets'] = bot.getMemory()["current_bets"]
+            self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
 
         if self.id == '04':  # Risky Vent d'Ofsky
-            self.memory['current_bets'] = bot.getMemory()["current_bets"]
+            self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
 
         if self.id == '05':  # Vent d'Ofsky
-            self.memory['current_bets'] = bot.getMemory()["current_bets"]
+            self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
       
     def printConfirmedBets(self):
         print(self.name + "'s bets are:\n")
@@ -98,8 +107,6 @@ class Betbot:
 
 
         print(self.name +"'s predictions")
-        pp.pprint(y_predictions)
-        pp.pprint(proba)
 
     def save_bot_data(self):
         
@@ -147,12 +154,16 @@ class Betbot:
 
         if self.id == '02':
 
-            i=0
+            print("<1>")
+            print(self.name)
 
+
+            i=0
+    
             for pb in proba:
 
                 if max(pb) < 0.45:
-                    self.memory["confirmed_bets"][i] = {'bet_data' : self.memory['current_bets'][list(self.memory["current_bets"].keys())[0]][i]}
+                    self.getMemory()["confirmed_bets"][i] = {'bet_data' :  self.getMemory()['current_bets'][list( self.getMemory()["current_bets"].keys())[0]][i].copy()}
 
                     low_confidence = list(pb).index(min(pb))
 
@@ -160,18 +171,21 @@ class Betbot:
                     if low_confidence==1: low_confidence=0
                     if low_confidence==2: low_confidence=1
 
-                    self.memory['current_bets'][list(self.memory["current_bets"].keys())[0]][i]["prediction"] = int(low_confidence)
 
-                    potential_gain = 25 *  getOdds(low_confidence, self.memory["current_bets"][list(self.memory["current_bets"].keys())[0]][i]["cotes"])
+                    potential_gain = 25 *  getOdds(low_confidence,  self.getMemory()["current_bets"][list( self.getMemory()["current_bets"].keys())[0]][i]["cotes"])
 
-                    self.memory["confirmed_bets"][i]["potential_gain"] = potential_gain
-                    self.memory["money"] -= 25
+                    self.getMemory()["confirmed_bets"][i]["potential_gain"] = potential_gain
+                    self.getMemory()["confirmed_bets"][i]["bet_data"]['prediction'] = int(low_confidence)
+                    self.getMemory()["money"] -= 25
 
                     print(self.name + ' just made a bet with a potential gain of: '+ str(potential_gain))
 
-                    self.memory["total_bets_made"] +=1
+                    self.getMemory()["total_bets_made"] +=1
 
                 i+=1
+     
+            return
+
 
         if self.id == '03':  # Pat No stat
 
@@ -252,7 +266,7 @@ class Betbot:
                             if j == 1: pred = 1
                             if j == 2: pred = 0
 
-                            self.memory['current_bets'][list(self.memory["current_bets"].keys())[0]][i]["prediction"] = str(cote)
+                            self.memory["confirmed_bets"][i]["bet_data"]['prediction'] = int(cote)
 
                             break
                             j+=1
@@ -292,7 +306,7 @@ class Betbot:
                             if j == 2:
                                 pred = 0
 
-                            self.memory['current_bets'][list(self.memory["current_bets"].keys())[0]][i]["prediction"] = pred
+                            self.memory["confirmed_bets"][i]["bet_data"]['prediction'] = int(cote)
 
                             break
                             j+=1
