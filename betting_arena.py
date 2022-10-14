@@ -35,7 +35,7 @@ botlist = [
 
 
 """
-round1 = "round/21-11" #21-3 for UCL  | 21-11 for Ligue 2 | 31-3 for Europa L
+round1 = "round/21-11" #21-3 for UCL  | 21-11 for Ligue 2 | 31-4 for Europa L
 billy_bayes.verifyBets(round1)
 risky_rifki.verifyBets(round1)
 pat_nostat.verifyBets(round1)
@@ -77,7 +77,6 @@ vent_dofsky.printConfirmedBets()
 
 print("\n\nPERFORMANCE RANKINGS")
 printClassification(botlist)
-
 
 input("press enter to save")
 input("presse enter if you REALLY want to save")

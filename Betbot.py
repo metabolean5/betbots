@@ -63,7 +63,7 @@ class Betbot:
         '''
 
         if self.id == '01':  # Billy Bayes
-            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/95895/fixtures") #2022-2023
+            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/94211/fixtures") #2022-2023
 
         if self.id == '02':  # Risky Rifki
             self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
@@ -327,16 +327,14 @@ class Betbot:
         self.save_bot_data()
 
     def makeModification(self):
-        self.memory["money"] += 9.1
+        print('code here')
+    
         
         
 
 
     def makeModification2(self):
-        self.memory["money"] += 43.25 + 42.5
-        self.memory["successful_bets"] += 2
-        self.memory["unsuccessful_bets"] += 3
-
+        print('code here')
     
 
     def verifyBets(self,round1):   
@@ -346,7 +344,7 @@ class Betbot:
             allwon = True
             for bet in self.memory["confirmed_bets"]:
                 currbet = self.memory["confirmed_bets"][bet]
-                if not isinstance(bet,int): continue # hacky code solving problems for bad code management
+                if bet == 'potential_gain': continue # hacky code solving problems for bad code management
                 if not betSuccess(currbet,bet,round1):
                     allwon = False
 

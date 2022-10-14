@@ -1,0 +1,527 @@
+{
+    "total_bets_made": 3,
+    "successful_bets": 5,
+    "unsuccessful_bets": 0,
+    "money": 127.15032484000002,
+    "current_bets": {
+        "Round 4": [
+            {
+                "cotes": {
+                    "3": "6.50",
+                    "1": "5.00",
+                    "0": "1.44"
+                },
+                "info": {
+                    "teams": "Bodoe/GlimtBOG-ArsenalARS",
+                    "date": "UEFA Europa League, Group A | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    1,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "4.20",
+                    "1": "3.50",
+                    "0": "1.91"
+                },
+                "info": {
+                    "teams": "Dynamo KievDYK-Stade RennesREN",
+                    "date": "UEFA Europa League, Group B | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "5.00",
+                    "1": "3.75",
+                    "0": "1.73"
+                },
+                "info": {
+                    "teams": "LarnacaAEK-FenerbahceFEN",
+                    "date": "UEFA Europa League, Group B | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    1,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "2.50",
+                    "1": "3.30",
+                    "0": "2.88"
+                },
+                "info": {
+                    "teams": "Real BetisRBB-RomaROM",
+                    "date": "UEFA Europa League, Group C | Round 4"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "2.38",
+                    "1": "3.40",
+                    "0": "3.00"
+                },
+                "info": {
+                    "teams": "Union GilloiseUSG-BragaBRA",
+                    "date": "UEFA Europa League, Group D | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    0,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.57",
+                    "1": "4.33",
+                    "0": "5.25"
+                },
+                "info": {
+                    "teams": "FeyenoordFEY-MidtjyllandFCM",
+                    "date": "UEFA Europa League, Group F | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    1,
+                    0,
+                    3,
+                    3,
+                    1,
+                    1,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "3.75",
+                    "1": "3.60",
+                    "0": "1.95"
+                },
+                "info": {
+                    "teams": "NantesFCN-FreiburgSCF",
+                    "date": "UEFA Europa League, Group G | Round 4"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    1,
+                    3,
+                    3,
+                    1,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "cotes": {
+                    "3": "1.73",
+                    "1": "3.80",
+                    "0": "4.75"
+                },
+                "info": {
+                    "teams": "QarabagQAR-OlympiacosOLY",
+                    "date": "UEFA Europa League, Group G | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.22",
+                    "1": "6.50",
+                    "0": "13.00"
+                },
+                "info": {
+                    "teams": "EindhovenPSV-ZurichFCZ",
+                    "date": "UEFA Europa League, Group A | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.62",
+                    "1": "4.00",
+                    "0": "5.50"
+                },
+                "info": {
+                    "teams": "LudogoretsLUD-HJKHJK",
+                    "date": "UEFA Europa League, Group C | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    0,
+                    1,
+                    0,
+                    3,
+                    1,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.36",
+                    "1": "5.00",
+                    "0": "8.00"
+                },
+                "info": {
+                    "teams": "Union BerlinUNI-MalmoMAL",
+                    "date": "UEFA Europa League, Group D | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    1,
+                    0,
+                    1,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.08",
+                    "1": "11.00",
+                    "0": "21.00"
+                },
+                "info": {
+                    "teams": "Man UtdMUN-Omonia NicosiaOMO",
+                    "date": "UEFA Europa League, Group E | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.30",
+                    "1": "5.00",
+                    "0": "12.00"
+                },
+                "info": {
+                    "teams": "Real SociedadRSO-TiraspolSHF",
+                    "date": "UEFA Europa League, Group E | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "1.55",
+                    "1": "4.33",
+                    "0": "5.50"
+                },
+                "info": {
+                    "teams": "LazioLAZ-Sturm GrazSTU",
+                    "date": "UEFA Europa League, Group F | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "4.20",
+                    "1": "3.60",
+                    "0": "1.91"
+                },
+                "info": {
+                    "teams": "TrabzonsporTRA-MonacoASM",
+                    "date": "UEFA Europa League, Group H | Round 4"
+                },
+                "last5vec": [
+                    1,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "cotes": {
+                    "3": "2.55",
+                    "1": "3.40",
+                    "0": "2.70"
+                },
+                "info": {
+                    "teams": "FerencvarosiFTC-Crvena ZvezdaCRZ",
+                    "date": "UEFA Europa League, Group H | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            }
+        ]
+    },
+    "confirmed_bets": {
+        "0": {
+            "bet_data": {
+                "cotes": {
+                    "3": "6.50",
+                    "1": "5.00",
+                    "0": "1.44"
+                },
+                "info": {
+                    "teams": "Bodoe/GlimtBOG-ArsenalARS",
+                    "date": "UEFA Europa League, Group A | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    1,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            }
+        },
+        "8": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.22",
+                    "1": "6.50",
+                    "0": "13.00"
+                },
+                "info": {
+                    "teams": "EindhovenPSV-ZurichFCZ",
+                    "date": "UEFA Europa League, Group A | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            }
+        },
+        "10": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.36",
+                    "1": "5.00",
+                    "0": "8.00"
+                },
+                "info": {
+                    "teams": "Union BerlinUNI-MalmoMAL",
+                    "date": "UEFA Europa League, Group D | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    1,
+                    0,
+                    1,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            }
+        },
+        "11": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.08",
+                    "1": "11.00",
+                    "0": "21.00"
+                },
+                "info": {
+                    "teams": "Man UtdMUN-Omonia NicosiaOMO",
+                    "date": "UEFA Europa League, Group E | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0,
+                    3,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            }
+        },
+        "12": {
+            "bet_data": {
+                "cotes": {
+                    "3": "1.30",
+                    "1": "5.00",
+                    "0": "12.00"
+                },
+                "info": {
+                    "teams": "Real SociedadRSO-TiraspolSHF",
+                    "date": "UEFA Europa League, Group E | Round 4"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            }
+        },
+        "potential_gain": 67.09008384000002
+    }
+}
