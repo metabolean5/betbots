@@ -35,13 +35,12 @@ botlist = [
 
 
 """
-round1 = "round/21-11" #21-3 for UCL  | 21-11 for Ligue 2 | 31-4 for Europa L
+round1 = "round/21-12" #21-3 for UCL  | 21-11 for Ligue 2 | 31-4 for Europa L
 billy_bayes.verifyBets(round1)
 risky_rifki.verifyBets(round1)
 pat_nostat.verifyBets(round1)
 risky_vent_dofsky.verifyBets(round1)
 vent_dofsky.verifyBets(round1)
-
 """
 
 
@@ -62,8 +61,6 @@ pat_nostat.place_bets()
 vent_dofsky.place_bets()
 risky_vent_dofsky.place_bets()
 risky_rifki.place_bets()
-
-
 
 
 #PRINTING AND MODIF ARENA

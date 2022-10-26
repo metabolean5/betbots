@@ -63,7 +63,7 @@ class Betbot:
         '''
 
         if self.id == '01':  # Billy Bayes
-            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/94211/fixtures") #2022-2023
+            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/93959/fixtures") #2022-2023
 
         if self.id == '02':  # Risky Rifki
             self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
@@ -327,14 +327,11 @@ class Betbot:
         self.save_bot_data()
 
     def makeModification(self):
-        print('code here')
+        self.memory['money']+=75.25
     
-        
-        
-
 
     def makeModification2(self):
-        print('code here')
+        self.memory['money']+=57.5
     
 
     def verifyBets(self,round1):   
