@@ -1,97 +1,27 @@
 {
-    "total_bets_made": 4,
-    "successful_bets": 7,
+    "total_bets_made": 2,
+    "successful_bets": 0,
     "unsuccessful_bets": 0,
-    "money": 107.15032484000002,
+    "money": -20,
     "current_bets": {
-        "Round 5": [
+        "European R16 \u2013 09/03/2026": [
             {
+                "event_id": "8bcd511fa99657b524e125548ccbe09f",
                 "cotes": {
-                    "3": "3.20",
-                    "1": "3.50",
-                    "0": "2.20"
+                    "3": "4.4",
+                    "1": "4.3",
+                    "0": "1.79"
                 },
                 "info": {
-                    "teams": "BruggeBRU-PortoFCP",
-                    "date": "UEFA Champions League, Group B | Round 5"
+                    "teams": "Galatasaray vs Liverpool",
+                    "competition": "UEFA Champions League",
+                    "date": "2026-03-10 17:45"
                 },
                 "last5vec": [
+                    0,
+                    3,
+                    0,
                     1,
-                    3,
-                    3,
-                    1,
-                    0,
-                    0,
-                    3,
-                    3,
-                    3,
-                    3
-                ],
-                "prediction": 3
-            },
-            {
-                "cotes": {
-                    "3": "1.11",
-                    "1": "9.00",
-                    "0": "23.00"
-                },
-                "info": {
-                    "teams": "InterINT-PlzenVIK",
-                    "date": "UEFA Champions League, Group C | Round 5"
-                },
-                "last5vec": [
-                    3,
-                    3,
-                    1,
-                    3,
-                    3,
-                    3,
-                    0,
-                    3,
-                    0,
-                    3
-                ],
-                "prediction": 3
-            },
-            {
-                "cotes": {
-                    "3": "1.22",
-                    "1": "6.50",
-                    "0": "11.00"
-                },
-                "info": {
-                    "teams": "NapoliNAP-RangersRFC",
-                    "date": "UEFA Champions League, Group A | Round 5"
-                },
-                "last5vec": [
-                    3,
-                    3,
-                    3,
-                    3,
-                    3,
-                    1,
-                    3,
-                    3,
-                    0,
-                    3
-                ],
-                "prediction": 3
-            },
-            {
-                "cotes": {
-                    "3": "3.50",
-                    "1": "4.10",
-                    "0": "1.91"
-                },
-                "info": {
-                    "teams": "AjaxAJA-LiverpoolLIV",
-                    "date": "UEFA Champions League, Group A | Round 5"
-                },
-                "last5vec": [
-                    3,
-                    3,
-                    0,
-                    3,
                     0,
                     0,
                     3,
@@ -102,46 +32,128 @@
                 "prediction": 3
             },
             {
+                "event_id": "2a50d2be5757e39b9a4c8ff4ff272920",
                 "cotes": {
-                    "3": "1.65",
-                    "1": "3.90",
-                    "0": "5.25"
+                    "3": "5.2",
+                    "1": "4.75",
+                    "0": "1.63"
                 },
                 "info": {
-                    "teams": "AtleticoATM-LeverkusenLEV",
-                    "date": "UEFA Champions League, Group B | Round 5"
+                    "teams": "Atalanta BC vs Bayern Munich",
+                    "competition": "UEFA Champions League",
+                    "date": "2026-03-10 20:00"
+                },
+                "last5vec": [
+                    1,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "5e256c6ee31e77cef2c88df9556b9dcf",
+                "cotes": {
+                    "3": "1.55",
+                    "1": "4.7",
+                    "0": "6.4"
+                },
+                "info": {
+                    "teams": "Atl\u00e9tico Madrid vs Tottenham Hotspur",
+                    "competition": "UEFA Champions League",
+                    "date": "2026-03-10 20:00"
                 },
                 "last5vec": [
                     3,
-                    1,
                     3,
-                    1,
+                    3,
                     3,
                     1,
                     0,
                     0,
-                    3,
+                    0,
+                    0,
                     0
                 ],
                 "prediction": 3
             },
             {
+                "event_id": "1129cf840f0de50325d4a46fd25efcff",
                 "cotes": {
-                    "3": "2.10",
-                    "1": "4.00",
-                    "0": "3.00"
+                    "3": "3.05",
+                    "1": "4.1",
+                    "0": "2.23"
                 },
                 "info": {
-                    "teams": "BarcelonaFCB-",
-                    "date": "UEFA Champions League, Group C | Round 5"
+                    "teams": "Newcastle United vs Barcelona",
+                    "competition": "UEFA Champions League",
+                    "date": "2026-03-10 20:00"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "963a779ed5805946e8621a6aea80ab10",
+                "cotes": {
+                    "3": "5.6",
+                    "1": "4.5",
+                    "0": "1.52"
+                },
+                "info": {
+                    "teams": "Bayer Leverkusen vs Arsenal",
+                    "competition": "UEFA Champions League",
+                    "date": "2026-03-11 17:45"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    1,
+                    1,
+                    0,
+                    3,
+                    3,
+                    3,
+                    1,
+                    1
+                ],
+                "prediction": 0
+            },
+            {
+                "event_id": "9116f649adc0271804f423b2e782e6fe",
+                "cotes": {
+                    "3": "2.5",
+                    "1": "3.8",
+                    "0": "2.5"
+                },
+                "info": {
+                    "teams": "Bod\u00f8/Glimt vs Sporting Lisbon",
+                    "competition": "UEFA Champions League",
+                    "date": "2026-03-11 20:00"
                 },
                 "last5vec": [
                     3,
                     3,
-                    0,
+                    3,
+                    3,
                     1,
-                    3,
-                    3,
+                    1,
                     3,
                     3,
                     3,
@@ -150,108 +162,362 @@
                 "prediction": 3
             },
             {
+                "event_id": "9effb0e71099ba08f8813f7f61bb0f5d",
                 "cotes": {
-                    "3": "1.53",
-                    "1": "4.33",
-                    "0": "6.00"
+                    "3": "1.9",
+                    "1": "3.9",
+                    "0": "3.7"
                 },
                 "info": {
-                    "teams": "TottenhamTOT-Sporting LisbonSPO",
-                    "date": "UEFA Champions League, Group D | Round 5"
+                    "teams": "Paris Saint Germain vs Chelsea",
+                    "competition": "UEFA Champions League",
+                    "date": "2026-03-11 20:00"
                 },
                 "last5vec": [
                     0,
+                    3,
+                    1,
+                    3,
+                    3,
+                    3,
                     0,
-                    3,
-                    3,
-                    3,
-                    3,
-                    0,
-                    0,
-                    3,
-                    0
+                    1,
+                    1,
+                    3
                 ],
                 "prediction": 3
             },
             {
+                "event_id": "d507893e733fad8be9be6fb53d5b95d9",
                 "cotes": {
-                    "3": "2.20",
-                    "1": "3.50",
-                    "0": "3.10"
+                    "3": "3.35",
+                    "1": "3.9",
+                    "0": "2.0"
                 },
                 "info": {
-                    "teams": "FrankfurtSGE-MarseilleOM",
-                    "date": "UEFA Champions League, Group D | Round 5"
+                    "teams": "Real Madrid vs Manchester City",
+                    "competition": "UEFA Champions League",
+                    "date": "2026-03-11 20:00"
                 },
                 "last5vec": [
                     3,
-                    3,
-                    3,
-                    0,
-                    0,
-                    0,
                     0,
                     3,
                     0,
+                    3,
+                    1,
+                    3,
+                    3,
+                    3,
                     3
                 ],
                 "prediction": 3
+            },
+            {
+                "event_id": "1629a49809eb10b622b8e37b3142d751",
+                "cotes": {
+                    "3": "3.1",
+                    "1": "3.05",
+                    "0": "2.6"
+                },
+                "info": {
+                    "teams": "Bologna vs AS Roma",
+                    "competition": "UEFA Europa League",
+                    "date": "2026-03-12 17:45"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    3,
+                    0,
+                    0,
+                    1,
+                    3,
+                    1,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "9c61fdfbd09d9582569eb5acf6ed0c44",
+                "cotes": {
+                    "3": "3.05",
+                    "1": "3.3",
+                    "0": "2.48"
+                },
+                "info": {
+                    "teams": "Lille vs Aston Villa",
+                    "competition": "UEFA Europa League",
+                    "date": "2026-03-12 17:45"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "9b970604c40af45f4ebc218e44bf3ca2",
+                "cotes": {
+                    "3": "2.1",
+                    "1": "3.7",
+                    "0": "3.5"
+                },
+                "info": {
+                    "teams": "VfB Stuttgart vs Porto",
+                    "competition": "UEFA Europa League",
+                    "date": "2026-03-12 17:45"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    1,
+                    3,
+                    0,
+                    1,
+                    3,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "8fbb8beb3248802b89c28994d1bd9e80",
+                "cotes": {
+                    "3": "2.1",
+                    "1": "3.5",
+                    "0": "3.6"
+                },
+                "info": {
+                    "teams": "Celta Vigo vs Lyon",
+                    "competition": "UEFA Europa League",
+                    "date": "2026-03-12 20:00"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            }
+        ],
+        "European R16 odds-only \u2013 09/03/2026": [
+            {
+                "event_id": "060b5c451f39669f8463f914964fa069",
+                "cotes": {
+                    "3": "3.9",
+                    "1": "3.25",
+                    "0": "2.12"
+                },
+                "info": {
+                    "teams": "Panathinaikos FC vs Real Betis",
+                    "competition": "UEFA Europa League",
+                    "date": "2026-03-12 17:45"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "22809c05769024c306b5c0b6ec2349b5",
+                "cotes": {
+                    "3": "1.56",
+                    "1": "4.35",
+                    "0": "6.1"
+                },
+                "info": {
+                    "teams": "Nottingham Forest vs FC Midtjylland",
+                    "competition": "UEFA Europa League",
+                    "date": "2026-03-12 20:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "b7950ae7b574862eec910fd87e0e0402",
+                "cotes": {
+                    "3": "3.15",
+                    "1": "3.3",
+                    "0": "2.4"
+                },
+                "info": {
+                    "teams": "Ferencv\u00e1ros TC vs SC Braga",
+                    "competition": "UEFA Europa League",
+                    "date": "2026-03-12 20:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "63cd5d7c4807ee13af58ec1e4092e144",
+                "cotes": {
+                    "3": "2.8",
+                    "1": "3.4",
+                    "0": "2.7"
+                },
+                "info": {
+                    "teams": "KRC Genk vs SC Freiburg",
+                    "competition": "UEFA Europa League",
+                    "date": "2026-03-12 20:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "eca03709205922e73d25bb42963d5667",
+                "cotes": {
+                    "3": "2.0",
+                    "1": "3.4",
+                    "0": "3.2"
+                },
+                "info": {
+                    "teams": "AZ Alkmaar vs Sparta Prague",
+                    "competition": "UEFA Conference League",
+                    "date": "2026-03-12 17:45"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "de2cf40a6cc342ff37a636c35de579af",
+                "cotes": {
+                    "3": "3.65",
+                    "1": "3.55",
+                    "0": "1.83"
+                },
+                "info": {
+                    "teams": "HNK Rijeka vs Strasbourg",
+                    "competition": "UEFA Conference League",
+                    "date": "2026-03-12 17:45"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "47bbf2017e07ec8d6025b208c6ffd42d",
+                "cotes": {
+                    "3": "2.45",
+                    "1": "3.25",
+                    "0": "2.6"
+                },
+                "info": {
+                    "teams": "Lech Pozna\u0144 vs Shakhtar Donetsk",
+                    "competition": "UEFA Conference League",
+                    "date": "2026-03-12 17:45"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "6e33aa237c6a542058ccbe817dc828fc",
+                "cotes": {
+                    "3": "3.15",
+                    "1": "3.35",
+                    "0": "2.05"
+                },
+                "info": {
+                    "teams": "Samsunspor vs Rayo Vallecano",
+                    "competition": "UEFA Conference League",
+                    "date": "2026-03-12 17:45"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "2cd6b32cd9dd9f3bb9eeb699d5608af0",
+                "cotes": {
+                    "3": "3.25",
+                    "1": "3.45",
+                    "0": "1.98"
+                },
+                "info": {
+                    "teams": "NK Celje vs AEK Athens",
+                    "competition": "UEFA Conference League",
+                    "date": "2026-03-12 20:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "364efb04d05e02697ac3606d75ec83b3",
+                "cotes": {
+                    "3": "1.2",
+                    "1": "5.7",
+                    "0": "11.0"
+                },
+                "info": {
+                    "teams": "Crystal Palace vs AEK Larnaca",
+                    "competition": "UEFA Conference League",
+                    "date": "2026-03-12 20:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "fad5dfa55461a00bdcee588770f0a91e",
+                "cotes": {
+                    "3": "4.2",
+                    "1": "3.55",
+                    "0": "1.72"
+                },
+                "info": {
+                    "teams": "Sigma Olomouc vs FSV Mainz 05",
+                    "competition": "UEFA Conference League",
+                    "date": "2026-03-12 20:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "8b0fb9ee447fb703a6d23ce7e0229098",
+                "cotes": {
+                    "3": "1.74",
+                    "1": "3.84",
+                    "0": "5.14"
+                },
+                "info": {
+                    "teams": "Fiorentina vs Rak\u00f3w Cz\u0119stochowa",
+                    "competition": "UEFA Conference League",
+                    "date": "2026-03-12 20:00"
+                },
+                "last5vec": []
             }
         ]
     },
     "confirmed_bets": {
-        "1": {
+        "9": {
             "bet_data": {
+                "event_id": "9c61fdfbd09d9582569eb5acf6ed0c44",
                 "cotes": {
-                    "3": "1.11",
-                    "1": "9.00",
-                    "0": "23.00"
+                    "3": "3.05",
+                    "1": "3.3",
+                    "0": "2.48"
                 },
                 "info": {
-                    "teams": "InterINT-PlzenVIK",
-                    "date": "UEFA Champions League, Group C | Round 5"
+                    "teams": "Lille vs Aston Villa",
+                    "competition": "UEFA Europa League",
+                    "date": "2026-03-12 17:45"
                 },
                 "last5vec": [
-                    3,
-                    3,
                     1,
                     3,
                     3,
-                    3,
+                    1,
+                    1,
                     0,
-                    3,
                     0,
-                    3
+                    1,
+                    3,
+                    1
                 ],
                 "prediction": 3
             }
         },
-        "2": {
-            "bet_data": {
-                "cotes": {
-                    "3": "1.22",
-                    "1": "6.50",
-                    "0": "11.00"
-                },
-                "info": {
-                    "teams": "NapoliNAP-RangersRFC",
-                    "date": "UEFA Champions League, Group A | Round 5"
-                },
-                "last5vec": [
-                    3,
-                    3,
-                    3,
-                    3,
-                    3,
-                    1,
-                    3,
-                    3,
-                    0,
-                    3
-                ],
-                "prediction": 3
-            }
-        },
-        "potential_gain": 27.084000000000003
+        "potential_gain": 24.0
     }
 }

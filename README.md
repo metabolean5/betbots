@@ -58,6 +58,51 @@ L'apparition progressive de Risky Rifky, de Pat et des Vents d'Ofsky ont marqué
 
 
 
+# Saison 3 – UCL / UEL / UECL (09/03/2026)
+
+Nouvelle saison, nouveau terrain : les robots s'attaquent désormais aux compétitions européennes (Champions League, Europa League, Conference League).
+Les données sont collectées en live via The Odds API (cotes + fixtures) et football-data.org (forme des équipes).
+
+## Journée du 10–12 mars 2026 – Round of 16 (First Legs)
+
+### Billy Bayes
+| Match | Date | Pronostic | Gain potentiel |
+|---|---|---|---|
+| Atlético Madrid vs Tottenham Hotspur | 10/03 | **Home Win** | 54.25 |
+| Bodø/Glimt vs Sporting Lisbon | 11/03 | **Home Win** | 87.50 |
+
+### Risky Rifki
+| Match | Date | Pronostic | Gain potentiel |
+|---|---|---|---|
+| Galatasaray vs Liverpool | 10/03 | **Home Win** | 110.00 |
+| Atalanta BC vs Bayern Munich | 10/03 | **Away Win** | 40.75 |
+| Bayer Leverkusen vs Arsenal | 11/03 | **Home Win** | 140.00 |
+| VfB Stuttgart vs Porto | 12/03 | **Home Win** | 52.50 |
+
+### Pat Nostat
+| Match | Date | Pronostic | Gain potentiel |
+|---|---|---|---|
+| Atlético Madrid vs Tottenham Hotspur | 10/03 | **Home Win** | 77.50 |
+
+### Risky Vent d'Ofsky (combiné)
+| Match | Date | Pronostic |
+|---|---|---|
+| Atalanta BC vs Bayern Munich | 10/03 | **Home Win** |
+| Atlético Madrid vs Tottenham Hotspur | 10/03 | **Home Win** |
+| Bayer Leverkusen vs Arsenal | 11/03 | **Away Win** |
+| Lille vs Aston Villa | 12/03 | **Home Win** |
+
+Gain combiné potentiel : **107.84**
+
+### Vent d'Ofsky (combiné)
+| Match | Date | Pronostic |
+|---|---|---|
+| Lille vs Aston Villa | 12/03 | **Home Win** |
+
+Gain combiné potentiel : **24.00**
+
+---
+
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 <br/>Turfutodays's betbots is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 2.0 France (CC BY-SA 2.0 FR)</a>.
 
