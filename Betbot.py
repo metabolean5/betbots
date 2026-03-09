@@ -53,28 +53,21 @@ class Betbot:
 
 
 
-    def get_bets(self,bot):  # load bets to memory
+    def get_bets(self, bot):  # load bets to memory
 
-        '''
-        Links 2022/2023
-        Link for champions league : https://s5.sir.sportradar.com/bet365/en/1/season/93959/fixtures
-        Link for Europa League : https://s5.sir.sportradar.com/bet365/en/1/season/95895/fixtures
-        Link for Ligue 2 : https://s5.sir.sportradar.com/bet365/en/1/season/94211/fixtures
-        '''
+        if self.id == '01':  # Billy Bayes – scrapes live data for UCL / UEL / UECL
+            self.memory['current_bets'] = scrap_fixtures_01(['UCL', 'UEL', 'UECL'])
 
-        if self.id == '01':  # Billy Bayes
-            self.memory['current_bets'] = scrap_fixtures_01("https://s5.sir.sportradar.com/bet365/en/1/season/93959/fixtures") #2022-2023
-
-        if self.id == '02':  # Risky Rifki
+        if self.id == '02':  # Risky Rifki – shares Billy Bayes data
             self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
 
-        if self.id == '03':  # Pat Nostat
+        if self.id == '03':  # Pat Nostat – shares Billy Bayes data
             self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
 
-        if self.id == '04':  # Risky Vent d'Ofsky
+        if self.id == '04':  # Risky Vent d'Ofsky – shares Billy Bayes data
             self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
 
-        if self.id == '05':  # Vent d'Ofsky
+        if self.id == '05':  # Vent d'Ofsky – shares Billy Bayes data
             self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
       
     def printConfirmedBets(self):
