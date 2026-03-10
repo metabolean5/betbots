@@ -1,0 +1,131 @@
+{
+    "total_bets_made": 7,
+    "successful_bets": 0,
+    "unsuccessful_bets": 0,
+    "money": -260,
+    "current_bets": {
+        "European R16 \u2013 09/03/2026": [
+            {
+                "event_id": "8bcd511fa99657b524e125548ccbe09f",
+                "cotes": {"3": "4.4", "1": "4.3", "0": "1.79"},
+                "info": {"teams": "Galatasaray vs Liverpool", "competition": "UEFA Champions League", "date": "2026-03-10 17:45"},
+                "last5vec": [0, 3, 0, 1, 0, 0, 3, 3, 3, 0],
+                "prediction": 3
+            },
+            {
+                "event_id": "2a50d2be5757e39b9a4c8ff4ff272920",
+                "cotes": {"3": "5.2", "1": "4.75", "0": "1.63"},
+                "info": {"teams": "Atalanta BC vs Bayern Munich", "competition": "UEFA Champions League", "date": "2026-03-10 20:00"},
+                "last5vec": [1, 0, 3, 3, 0, 3, 3, 3, 3, 3],
+                "prediction": 3
+            },
+            {
+                "event_id": "963a779ed5805946e8621a6aea80ab10",
+                "cotes": {"3": "5.6", "1": "4.5", "0": "1.52"},
+                "info": {"teams": "Bayer Leverkusen vs Arsenal", "competition": "UEFA Champions League", "date": "2026-03-11 17:45"},
+                "last5vec": [1, 3, 1, 1, 0, 3, 3, 3, 1, 1],
+                "prediction": 3
+            },
+            {
+                "event_id": "1629a49809eb10b622b8e37b3142d751",
+                "cotes": {"3": "3.1", "1": "3.05", "0": "2.6"},
+                "info": {"teams": "Bologna vs AS Roma", "competition": "UEFA Europa League", "date": "2026-03-12 17:45"},
+                "last5vec": [0, 3, 3, 3, 0, 0, 1, 3, 1, 3],
+                "prediction": 3
+            },
+            {
+                "event_id": "9c61fdfbd09d9582569eb5acf6ed0c44",
+                "cotes": {"3": "3.05", "1": "3.3", "0": "2.48"},
+                "info": {"teams": "Lille vs Aston Villa", "competition": "UEFA Europa League", "date": "2026-03-12 17:45"},
+                "last5vec": [1, 3, 3, 1, 1, 0, 0, 1, 3, 1],
+                "prediction": 3
+            },
+            {
+                "event_id": "9b970604c40af45f4ebc218e44bf3ca2",
+                "cotes": {"3": "2.1", "1": "3.7", "0": "3.5"},
+                "info": {"teams": "VfB Stuttgart vs Porto", "competition": "UEFA Europa League", "date": "2026-03-12 17:45"},
+                "last5vec": [1, 3, 1, 3, 0, 1, 3, 3, 3, 1],
+                "prediction": 0
+            },
+            {
+                "event_id": "8fbb8beb3248802b89c28994d1bd9e80",
+                "cotes": {"3": "2.1", "1": "3.5", "0": "3.6"},
+                "info": {"teams": "Celta Vigo vs Lyon", "competition": "UEFA Europa League", "date": "2026-03-12 20:00"},
+                "last5vec": [0, 3, 3, 1, 0, 1, 0, 0, 3, 3],
+                "prediction": 0
+            }
+        ]
+    },
+    "confirmed_bets": {
+        "0": {
+            "bet_data": {
+                "event_id": "8bcd511fa99657b524e125548ccbe09f",
+                "cotes": {"3": "4.4", "1": "4.3", "0": "1.79"},
+                "info": {"teams": "Galatasaray vs Liverpool", "competition": "UEFA Champions League", "date": "2026-03-10 17:45"},
+                "last5vec": [0, 3, 0, 1, 0, 0, 3, 3, 3, 0],
+                "prediction": 3
+            },
+            "potential_gain": 154.0
+        },
+        "1": {
+            "bet_data": {
+                "event_id": "2a50d2be5757e39b9a4c8ff4ff272920",
+                "cotes": {"3": "5.2", "1": "4.75", "0": "1.63"},
+                "info": {"teams": "Atalanta BC vs Bayern Munich", "competition": "UEFA Champions League", "date": "2026-03-10 20:00"},
+                "last5vec": [1, 0, 3, 3, 0, 3, 3, 3, 3, 3],
+                "prediction": 3
+            },
+            "potential_gain": 182.0
+        },
+        "2": {
+            "bet_data": {
+                "event_id": "963a779ed5805946e8621a6aea80ab10",
+                "cotes": {"3": "5.6", "1": "4.5", "0": "1.52"},
+                "info": {"teams": "Bayer Leverkusen vs Arsenal", "competition": "UEFA Champions League", "date": "2026-03-11 17:45"},
+                "last5vec": [1, 3, 1, 1, 0, 3, 3, 3, 1, 1],
+                "prediction": 3
+            },
+            "potential_gain": 280.0
+        },
+        "3": {
+            "bet_data": {
+                "event_id": "1629a49809eb10b622b8e37b3142d751",
+                "cotes": {"3": "3.1", "1": "3.05", "0": "2.6"},
+                "info": {"teams": "Bologna vs AS Roma", "competition": "UEFA Europa League", "date": "2026-03-12 17:45"},
+                "last5vec": [0, 3, 3, 3, 0, 0, 1, 3, 1, 3],
+                "prediction": 3
+            },
+            "potential_gain": 108.5
+        },
+        "4": {
+            "bet_data": {
+                "event_id": "9c61fdfbd09d9582569eb5acf6ed0c44",
+                "cotes": {"3": "3.05", "1": "3.3", "0": "2.48"},
+                "info": {"teams": "Lille vs Aston Villa", "competition": "UEFA Europa League", "date": "2026-03-12 17:45"},
+                "last5vec": [1, 3, 3, 1, 1, 0, 0, 1, 3, 1],
+                "prediction": 3
+            },
+            "potential_gain": 106.75
+        },
+        "5": {
+            "bet_data": {
+                "event_id": "9b970604c40af45f4ebc218e44bf3ca2",
+                "cotes": {"3": "2.1", "1": "3.7", "0": "3.5"},
+                "info": {"teams": "VfB Stuttgart vs Porto", "competition": "UEFA Europa League", "date": "2026-03-12 17:45"},
+                "last5vec": [1, 3, 1, 3, 0, 1, 3, 3, 3, 1],
+                "prediction": 0
+            },
+            "potential_gain": 122.5
+        },
+        "6": {
+            "bet_data": {
+                "event_id": "8fbb8beb3248802b89c28994d1bd9e80",
+                "cotes": {"3": "2.1", "1": "3.5", "0": "3.6"},
+                "info": {"teams": "Celta Vigo vs Lyon", "competition": "UEFA Europa League", "date": "2026-03-12 20:00"},
+                "last5vec": [0, 3, 3, 1, 0, 1, 0, 0, 3, 3],
+                "prediction": 0
+            },
+            "potential_gain": 126.0
+        }
+    }
+}

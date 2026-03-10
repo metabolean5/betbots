@@ -41,8 +41,11 @@ vent_dofsky       = Betbot("Vent d'Ofsky",
 risky_vent_dofsky = Betbot("Risky Vent d'Ofsky",
                             "none",
                             "bots_data/04_risky_vent_dof.json","04")
+way_to_claude     = Betbot("Way to Claude",
+                            "none",
+                            "bots_data/06_valeur_darb.json",   "06")
 
-botlist = [billy_bayes, risky_rifki, pat_nostat, risky_vent_dofsky, vent_dofsky]
+botlist = [billy_bayes, risky_rifki, pat_nostat, risky_vent_dofsky, vent_dofsky, way_to_claude]
 
 
 # ─── Scrape fixtures (only Billy Bayes fetches; others share his data) ────────
@@ -50,7 +53,7 @@ botlist = [billy_bayes, risky_rifki, pat_nostat, risky_vent_dofsky, vent_dofsky]
 print("\nGathering live fixture data from Sofascore...")
 billy_bayes.get_bets(billy_bayes)
 
-for bot in [risky_rifki, pat_nostat, risky_vent_dofsky, vent_dofsky]:
+for bot in [risky_rifki, pat_nostat, risky_vent_dofsky, vent_dofsky, way_to_claude]:
     bot.get_bets(billy_bayes)
 
 

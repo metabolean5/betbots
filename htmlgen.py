@@ -18,8 +18,9 @@ risky_rifki       = Betbot("Risky Rifki",        "classifiers/billy_bayes.pkl", 
 pat_nostat        = Betbot("Pat Nostat",          "none",                        "bots_data/03_pat_nostat.json",    "03")
 vent_dofsky       = Betbot("Vent d'Ofsky",        "none",                        "bots_data/05_vent_dof.json",      "05")
 risky_vent_dofsky = Betbot("Risky Vent d'Ofsky",  "none",                        "bots_data/04_risky_vent_dof.json","04")
+way_to_claude     = Betbot("Way to Claude",         "none",                        "bots_data/06_valeur_darb.json",   "06")
 
-botlist = [billy_bayes, risky_rifki, pat_nostat, risky_vent_dofsky, vent_dofsky]
+botlist = [billy_bayes, risky_rifki, pat_nostat, risky_vent_dofsky, vent_dofsky, way_to_claude]
 
 for bot in botlist:
     print(bot.name)
