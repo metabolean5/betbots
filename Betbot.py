@@ -69,6 +69,9 @@ class Betbot:
 
         if self.id == '05':  # Vent d'Ofsky – shares Billy Bayes data
             self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
+
+        if self.id == '06':  # Way to Claude – shares Billy Bayes data
+            self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()
       
     def printConfirmedBets(self):
         print(self.name + "'s bets are:\n")
@@ -314,6 +317,86 @@ class Betbot:
 
 
 
+
+        if self.id == '06':  # Way to Claude – value betting via EV estimation
+            """
+            Strategy
+            ────────
+            For each match with form data, estimate true win/draw/loss probabilities
+            from the last-5 form vectors, then compute Expected Value against market odds.
+            Bet only when EV ≥ 0.20 (20% edge over the bookmaker).
+
+            Probability model
+            -----------------
+            baseline: P(home)=0.40  P(away)=0.35  P(draw)=0.25
+            form adjustment (±0.25 max swing):
+                form_diff = (home_form - away_form) / 15   [-1..+1]
+                P(home) += form_diff * 0.25
+                P(away) -= form_diff * 0.25
+            Probabilities are clamped to [0.05, 0.85] then renormalised.
+
+            Stake tiers (Kelly-inspired)
+            ----------------------------
+                EV ≥ 0.60  →  €50
+                EV ≥ 0.25  →  €35
+                EV ≥ 0.20  →  €20
+            """
+            BASELINE_HOME = 0.40
+            BASELINE_AWAY = 0.35
+            BASELINE_DRAW = 0.25
+            FORM_WEIGHT   = 0.25
+            MIN_EV        = 0.20
+
+            round_key = list(self.memory["current_bets"].keys())[0]
+
+            i = 0
+            for vec in y_predictions:
+                H = sum(vec[0:5])
+                A = sum(vec[5:10])
+                form_diff = (H - A) / 15.0
+
+                p_home = min(0.85, max(0.05, BASELINE_HOME + form_diff * FORM_WEIGHT))
+                p_away = min(0.85, max(0.05, BASELINE_AWAY - form_diff * FORM_WEIGHT))
+                p_draw = max(0.05, BASELINE_DRAW)
+                total  = p_home + p_draw + p_away
+                p_home /= total
+                p_draw /= total
+                p_away /= total
+
+                cotes = self.memory["current_bets"][round_key][i]["cotes"]
+
+                ev_home = p_home * float(cotes["3"]) - 1.0
+                ev_draw = p_draw * float(cotes["1"]) - 1.0
+                ev_away = p_away * float(cotes["0"]) - 1.0
+
+                evs = {"home": ev_home, "draw": ev_draw, "away": ev_away}
+                best_name = max(evs, key=evs.get)
+                best_ev   = evs[best_name]
+
+                if best_ev >= MIN_EV:
+                    outcome_code = {"home": 3, "draw": 1, "away": 0}[best_name]
+
+                    if best_ev >= 0.60:
+                        stake = 50
+                    elif best_ev >= 0.25:
+                        stake = 35
+                    else:
+                        stake = 20
+
+                    potential_gain = float(stake * getOdds(outcome_code, cotes))
+
+                    self.memory["confirmed_bets"][i] = {
+                        "bet_data": copy.deepcopy(self.memory["current_bets"][round_key][i])
+                    }
+                    self.memory["confirmed_bets"][i]["bet_data"]["prediction"] = int(outcome_code)
+                    self.memory["confirmed_bets"][i]["potential_gain"] = potential_gain
+                    self.memory["money"] -= stake
+                    self.memory["total_bets_made"] += 1
+
+                    print(f"{self.name} → {best_name.upper()} on '{self.memory['current_bets'][round_key][i]['info']['teams']}'"
+                          f" | EV={best_ev:.3f} | stake=€{stake} | potential=€{potential_gain:.2f}")
+
+                i += 1
 
     def setBetData(self,key,key2,data):
         self.memory["confirmed_bets"][key2] =  self.memory.pop(key2)

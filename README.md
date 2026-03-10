@@ -13,11 +13,45 @@ Cette ligue étant toutefois très peu populaire, il se trouve qu'il est actuell
 
 ## Robots
 
-Les robots actuels utilisent des stratégies qui ne demandent qu'à être perfectionnées ou alors radicalement transformées. 
-Tous les robots, mis à part Pat Nostat, utilisent un algorithme d'apprentissage statistique rudimentaire pour effectuer leur prédiction.
+Les robots actuels utilisent des stratégies qui ne demandent qu'à être perfectionnées ou alors radicalement transformées.
+Tous les robots, mis à part Pat Nostat et Way to Claude, utilisent un algorithme d'apprentissage statistique rudimentaire pour effectuer leur prédiction.
 Bien que la modélisation et l'apprentissage machine soient des domaines plus que fascinants, elle n'est d'aucune importance ici puisque nous jouons à un jeu de hasard.
 Les stratégies sont donc les seules parties qui nous intéressent. Par exemple, les robots Vent d'ofsky utilisent des parties combinées et nous paraissent comme étant très prometteurs.
 Pour le reste nous vous renvoyons vers le code.
+
+| # | Nom | Modèle | Stratégie |
+|---|---|---|---|
+| 01 | Billy Bayes | SKLearn | Parie sur les sorties à haute confiance (>60%) |
+| 02 | Risky Rifki | SKLearn | Parie à contre-courant sur les sorties peu probables (<45%) |
+| 03 | Pat Nostat | — | Différentiel de forme brute entre les deux équipes |
+| 04 | Risky Vent d'Ofsky | — | Combiné avec cotes < 1.65 |
+| 05 | Vent d'Ofsky | — | Combiné sélectif avec cotes < 1.50 |
+| 06 | **Way to Claude** | — | **Paris à valeur positive (EV ≥ 20%)** — mise Kelly-inspirée |
+
+### Way to Claude — fonctionnement détaillé
+
+Le modèle estime les probabilités réelles d'un match à partir des vecteurs de forme des 5 derniers matchs :
+
+```
+P(victoire dom.) = clip(0.40 + diff_forme × 0.25,  0.05, 0.85)
+P(victoire ext.) = clip(0.35 − diff_forme × 0.25,  0.05, 0.85)
+P(nul)           = 1 − P(dom.) − P(ext.)
+diff_forme       = (forme_dom − forme_ext) / 15     # ∈ [−1, +1]
+```
+
+Il calcule ensuite l'**espérance de valeur** (EV) pour chaque issue :
+
+```
+EV = P(issue) × cote − 1
+```
+
+Un pari n'est validé que si max(EV) ≥ 0.20. La mise suit une grille Kelly-inspirée :
+
+```
+EV ≥ 0.60  →  €50
+EV ≥ 0.25  →  €35
+EV ≥ 0.20  →  €20
+```
 
 
 ## Données pour les paris
@@ -100,6 +134,21 @@ Gain combiné potentiel : **107.84**
 | Lille vs Aston Villa | 12/03 | **Home Win** |
 
 Gain combiné potentiel : **24.00**
+
+### Way to Claude 🆕
+> Stratégie : paris à valeur positive — compare les probabilités estimées par le modèle de forme aux cotes du marché et mise uniquement quand l'espérance mathématique est ≥ 20%.
+
+| Match | Compétition | Date | Pronostic | EV estimée | Mise | Gain potentiel |
+|---|---|---|---|---|---|---|
+| Galatasaray vs Liverpool | UCL | 10/03 | **Home Win** | +39.5% | €35 | 154.00 |
+| Atalanta BC vs Bayern Munich | UCL | 10/03 | **Home Win** | +38.7% | €35 | 182.00 |
+| Bayer Leverkusen vs Arsenal | UCL | 11/03 | **Home Win** | +77.5% | €50 | 280.00 |
+| Bologna vs AS Roma | UEL | 12/03 | **Home Win** | +29.3% | €35 | 108.50 |
+| Lille vs Aston Villa | UEL | 12/03 | **Home Win** | +42.4% | €35 | 106.75 |
+| VfB Stuttgart vs Porto | UEL | 12/03 | **Away Win** | +40.0% | €35 | 122.50 |
+| Celta Vigo vs Lyon | UEL | 12/03 | **Away Win** | +26.0% | €35 | 126.00 |
+
+Mise totale : **€260** — Gain potentiel cumulé : **€1079.75**
 
 ---
 
