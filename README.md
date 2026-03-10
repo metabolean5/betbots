@@ -19,14 +19,14 @@ Bien que la modélisation et l'apprentissage machine soient des domaines plus qu
 Les stratégies sont donc les seules parties qui nous intéressent. Par exemple, les robots Vent d'ofsky utilisent des parties combinées et nous paraissent comme étant très prometteurs.
 Pour le reste nous vous renvoyons vers le code.
 
-| # | Nom | Modèle | Stratégie |
-|---|---|---|---|
-| 01 | Billy Bayes | SKLearn | Parie sur les sorties à haute confiance (>60%) |
-| 02 | Risky Rifki | SKLearn | Parie à contre-courant sur les sorties peu probables (<45%) |
-| 03 | Pat Nostat | — | Différentiel de forme brute entre les deux équipes |
-| 04 | Risky Vent d'Ofsky | — | Combiné avec cotes < 1.65 |
-| 05 | Vent d'Ofsky | — | Combiné sélectif avec cotes < 1.50 |
-| 06 | **Way to Claude** | — | **Paris à valeur positive (EV ≥ 20%)** — mise Kelly-inspirée |
+| Avatar | # | Nom | Modèle | Stratégie |
+|---|---|---|---|---|
+| <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="60"> | 01 | Billy Bayes | SKLearn | Parie sur les sorties à haute confiance (>60%) |
+| <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="60"> | 02 | Risky Rifki | SKLearn | Parie à contre-courant sur les sorties peu probables (<45%) |
+| <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="60"> | 03 | Pat Nostat | — | Différentiel de forme brute entre les deux équipes |
+| <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="60"> | 04 | Risky Vent d'Ofsky | — | Combiné avec cotes < 1.65 |
+| <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="60"> | 05 | Vent d'Ofsky | — | Combiné sélectif avec cotes < 1.50 |
+| <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="60"> | 06 | **Way to Claude** | — | **Paris à valeur positive (EV ≥ 20%)** — mise Kelly-inspirée |
 
 ### Way to Claude — fonctionnement détaillé
 
@@ -67,30 +67,8 @@ array([[0.07342209, 0.14820677, 0.77837113],
        [0.22416424, 0.13586867, 0.63996709]]) //proba pour deux matchs (droite : victoire, centre : nul, gauche : défaite)
 
 ```
-## Prochain Paris (Journée du 26 Octobre 2022)
-
-![alt text](https://github.com/metabolean5/betbots/blob/main/bot_pics/curr_stats.png?raw=true)
-
-## Statistiques sur la saison 22-23
-
-![alt text](https://github.com/metabolean5/betbots/blob/main/bot_pics/curr_wallstats.png?raw=true)
 
 ## Archives
-
-# Saison 1
-
-La saison 1 fut évidemment haute en couleur. Ce fut en toute évidence le moment ultime de la création, de l'engendrement de la forme à partir du de chaos que sont les paris sportifs.
-
-L'apparition progressive de Risky Rifky, de Pat et des Vents d'Ofsky ont marqué une sorte d'âge d'or qui se présente seulement sous la forme de Commencements. Nous avons cela dit la foi du renouveau et du devenir, du duende fougueux de l'anarchie ontologique qui nous surprend et sur lequel nous jouissons de nos outputs => turfutodays's betbots 100 seasons, turfutodays's betbots a 100 years.
-
-**Graphe évolutions**
-![alt text](https://github.com/metabolean5/betbots/blob/main/bot_pics/wallstats.png?raw=true)
-
-**Classement S1**
-![alt text](https://github.com/metabolean5/betbots/blob/main/bot_pics/class.png?raw=true)
-
-
-
 
 # Saison 3 – UCL / UEL / UECL (09/03/2026)
 
@@ -99,13 +77,13 @@ Les données sont collectées en live via The Odds API (cotes + fixtures) et foo
 
 ## Journée du 10–12 mars 2026 – Round of 16 (First Legs)
 
-### Billy Bayes
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
 | Match | Date | Pronostic | Gain potentiel |
 |---|---|---|---|
 | Atlético Madrid vs Tottenham Hotspur | 10/03 | **Home Win** | 54.25 |
 | Bodø/Glimt vs Sporting Lisbon | 11/03 | **Home Win** | 87.50 |
 
-### Risky Rifki
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
 | Match | Date | Pronostic | Gain potentiel |
 |---|---|---|---|
 | Galatasaray vs Liverpool | 10/03 | **Home Win** | 110.00 |
@@ -113,12 +91,12 @@ Les données sont collectées en live via The Odds API (cotes + fixtures) et foo
 | Bayer Leverkusen vs Arsenal | 11/03 | **Home Win** | 140.00 |
 | VfB Stuttgart vs Porto | 12/03 | **Home Win** | 52.50 |
 
-### Pat Nostat
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
 | Match | Date | Pronostic | Gain potentiel |
 |---|---|---|---|
 | Atlético Madrid vs Tottenham Hotspur | 10/03 | **Home Win** | 77.50 |
 
-### Risky Vent d'Ofsky (combiné)
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
 | Match | Date | Pronostic |
 |---|---|---|
 | Atalanta BC vs Bayern Munich | 10/03 | **Home Win** |
@@ -128,14 +106,14 @@ Les données sont collectées en live via The Odds API (cotes + fixtures) et foo
 
 Gain combiné potentiel : **107.84**
 
-### Vent d'Ofsky (combiné)
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
 | Match | Date | Pronostic |
 |---|---|---|
 | Lille vs Aston Villa | 12/03 | **Home Win** |
 
 Gain combiné potentiel : **24.00**
 
-### Way to Claude 🆕
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude 🆕
 > Stratégie : paris à valeur positive — compare les probabilités estimées par le modèle de forme aux cotes du marché et mise uniquement quand l'espérance mathématique est ≥ 20%.
 
 | Match | Compétition | Date | Pronostic | EV estimée | Mise | Gain potentiel |
@@ -152,8 +130,19 @@ Mise totale : **€260** — Gain potentiel cumulé : **€1079.75**
 
 ---
 
+# Saison 1
+
+La saison 1 fut évidemment haute en couleur. Ce fut en toute évidence le moment ultime de la création, de l'engendrement de la forme à partir du de chaos que sont les paris sportifs.
+
+L'apparition progressive de Risky Rifky, de Pat et des Vents d'Ofsky ont marqué une sorte d'âge d'or qui se présente seulement sous la forme de Commencements. Nous avons cela dit la foi du renouveau et du devenir, du duende fougueux de l'anarchie ontologique qui nous surprend et sur lequel nous jouissons de nos outputs => turfutodays's betbots 100 seasons, turfutodays's betbots a 100 years.
+
+**Graphe évolutions**
+![alt text](https://github.com/metabolean5/betbots/blob/main/bot_pics/wallstats.png?raw=true)
+
+**Classement S1**
+![alt text](https://github.com/metabolean5/betbots/blob/main/bot_pics/class.png?raw=true)
+
+---
+
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 <br/>Turfutodays's betbots is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 2.0 France (CC BY-SA 2.0 FR)</a>.
-
-
-
