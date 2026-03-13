@@ -48,12 +48,16 @@ ODDS_SPORTS = {
     "UCL":  "soccer_uefa_champs_league",
     "UEL":  "soccer_uefa_europa_league",
     "UECL": "soccer_uefa_europa_conference_league",
+    "EPL":  "soccer_epl",
+    "FL1":  "soccer_france_ligue_one",
 }
 
 COMP_NAMES = {
     "UCL":  "UEFA Champions League",
     "UEL":  "UEFA Europa League",
     "UECL": "UEFA Conference League",
+    "EPL":  "Premier League",
+    "FL1":  "Ligue 1",
 }
 
 
@@ -218,9 +222,9 @@ def get_team_form(team_id, n=5):
 
 # ─── Main scraping function ───────────────────────────────────────────────────
 
-def scrap_fixtures_01(competition_keys=None):
+def scrap_fixtures_01(competition_keys=None, round_prefix=None):
     """
-    Scrape this week's UCL / UEL / UECL fixtures.
+    Scrape this week's fixtures for the given competition keys.
 
     Returns  { round_label: [ fixture, ... ] }
 
@@ -230,7 +234,9 @@ def scrap_fixtures_01(competition_keys=None):
     (used only by odds-based bots: Vent d'Ofsky, Risky Vent d'Ofsky).
     """
     if competition_keys is None:
-        competition_keys = ["UCL", "UEL", "UECL"]
+        competition_keys = ["UCL"]
+    if round_prefix is None:
+        round_prefix = "Round"
 
     _form_cache.clear()
     _build_team_cache()
@@ -331,9 +337,9 @@ def scrap_fixtures_01(competition_keys=None):
 
     result = {}
     if with_form:
-        result[f"European R16 – {label_date}"] = with_form
+        result[f"{round_prefix} – {label_date}"] = with_form
     if odds_only:
-        result[f"European R16 odds-only – {label_date}"] = odds_only
+        result[f"{round_prefix} odds-only – {label_date}"] = odds_only
 
     print(f"\n  Ready: {len(with_form)} with form, {len(odds_only)} odds-only.")
     return result
