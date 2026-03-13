@@ -68,6 +68,84 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ```
 
+## Classement Saison 3 – R16 (10–12 mars 2026)
+
+> ⚠️ Paris UEL/UECL remboursés (résultats non vérifiables via l'API gratuite). À partir de S3, les robots ne parient que sur la **UCL**.
+
+### Résultats des matchs
+
+| Match | Score | Résultat |
+|-------|-------|----------|
+| Atlético Madrid vs Tottenham Hotspur | **5 – 2** | Victoire domicile |
+| Bodø/Glimt vs Sporting Lisbon | **3 – 0** | Victoire domicile |
+| Galatasaray vs Liverpool | **1 – 0** | Victoire domicile 🚨 |
+| Atalanta BC vs Bayern Munich | **1 – 6** | Victoire extérieur |
+| Bayer Leverkusen vs Arsenal | **1 – 1** | Nul |
+
+### Classement
+
+| Rang | Bot | Mise effective | Gains bruts | Net | Paris ✅ | Paris ❌ | ROI |
+|------|-----|---------------|-------------|-----|---------|---------|-----|
+| 🥇 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | €75 | €150.75 | **€+75.75** | 2 | 1 | +101% |
+| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> **Billy Bayes** | €70 | €141.75 | **€+71.75** | 2 | 0 | +103% |
+| 🥉 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> **Way to Claude** | €120 | €154.00 | **€+34.00** | 1 | 2 | +28% |
+| #4 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> **Pat Nostat** | €50 | €77.50 | **€+27.50** | 1 | 0 | +55% |
+| #5 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> **Vent d'Ofsky** | €0 | — | **€0.00** | 0 | 0 | — |
+| #6 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> **Risky Vent d'Ofsky** | €15 | — | **€-15.00** | 0 | 1 | -100% |
+
+### Détail des paris par bot
+
+#### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> Risky Rifki — €+75.75
+
+| Match | Date | Pronostic | Cote | Mise | Résultat | Gain |
+|-------|------|-----------|------|------|----------|------|
+| Galatasaray vs Liverpool | 10/03 | Victoire dom. | 4.40 | €25 | ✅ 1–0 | **+€110.00** |
+| Atalanta BC vs Bayern Munich | 10/03 | Victoire ext. | 1.63 | €25 | ✅ 1–6 | **+€40.75** |
+| Bayer Leverkusen vs Arsenal | 11/03 | Victoire dom. | 5.60 | €25 | ❌ 1–1 nul | -€25 |
+| VfB Stuttgart vs Porto | 12/03 | Victoire dom. | 2.10 | €25 | 🔄 UEL remboursé | €0 |
+
+#### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> Billy Bayes — €+71.75
+
+| Match | Date | Pronostic | Cote | Mise | Résultat | Gain |
+|-------|------|-----------|------|------|----------|------|
+| Atlético Madrid vs Tottenham | 10/03 | Victoire dom. | 1.55 | €35 | ✅ 5–2 | **+€54.25** |
+| Bodø/Glimt vs Sporting Lisbon | 11/03 | Victoire dom. | 2.50 | €35 | ✅ 3–0 | **+€87.50** |
+
+#### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> Way to Claude — €+34.00
+
+| Match | Date | Pronostic | Cote | EV | Mise | Résultat | Gain |
+|-------|------|-----------|------|----|------|----------|------|
+| Galatasaray vs Liverpool | 10/03 | Victoire dom. | 4.40 | +39.5% | €35 | ✅ 1–0 | **+€154.00** |
+| Atalanta BC vs Bayern Munich | 10/03 | Victoire dom. | 5.20 | +38.7% | €35 | ❌ 1–6 | -€35 |
+| Bayer Leverkusen vs Arsenal | 11/03 | Victoire dom. | 5.60 | +77.5% | €50 | ❌ 1–1 nul | -€50 |
+| Bologna vs AS Roma | 12/03 | Victoire dom. | 3.10 | +29.3% | €35 | 🔄 UEL remboursé | €0 |
+| Lille vs Aston Villa | 12/03 | Victoire dom. | 3.05 | +42.4% | €35 | 🔄 UEL remboursé | €0 |
+| VfB Stuttgart vs Porto | 12/03 | Victoire ext. | 3.50 | +40.0% | €35 | 🔄 UEL remboursé | €0 |
+| Celta Vigo vs Lyon | 12/03 | Victoire ext. | 3.60 | +26.0% | €35 | 🔄 UEL remboursé | €0 |
+
+#### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> Pat Nostat — €+27.50
+
+| Match | Date | Pronostic | Cote | Mise | Résultat | Gain |
+|-------|------|-----------|------|------|----------|------|
+| Atlético Madrid vs Tottenham | 10/03 | Victoire dom. | 1.55 | €50 | ✅ 5–2 | **+€77.50** |
+
+#### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> Vent d'Ofsky — €0.00
+
+| Combiné | Pronostic | Mise | Résultat |
+|---------|-----------|------|----------|
+| Lille vs Aston Villa | Victoire dom. | €20 | 🔄 UEL remboursé |
+
+#### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> Risky Vent d'Ofsky — €-15.00
+
+Combiné de 4 matchs (mise unique €15, gain potentiel €107.84) :
+
+| Match | Date | Pronostic | Résultat |
+|-------|------|-----------|----------|
+| Atalanta BC vs Bayern Munich | 10/03 | Victoire dom. | ❌ 1–6 |
+| Atlético Madrid vs Tottenham | 10/03 | Victoire dom. | ✅ 5–2 |
+| Bayer Leverkusen vs Arsenal | 11/03 | Victoire ext. | ❌ 1–1 nul |
+| Lille vs Aston Villa | 12/03 | Victoire dom. | 🔄 UEL (non vérifié) |
+
 ## Archives
 
 # Saison 3 – UCL / UEL / UECL (09/03/2026)
