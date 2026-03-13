@@ -55,8 +55,8 @@ class Betbot:
 
     def get_bets(self, bot):  # load bets to memory
 
-        if self.id == '01':  # Billy Bayes – scrapes live data for UCL / UEL / UECL
-            self.memory['current_bets'] = scrap_fixtures_01(['UCL', 'UEL', 'UECL'])
+        if self.id == '01':  # Billy Bayes – scrapes UCL only (UEL/UECL unverifiable via free API)
+            self.memory['current_bets'] = scrap_fixtures_01(['UCL'])
 
         if self.id == '02':  # Risky Rifki – shares Billy Bayes data
             self.memory['current_bets'] = bot.getMemory()["current_bets"].copy()

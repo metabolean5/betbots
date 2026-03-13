@@ -1,8 +1,8 @@
 {
-    "total_bets_made": 3,
+    "total_bets_made": 7,
     "successful_bets": 1,
-    "unsuccessful_bets": 2,
-    "money": 34.0,
+    "unsuccessful_bets": 6,
+    "money": -106.0,
     "current_bets": {
         "European R16 \u2013 09/03/2026": [
             {
