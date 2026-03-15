@@ -70,76 +70,20 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ## Classement Saison 3
 
-> Paris UCL uniquement (UEL/UECL non vérifiables via l'API gratuite). Mode week-end : EPL + Ligue 1.
+> UCL + mode week-end (EPL / Ligue 1). UEL/UECL non vérifiables via l'API gratuite.
 
-| Rang | Bot | Net UCL | Paris ✅ | Paris ❌ | ROI |
-|------|-----|---------|---------|---------|-----|
-| 🥇 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | **€+75.75** | 2 | 1 | +101% |
-| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> **Billy Bayes** | **€+71.75** | 2 | 0 | +103% |
-| 🥉 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> **Way to Claude** | **€+34.00** | 1 | 2 | +28% |
-| #4 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> **Pat Nostat** | **€+27.50** | 1 | 0 | +55% |
-| #5 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> **Vent d'Ofsky** | **€0.00** | 0 | 0 | — |
-| #6 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> **Risky Vent d'Ofsky** | **€-15.00** | 0 | 1 | -100% |
+| Rang | Bot | Net total | Paris ✅ | Paris ❌ | ROI |
+|------|-----|-----------|---------|---------|-----|
+| 🥇 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | **€+70.75** | 3 | 4 | +40% |
+| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> **Billy Bayes** | **€+61.95** | 3 | 1 | +44% |
+| 🥉 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> **Pat Nostat** | **€+17.50** | 1 | 1 | +29% |
+| #4 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> **Vent d'Ofsky** | **€-20.00** | 0 | 1 | -100% |
+| #5 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> **Risky Vent d'Ofsky** | **€-30.00** | 0 | 2 | -100% |
+| #6 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> **Way to Claude** | **€-40.05** | 3 | 9 | -8% |
+
+> Week-end 13–16/03 : Bournemouth vs Manchester United (20/03) remboursé — match trop tardif.
 
 ---
-
-## Paris en cours — Week-end 13–16 mars 2026 (EPL / Ligue 1)
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> Billy Bayes — mise €70
-
-| Match | Compétition | Date | Pronostic | Cote | Gain potentiel |
-|-------|-------------|------|-----------|------|----------------|
-| Manchester United vs Aston Villa | EPL | 15/03 | Victoire dom. | 1.72 | €60.20 |
-| Liverpool vs Tottenham Hotspur | EPL | 15/03 | Victoire dom. | 1.28 | €44.80 |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> Risky Rifki — mise €125
-
-| Match | Compétition | Date | Pronostic | Cote | Gain potentiel |
-|-------|-------------|------|-----------|------|----------------|
-| Burnley vs Bournemouth | EPL | 14/03 | Victoire dom. | 3.95 | €98.75 |
-| Chelsea vs Newcastle United | EPL | 14/03 | Victoire ext. | 3.80 | €95.00 |
-| Lorient vs RC Lens | Ligue 1 | 14/03 | Victoire ext. | 1.85 | €46.25 |
-| Le Havre vs Lyon | Ligue 1 | 15/03 | Victoire ext. | 2.07 | €51.75 |
-| Bournemouth vs Manchester United | EPL | 20/03 | Victoire dom. | 2.90 | €72.50 |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> Pat Nostat — mise €10
-
-| Match | Compétition | Date | Pronostic | Cote | Gain potentiel |
-|-------|-------------|------|-----------|------|----------------|
-| Liverpool vs Tottenham Hotspur | EPL | 15/03 | Victoire dom. | 1.28 | €12.80 |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> Risky Vent d'Ofsky — combiné, mise €15, gain potentiel €79.56
-
-| Match | Compétition | Date | Pronostic | Cote |
-|-------|-------------|------|-----------|------|
-| Arsenal vs Everton | EPL | 14/03 | Victoire dom. | 1.40 |
-| Chelsea vs Newcastle United | EPL | 14/03 | Victoire dom. | 1.79 |
-| Marseille vs Auxerre | Ligue 1 | 13/03 | Victoire dom. | 1.43 |
-| Liverpool vs Tottenham Hotspur | EPL | 15/03 | Victoire dom. | 1.28 |
-| Bournemouth vs Manchester United | EPL | 20/03 | Victoire dom. | 2.90 |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> Vent d'Ofsky — combiné, mise €20, gain potentiel €67.14
-
-| Match | Compétition | Date | Pronostic | Cote |
-|-------|-------------|------|-----------|------|
-| Arsenal vs Everton | EPL | 14/03 | Victoire dom. | 1.40 |
-| Marseille vs Auxerre | Ligue 1 | 13/03 | Victoire dom. | 1.43 |
-| Liverpool vs Tottenham Hotspur | EPL | 15/03 | Victoire dom. | 1.28 |
-| Bournemouth vs Manchester United | EPL | 20/03 | Victoire dom. | 2.90 |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> Way to Claude — mise €360, gain potentiel cumulé €2 068.30
-
-| Match | Compétition | Date | Pronostic | Cote | Mise | Gain potentiel |
-|-------|-------------|------|-----------|------|------|----------------|
-| Burnley vs Bournemouth | EPL | 14/03 | Victoire dom. | 3.95 | €35 | €138.25 |
-| Arsenal vs Everton | EPL | 14/03 | Victoire ext. | 9.00 | €50 | €450.00 |
-| Chelsea vs Newcastle United | EPL | 14/03 | Victoire ext. | 3.80 | €35 | €133.00 |
-| Nottingham Forest vs Fulham | EPL | 15/03 | Victoire ext. | 3.30 | €35 | €115.50 |
-| Liverpool vs Tottenham Hotspur | EPL | 15/03 | Victoire ext. | 8.50 | €50 | €425.00 |
-| Marseille vs Auxerre | Ligue 1 | 13/03 | Victoire ext. | 7.22 | €50 | €361.00 |
-| Lorient vs RC Lens | Ligue 1 | 14/03 | Victoire dom. | 4.37 | €35 | €152.95 |
-| Strasbourg vs Paris FC | Ligue 1 | 15/03 | Victoire ext. | 4.54 | €35 | €158.90 |
-| Le Havre vs Lyon | Ligue 1 | 15/03 | Victoire dom. | 3.82 | €35 | €133.70 |
 
 ## Archives
 

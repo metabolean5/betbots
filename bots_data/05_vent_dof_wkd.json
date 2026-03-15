@@ -1,7 +1,7 @@
 {
     "total_bets_made": 1,
     "successful_bets": 0,
-    "unsuccessful_bets": 0,
+    "unsuccessful_bets": 1,
     "money": -20,
     "current_bets": {
         "Weekend EPL/FL1 \u2013 13/03/2026": [
@@ -518,34 +518,6 @@
                 "prediction": 3
             }
         },
-        "7": {
-            "bet_data": {
-                "event_id": "97ab90a603a65929bd77565a95e00644",
-                "cotes": {
-                    "3": "2.9",
-                    "1": "3.7",
-                    "0": "2.3"
-                },
-                "info": {
-                    "teams": "Bournemouth vs Manchester United",
-                    "competition": "Premier League",
-                    "date": "2026-03-20 20:00"
-                },
-                "last5vec": [
-                    1,
-                    1,
-                    1,
-                    3,
-                    1,
-                    0,
-                    3,
-                    3,
-                    1,
-                    3
-                ],
-                "prediction": 3
-            }
-        },
-        "potential_gain": 67.13907199999998
+        "potential_gain": 51.2512
     }
 }

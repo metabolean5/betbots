@@ -1,8 +1,8 @@
 {
     "total_bets_made": 2,
-    "successful_bets": 0,
-    "unsuccessful_bets": 0,
-    "money": -70,
+    "successful_bets": 1,
+    "unsuccessful_bets": 1,
+    "money": -9.800000000000004,
     "current_bets": {
         "Weekend EPL/FL1 \u2013 13/03/2026": [
             {

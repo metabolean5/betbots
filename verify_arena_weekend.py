@@ -54,6 +54,54 @@ _build_team_cache()
 
 _match_result_cache = {}
 
+BOURNEMOUTH_MANUTD_ID = "97ab90a603a65929bd77565a95e00644"
+
+
+def reimburse_postponed(bot, event_id):
+    """Remove a not-yet-played bet and refund the stake (or recompute combined)."""
+    mem  = bot.getMemory()
+    bets = mem["confirmed_bets"]
+
+    key_to_remove = None
+    for key, val in list(bets.items()):
+        if key == "potential_gain":
+            continue
+        if val.get("bet_data", {}).get("event_id") == event_id:
+            key_to_remove = key
+            break
+
+    if key_to_remove is None:
+        return
+
+    if bot.id in ("04", "05"):
+        # Combined bet: drop the leg and recompute potential_gain
+        del bets[key_to_remove]
+        stake = 15 if bot.id == "04" else 20
+        product = 1.0
+        for key, val in bets.items():
+            if key == "potential_gain":
+                continue
+            bd   = val.get("bet_data", {})
+            pred = str(bd.get("prediction", 3))
+            cote = float(bd.get("cotes", {}).get(pred, 1.0))
+            product *= cote
+        bets["potential_gain"] = round(stake * product, 8)
+        print(f"  [reimburse] {bot.getName()}: Bournemouth vs Man U removed from combined, "
+              f"new potential_gain=€{bets['potential_gain']:.2f}")
+    else:
+        # Standalone bet: figure out stake from potential_gain / cote and refund it
+        val  = bets[key_to_remove]
+        bd   = val.get("bet_data", {})
+        pred = str(bd.get("prediction", 3))
+        cote = float(bd.get("cotes", {}).get(pred, 1.0))
+        pg   = val.get("potential_gain", 0)
+        stake = round(pg / cote)
+        del bets[key_to_remove]
+        mem["money"]          += stake
+        mem["total_bets_made"] -= 1
+        print(f"  [reimburse] {bot.getName()}: refunded €{stake} for Bournemouth vs Man U")
+
+
 def verify_bet_robust(bet_obj, betkey):
     try:
         bd         = bet_obj["bet_data"]
@@ -138,6 +186,13 @@ def verify_bot(bot):
             mem["unsuccessful_bets"] += 1
             print(f"  → Lost")
 
+
+print("\n" + "=" * 60)
+print("  REIMBURSING POSTPONED: Bournemouth vs Manchester United")
+print("=" * 60)
+
+for bot in botlist:
+    reimburse_postponed(bot, BOURNEMOUTH_MANUTD_ID)
 
 print("\n" + "=" * 60)
 print("  VERIFYING WEEKEND BETS")
