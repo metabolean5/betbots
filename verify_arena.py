@@ -148,14 +148,17 @@ def verify_bot(bot):
 
     # ── individual-bet bots (01, 02, 03, 06) ────────────────────────────────
     for key, val in bets.items():
+        match_name = val.get("bet_data", {}).get("info", {}).get("teams", f"bet {key}")
         if verify_bet_robust(val, key):
             gain = val.get("potential_gain", 0)
             mem["money"] += gain
             mem["successful_bets"] += 1
-            print(f"  → WON +€{gain:.2f}")
+            val["result"] = "won"
+            print(f"  → {match_name}: WON +€{gain:.2f}")
         else:
             mem["unsuccessful_bets"] += 1
-            print(f"  → Lost")
+            val["result"] = "lost"
+            print(f"  → {match_name}: Lost")
 
 
 # ─── Run verification ─────────────────────────────────────────────────────────
