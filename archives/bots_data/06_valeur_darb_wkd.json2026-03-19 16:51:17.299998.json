@@ -1,0 +1,657 @@
+{
+    "total_bets_made": 18,
+    "successful_bets": 2,
+    "unsuccessful_bets": 7,
+    "money": -449.04999999999995,
+    "current_bets": {
+        "Weekend EPL/FL1 \u2013 19/03/2026": [
+            {
+                "event_id": "97ab90a603a65929bd77565a95e00644",
+                "cotes": {
+                    "3": "3.32",
+                    "1": "3.89",
+                    "0": "2.1"
+                },
+                "info": {
+                    "teams": "Bournemouth vs Manchester United",
+                    "competition": "Premier League",
+                    "date": "2026-03-20 20:00"
+                },
+                "last5vec": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "5a6fab8da714813d8037b9754f082f7f",
+                "cotes": {
+                    "3": "1.57",
+                    "1": "4.17",
+                    "0": "6.14"
+                },
+                "info": {
+                    "teams": "Fulham vs Burnley",
+                    "competition": "Premier League",
+                    "date": "2026-03-21 15:00"
+                },
+                "last5vec": [
+                    1,
+                    0,
+                    3,
+                    3,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "70a4161c6b699d029c5e4a2ebdf61fbc",
+                "cotes": {
+                    "3": "3.56",
+                    "1": "3.48",
+                    "0": "2.15"
+                },
+                "info": {
+                    "teams": "Everton vs Chelsea",
+                    "competition": "Premier League",
+                    "date": "2026-03-21 17:30"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "997cc590268f6d24e0d2e8d84a6e3389",
+                "cotes": {
+                    "3": "2.51",
+                    "1": "3.49",
+                    "0": "2.88"
+                },
+                "info": {
+                    "teams": "Leeds United vs Brentford",
+                    "competition": "Premier League",
+                    "date": "2026-03-21 20:00"
+                },
+                "last5vec": [
+                    1,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    3,
+                    0,
+                    1
+                ],
+                "prediction": 1
+            },
+            {
+                "event_id": "3def90dc9d468dd46508a5afae2d5546",
+                "cotes": {
+                    "3": "1.67",
+                    "1": "3.97",
+                    "0": "5.38"
+                },
+                "info": {
+                    "teams": "Newcastle United vs Sunderland",
+                    "competition": "Premier League",
+                    "date": "2026-03-22 12:00"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    1,
+                    3,
+                    0,
+                    0,
+                    3,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "81dd92df69b61ff2716351eea3bd457c",
+                "cotes": {
+                    "3": "2.29",
+                    "1": "3.48",
+                    "0": "3.24"
+                },
+                "info": {
+                    "teams": "Tottenham Hotspur vs Nottingham Forest",
+                    "competition": "Premier League",
+                    "date": "2026-03-22 14:15"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    1,
+                    0,
+                    0,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "5e9cd598bfdce2c8fc9ddab9b4f2b1a2",
+                "cotes": {
+                    "3": "2.01",
+                    "1": "3.06",
+                    "0": "4.72"
+                },
+                "info": {
+                    "teams": "Toulouse vs Lorient",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-21 16:00"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1,
+                    1,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "event_id": "d6d8beada392ffa902307a4b2d11cd0f",
+                "cotes": {
+                    "3": "2.38",
+                    "1": "3.28",
+                    "0": "3.24"
+                },
+                "info": {
+                    "teams": "Auxerre vs Brest",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-21 18:00"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    1,
+                    0,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 0
+            },
+            {
+                "event_id": "473d85db04b2140fe0d438eaea0dc048",
+                "cotes": {
+                    "3": "8.0",
+                    "1": "5.82",
+                    "0": "1.35"
+                },
+                "info": {
+                    "teams": "Nice vs Paris Saint Germain",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-21 20:00"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    1,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1
+                ],
+                "prediction": 0
+            },
+            {
+                "event_id": "a0ad7b61df4cabfb66f4656d633508a0",
+                "cotes": {
+                    "3": "2.07",
+                    "1": "3.08",
+                    "0": "4.44"
+                },
+                "info": {
+                    "teams": "Paris FC vs Le Havre",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-22 16:15"
+                },
+                "last5vec": [
+                    1,
+                    1,
+                    3,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "c499f45a4e6b0780fbdfc15081ce9da6",
+                "cotes": {
+                    "3": "1.95",
+                    "1": "3.75",
+                    "0": "3.91"
+                },
+                "info": {
+                    "teams": "Marseille vs Lille",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-22 16:15"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    0,
+                    1,
+                    3,
+                    1,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "a33cd7d00d0fbeb3e76c19cca2910674",
+                "cotes": {
+                    "3": "3.66",
+                    "1": "3.71",
+                    "0": "2.03"
+                },
+                "info": {
+                    "teams": "Nantes vs Strasbourg",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-22 19:45"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            }
+        ],
+        "Weekend EPL/FL1 odds-only \u2013 19/03/2026": [
+            {
+                "event_id": "6f6891624dbf3d13a1e41a24d2c7bf4c",
+                "cotes": {
+                    "3": "3.14",
+                    "1": "3.59",
+                    "0": "2.29"
+                },
+                "info": {
+                    "teams": "Brighton and Hove Albion vs Liverpool",
+                    "competition": "Premier League",
+                    "date": "2026-03-21 12:30"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "1efa28912151d6adc43453fb2302a610",
+                "cotes": {
+                    "3": "1.99",
+                    "1": "3.57",
+                    "0": "3.97"
+                },
+                "info": {
+                    "teams": "Aston Villa vs West Ham United",
+                    "competition": "Premier League",
+                    "date": "2026-03-22 14:15"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "59b457d3219b0e64e226f819c2f974d5",
+                "cotes": {
+                    "3": "1.3",
+                    "1": "5.78",
+                    "0": "10.51"
+                },
+                "info": {
+                    "teams": "RC Lens vs Angers",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-20 19:45"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "89aae2e9877ef0ac5ee8a2d58f2062dc",
+                "cotes": {
+                    "3": "2.76",
+                    "1": "3.61",
+                    "0": "2.54"
+                },
+                "info": {
+                    "teams": "Lyon vs AS Monaco",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-22 14:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "4d9f555881f265ef408467336bdff375",
+                "cotes": {
+                    "3": "1.37",
+                    "1": "5.34",
+                    "0": "8.4"
+                },
+                "info": {
+                    "teams": "Rennes vs Metz",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-22 16:15"
+                },
+                "last5vec": []
+            }
+        ]
+    },
+    "confirmed_bets": {
+        "1": {
+            "bet_data": {
+                "event_id": "5a6fab8da714813d8037b9754f082f7f",
+                "cotes": {
+                    "3": "1.57",
+                    "1": "4.17",
+                    "0": "6.14"
+                },
+                "info": {
+                    "teams": "Fulham vs Burnley",
+                    "competition": "Premier League",
+                    "date": "2026-03-21 15:00"
+                },
+                "last5vec": [
+                    1,
+                    0,
+                    3,
+                    3,
+                    0,
+                    1,
+                    0,
+                    0,
+                    1,
+                    3
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 307.0
+        },
+        "2": {
+            "bet_data": {
+                "event_id": "70a4161c6b699d029c5e4a2ebdf61fbc",
+                "cotes": {
+                    "3": "3.56",
+                    "1": "3.48",
+                    "0": "2.15"
+                },
+                "info": {
+                    "teams": "Everton vs Chelsea",
+                    "competition": "Premier League",
+                    "date": "2026-03-21 17:30"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 178.0
+        },
+        "4": {
+            "bet_data": {
+                "event_id": "3def90dc9d468dd46508a5afae2d5546",
+                "cotes": {
+                    "3": "1.67",
+                    "1": "3.97",
+                    "0": "5.38"
+                },
+                "info": {
+                    "teams": "Newcastle United vs Sunderland",
+                    "competition": "Premier League",
+                    "date": "2026-03-22 12:00"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    1,
+                    3,
+                    0,
+                    0,
+                    3,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 269.0
+        },
+        "6": {
+            "bet_data": {
+                "event_id": "5e9cd598bfdce2c8fc9ddab9b4f2b1a2",
+                "cotes": {
+                    "3": "2.01",
+                    "1": "3.06",
+                    "0": "4.72"
+                },
+                "info": {
+                    "teams": "Toulouse vs Lorient",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-21 16:00"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    1,
+                    0,
+                    3,
+                    1,
+                    1,
+                    1,
+                    3
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 236.0
+        },
+        "7": {
+            "bet_data": {
+                "event_id": "d6d8beada392ffa902307a4b2d11cd0f",
+                "cotes": {
+                    "3": "2.38",
+                    "1": "3.28",
+                    "0": "3.24"
+                },
+                "info": {
+                    "teams": "Auxerre vs Brest",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-21 18:00"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    1,
+                    0,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 113.4
+        },
+        "8": {
+            "bet_data": {
+                "event_id": "473d85db04b2140fe0d438eaea0dc048",
+                "cotes": {
+                    "3": "8.0",
+                    "1": "5.82",
+                    "0": "1.35"
+                },
+                "info": {
+                    "teams": "Nice vs Paris Saint Germain",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-21 20:00"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    0,
+                    1,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 400.0
+        },
+        "9": {
+            "bet_data": {
+                "event_id": "a0ad7b61df4cabfb66f4656d633508a0",
+                "cotes": {
+                    "3": "2.07",
+                    "1": "3.08",
+                    "0": "4.44"
+                },
+                "info": {
+                    "teams": "Paris FC vs Le Havre",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-22 16:15"
+                },
+                "last5vec": [
+                    1,
+                    1,
+                    3,
+                    1,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 155.4
+        },
+        "10": {
+            "bet_data": {
+                "event_id": "c499f45a4e6b0780fbdfc15081ce9da6",
+                "cotes": {
+                    "3": "1.95",
+                    "1": "3.75",
+                    "0": "3.91"
+                },
+                "info": {
+                    "teams": "Marseille vs Lille",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-22 16:15"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    0,
+                    1,
+                    3,
+                    1,
+                    3,
+                    3,
+                    1
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 136.85
+        },
+        "11": {
+            "bet_data": {
+                "event_id": "a33cd7d00d0fbeb3e76c19cca2910674",
+                "cotes": {
+                    "3": "3.66",
+                    "1": "3.71",
+                    "0": "2.03"
+                },
+                "info": {
+                    "teams": "Nantes vs Strasbourg",
+                    "competition": "Ligue 1",
+                    "date": "2026-03-22 19:45"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    3,
+                    0,
+                    0,
+                    1,
+                    1,
+                    1,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 73.2
+        }
+    }
+}
