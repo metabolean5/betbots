@@ -83,5 +83,66 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 > Week-end 13–16/03 : Bournemouth vs Manchester United (20/03) remboursé — match trop tardif.
 
+---
+
+## Paris en cours — Week-end 20–22 mars 2026 (EPL / Ligue 1)
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+Aucun pari ce week-end.
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+| Match | Date | Pronostic | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Bournemouth vs Manchester United | 20/03 20:00 | **Home Win** @3.32 | €25 | +€83.00 |
+| Toulouse vs Lorient | 21/03 16:00 | **Away Win** @4.72 | €25 | +€118.00 |
+| Auxerre vs Brest | 21/03 18:00 | **Home Win** @2.38 | €25 | +€59.50 |
+| Leeds United vs Brentford | 21/03 20:00 | **Home Win** @2.51 | €25 | +€62.75 |
+| Nice vs Paris Saint Germain | 21/03 20:00 | **Draw** @5.82 | €25 | +€145.50 |
+| Nantes vs Strasbourg | 22/03 19:45 | **Away Win** @2.03 | €25 | +€50.75 |
+| Tottenham Hotspur vs Nottingham Forest | 22/03 14:15 | **Home Win** @2.29 | €25 | +€57.25 |
+
+Mise totale : **€175** — Gain potentiel cumulé : **€576.75**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+| Match | Date | Pronostic | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Auxerre vs Brest | 21/03 18:00 | **Away Win** @3.24 | €10 | +€32.40 |
+
+Mise totale : **€10**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Date | Pronostic |
+|---|---|---|
+| Fulham vs Burnley | 21/03 15:00 | **Home Win** @1.57 |
+| Nice vs Paris Saint Germain | 21/03 20:00 | **Away Win** (PSG) @1.35 |
+| Everton vs Chelsea | 21/03 17:30 | **Home Win** |
+| Newcastle United vs Sunderland | 22/03 12:00 | **Home Win** |
+
+Mise : **€15** — Gain potentiel combiné : **€56.62**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
+| Match | Date | Pronostic |
+|---|---|---|
+| Nice vs Paris Saint Germain | 21/03 20:00 | **Away Win** (PSG) @1.35 |
+| Everton vs Chelsea | 21/03 17:30 | **Home Win** |
+| Newcastle United vs Sunderland | 22/03 12:00 | **Home Win** |
+
+Mise : **€20** — Gain potentiel combiné : **€48.09**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Date | Pronostic | EV | Mise | Gain potentiel |
+|---|---|---|---|---|---|
+| Fulham vs Burnley | 21/03 15:00 | **Away Win** (Burnley) @6.14 | 0.944 | €50 | +€307.00 |
+| Toulouse vs Lorient | 21/03 16:00 | **Away Win** (Lorient) @4.72 | 1.045 | €50 | +€236.00 |
+| Everton vs Chelsea | 21/03 17:30 | **Home Win** (Everton) @3.56 | 0.602 | €50 | +€178.00 |
+| Auxerre vs Brest | 21/03 18:00 | **Away Win** (Brest) @3.24 | 0.404 | €35 | +€113.40 |
+| Nice vs Paris Saint Germain | 21/03 20:00 | **Home Win** (Nice) @8.00 | 1.400 | €50 | +€400.00 |
+| Newcastle United vs Sunderland | 22/03 12:00 | **Away Win** (Sunderland) @5.38 | 0.614 | €50 | +€269.00 |
+| Paris FC vs Le Havre | 22/03 16:15 | **Away Win** (Le Havre) @4.44 | 0.406 | €35 | +€155.40 |
+| Marseille vs Lille | 22/03 16:15 | **Away Win** (Lille) @3.91 | 0.434 | €35 | +€136.85 |
+| Nantes vs Strasbourg | 22/03 19:45 | **Home Win** (Nantes) @3.66 | 0.220 | €20 | +€73.20 |
+
+Mise totale : **€375** — Gain potentiel cumulé : **€1 869.85**
+
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 <br/>Turfutodays's betbots is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 2.0 France (CC BY-SA 2.0 FR)</a>.
