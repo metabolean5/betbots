@@ -70,82 +70,18 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ## Classement Saison 3
 
-> UCL + mode week-end (EPL / Ligue 1). UEL/UECL non vérifiables via l'API gratuite.
+> UCL R16 (10–18 mars 2026) + mode week-end (EPL / Ligue 1). UEL/UECL non vérifiables via l'API gratuite.
 
 | Rang | Bot | Net total | Paris ✅ | Paris ❌ | ROI |
 |------|-----|-----------|---------|---------|-----|
-| 🥇 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | **€+70.75** | 3 | 4 | +40% |
-| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> **Billy Bayes** | **€+61.95** | 3 | 1 | +44% |
-| 🥉 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> **Pat Nostat** | **€+17.50** | 1 | 1 | +29% |
-| #4 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> **Vent d'Ofsky** | **€-20.00** | 0 | 1 | -100% |
-| #5 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> **Risky Vent d'Ofsky** | **€-30.00** | 0 | 2 | -100% |
-| #6 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> **Way to Claude** | **€-40.05** | 3 | 9 | -8% |
+| 🥇 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> **Billy Bayes** | **€+110.95** | 5 | 0 | +158% |
+| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | **€+98.25** | 3 | 2 | +98% |
+| 🥉 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> **Way to Claude** | **€+43.00** | 3 | 8 | +17% |
+| #4 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> **Vent d'Ofsky** | **€+22.59** | 1 | 0 | +113% |
+| #5 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> **Pat Nostat** | **€-19.40** | 2 | 1 | -39% |
+| #6 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> **Risky Vent d'Ofsky** | **€-30.00** | 0 | 2 | -100% |
 
 > Week-end 13–16/03 : Bournemouth vs Manchester United (20/03) remboursé — match trop tardif.
-
----
-
-## Paris en cours — UCL R16 Second Legs (17–18 mars 2026)
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
-| Match | Date | Pronostic | Mise | Gain potentiel |
-|---|---|---|---|---|
-| Arsenal vs Bayer Leverkusen | 17/03 20:00 | **Home Win** | €35 | +45.15 |
-| Barcelona vs Newcastle United | 18/03 17:45 | **Home Win** | €35 | +53.20 |
-| Bayern Munich vs Atalanta BC | 18/03 20:00 | **Home Win** | €35 | +45.85 |
-
-Mise totale : **€105**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
-| Match | Date | Pronostic | Mise | Gain potentiel |
-|---|---|---|---|---|
-| Chelsea vs Paris Saint Germain | 17/03 20:00 | **Away Win** (PSG) | €25 | +72.50 |
-| Manchester City vs Real Madrid | 17/03 20:00 | **Home Win** (Man City) | €25 | +37.50 |
-
-Mise totale : **€50**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
-| Match | Date | Pronostic | Mise | Gain potentiel |
-|---|---|---|---|---|
-| Bayern Munich vs Atalanta BC | 18/03 20:00 | **Home Win** | €10 | +13.10 |
-| Tottenham Hotspur vs Atlético Madrid | 18/03 20:00 | **Away Win** (Atlético) | €50 | +131.00 |
-
-Mise totale : **€60**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
-| Match | Date | Pronostic |
-|---|---|---|
-| Sporting Lisbon vs Bodø/Glimt | 17/03 17:45 | **Home Win** |
-| Arsenal vs Bayer Leverkusen | 17/03 20:00 | **Home Win** |
-| Manchester City vs Real Madrid | 17/03 20:00 | **Home Win** |
-| Barcelona vs Newcastle United | 18/03 17:45 | **Home Win** |
-| Bayern Munich vs Atalanta BC | 18/03 20:00 | **Home Win** |
-| Liverpool vs Galatasaray | 18/03 20:00 | **Home Win** |
-
-Mise : **€15** — Gain potentiel combiné : **119.43**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
-| Match | Date | Pronostic |
-|---|---|---|
-| Arsenal vs Bayer Leverkusen | 17/03 20:00 | **Home Win** |
-| Bayern Munich vs Atalanta BC | 18/03 20:00 | **Home Win** |
-| Liverpool vs Galatasaray | 18/03 20:00 | **Home Win** |
-
-Mise : **€20** — Gain potentiel combiné : **42.59**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
-| Match | Date | Pronostic | EV | Mise | Gain potentiel |
-|---|---|---|---|---|---|
-| Sporting Lisbon vs Bodø/Glimt | 17/03 17:45 | **Away Win** (Bodø) | — | €50 | +244.00 |
-| Arsenal vs Bayer Leverkusen | 17/03 20:00 | **Away Win** (Leverkusen) | — | €50 | +550.00 |
-| Chelsea vs Paris Saint Germain | 17/03 20:00 | **Away Win** (PSG) | — | €35 | +101.50 |
-| Manchester City vs Real Madrid | 17/03 20:00 | **Away Win** (Real Madrid) | — | €50 | +262.50 |
-| Barcelona vs Newcastle United | 18/03 17:45 | **Away Win** (Newcastle) | — | €35 | +175.00 |
-| Bayern Munich vs Atalanta BC | 18/03 20:00 | **Away Win** (Atalanta) | — | €50 | +430.50 |
-| Tottenham Hotspur vs Atlético Madrid | 18/03 20:00 | **Away Win** (Atlético) | — | €35 | +91.70 |
-| Liverpool vs Galatasaray | 18/03 20:00 | **Away Win** (Galatasaray) | — | €50 | +482.00 |
-
-Mise totale : **€355** — Gain potentiel cumulé : **€2337.20**
 
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 <br/>Turfutodays's betbots is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 2.0 France (CC BY-SA 2.0 FR)</a>.
