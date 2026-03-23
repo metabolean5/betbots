@@ -33,6 +33,9 @@ if os.path.exists("config.json"):
 
 FOOTBALL_DATA_KEY = _cfg.get("FOOTBALL_DATA_KEY", "")
 ODDS_API_KEY      = _cfg.get("ODDS_API_KEY", "")
+AF_API_KEY = _cfg.get("API_FOOTBALL_KEY", "")
+AF_BASE    = "https://v3.football.api-sports.io"
+AF_HEADERS = {"x-apisports-key": AF_API_KEY}
 
 FD_BASE   = "https://api.football-data.org/v4"
 ODDS_BASE = "https://api.the-odds-api.com/v4"
@@ -50,6 +53,7 @@ ODDS_SPORTS = {
     "UECL": "soccer_uefa_europa_conference_league",
     "EPL":  "soccer_epl",
     "FL1":  "soccer_france_ligue_one",
+    "WCQ":  "soccer_fifa_world_cup_qualifiers_europe",
 }
 
 COMP_NAMES = {
@@ -77,6 +81,13 @@ def _fd_get(path, params=None):
 def _odds_get(path, params=None):
     url  = ODDS_BASE + path
     resp = requests.get(url, params=params, timeout=20)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def _af_get(path, params=None):
+    url  = AF_BASE + path
+    resp = requests.get(url, headers=AF_HEADERS, params=params, timeout=20)
     resp.raise_for_status()
     return resp.json()
 
@@ -217,6 +228,437 @@ def get_team_form(team_id, n=5):
         print(f"  [warn] No form for team {team_id}: {e}")
         time.sleep(7)
         return []
+
+
+# ─── API-Football (api-sports.io) — national teams ───────────────────────────
+
+_AF_NAME_ALIASES = {
+    "bosnia & herzegovina": "bosnia",
+    "north macedonia":      "north macedonia",
+    "northern ireland":     "northern ireland",
+    "czechia":              "czech republic",
+    "ireland":              "republic of ireland",
+    "turkiye":              "turkey",
+}
+
+_af_team_cache  = {}   # _norm(name) → api-football team ID
+_af_form_cache  = {}   # team_id → list[3/1/0]
+_af_result_cache = {}  # (norm_home, norm_away, date_str) → truth or None
+
+
+def _build_af_team_cache(team_names):
+    """Look up API-Football IDs for a list of national team names (one API call each)."""
+    for name in team_names:
+        key = _norm(name)
+        if key in _af_team_cache:
+            continue
+        search_name = _AF_NAME_ALIASES.get(key, name)
+        print(f"  [AF] Searching: {search_name}")
+        try:
+            data = _af_get("/teams", params={"search": search_name})
+            found = False
+            for item in data.get("response", []):
+                t = item.get("team", {})
+                if not t.get("national"):
+                    continue
+                # Skip youth / women teams (contain "U17", "U21", " W", etc.)
+                if any(x in t.get("name", "") for x in [" U1", " U2", " U3", " W "]):
+                    continue
+                _af_team_cache[key] = t["id"]
+                print(f"    → id={t['id']} ({t['name']})")
+                found = True
+                break
+            if not found:
+                print(f"    → not found")
+        except Exception as e:
+            print(f"    → [error] {e}")
+        time.sleep(7)
+
+
+def get_team_form_af(team_id, n=5):
+    """Last n match results for a national team via API-Football (3=W, 1=D, 0=L)."""
+    if team_id in _af_form_cache:
+        return _af_form_cache[team_id]
+    try:
+        data    = _af_get("/fixtures", params={"team": team_id, "season": 2024})
+        matches = sorted(
+            data.get("response", []),
+            key=lambda m: m["fixture"]["date"],
+            reverse=True,
+        )
+        form = []
+        for m in matches:
+            if len(form) >= n:
+                break
+            if m["fixture"]["status"]["short"] != "FT":
+                continue
+            h = m["goals"]["home"]
+            a = m["goals"]["away"]
+            if h is None or a is None:
+                continue
+            is_home = m["teams"]["home"]["id"] == team_id
+            if h > a:
+                form.append(3 if is_home else 0)
+            elif h < a:
+                form.append(0 if is_home else 3)
+            else:
+                form.append(1)
+        time.sleep(7)
+        _af_form_cache[team_id] = form
+        return form
+    except Exception as e:
+        print(f"  [warn] No AF form for team {team_id}: {e}")
+        time.sleep(7)
+        return []
+
+
+def scrap_fixtures_wcq(cutoff_dt=None):
+    """
+    Scrape WCQ Europe fixtures up to cutoff_dt.
+    Fixtures + odds from The Odds API; form from API-Football.
+    Returns { round_label: [ fixture, ... ] }
+    """
+    today = datetime.date.today()
+    if cutoff_dt is None:
+        cutoff_dt = datetime.datetime(today.year, today.month, today.day) + datetime.timedelta(days=8)
+
+    _af_form_cache.clear()
+    label_date = today.strftime("%d/%m/%Y")
+
+    print(f"\n  [WCQ] Fetching fixtures + odds from The Odds API...")
+    try:
+        games = _odds_get("/sports/soccer_fifa_world_cup_qualifiers_europe/odds/", params={
+            "apiKey":     ODDS_API_KEY,
+            "regions":    "eu",
+            "markets":    "h2h",
+            "oddsFormat": "decimal",
+            "dateFormat": "iso",
+        })
+    except Exception as e:
+        print(f"  [error] Could not fetch WCQ odds: {e}")
+        return {}
+
+    upcoming = []
+    today_dt  = datetime.datetime(today.year, today.month, today.day)
+    for g in games:
+        commence = g.get("commence_time", "")
+        if not commence:
+            continue
+        try:
+            dt = datetime.datetime.fromisoformat(commence.replace("Z", "+00:00")).replace(tzinfo=None)
+            if today_dt <= dt < cutoff_dt:
+                upcoming.append((dt, g))
+        except Exception:
+            pass
+
+    if not upcoming:
+        print("  No WCQ fixtures found in the given date range.")
+        return {}
+
+    # Build API-Football team ID cache for all involved teams
+    all_names = list({name for _, g in upcoming for name in (g["home_team"], g["away_team"])})
+    print(f"\n  [WCQ] Looking up {len(all_names)} national team IDs via API-Football...")
+    _build_af_team_cache(all_names)
+
+    with_form = []
+    odds_only = []
+
+    for dt, game in upcoming:
+        home_name    = game["home_team"]
+        away_name    = game["away_team"]
+        event_id     = game["id"]
+        commence_str = game["commence_time"][:16].replace("T", " ")
+
+        # Parse odds from first EU bookmaker
+        odds = {"3": "2.00", "1": "3.50", "0": "3.00"}
+        for bm in game.get("bookmakers", []):
+            for mkt in bm.get("markets", []):
+                if mkt.get("key") != "h2h":
+                    continue
+                out = {o["name"]: o["price"] for o in mkt.get("outcomes", [])}
+                h = out.get(home_name, 2.00)
+                a = out.get(away_name, 3.00)
+                d = next((v for k, v in out.items() if k not in (home_name, away_name)), 3.50)
+                odds = {"3": str(round(h, 2)), "1": str(round(d, 2)), "0": str(round(a, 2))}
+                break
+            break
+
+        home_af  = _af_team_cache.get(_norm(home_name))
+        away_af  = _af_team_cache.get(_norm(away_name))
+        last5vec = []
+
+        if home_af and away_af:
+            h_form   = get_team_form_af(home_af)
+            a_form   = get_team_form_af(away_af)
+            last5vec = h_form[:5] + a_form[:5]
+
+        fixture = {
+            "event_id": event_id,
+            "cotes":    odds,
+            "info": {
+                "teams":       f"{home_name} vs {away_name}",
+                "competition": "WCQ Europe",
+                "date":        commence_str,
+            },
+            "last5vec": last5vec,
+        }
+
+        if len(last5vec) >= 6:
+            print(f"    ✓ {home_name} vs {away_name}  (form OK, odds {odds['3']}/{odds['1']}/{odds['0']})")
+            with_form.append(fixture)
+        else:
+            print(f"    ~ {home_name} vs {away_name}  (no form, odds only)")
+            odds_only.append(fixture)
+
+    result = {}
+    if with_form:
+        result[f"WCQ Europe – {label_date}"] = with_form
+    if odds_only:
+        result[f"WCQ Europe odds-only – {label_date}"] = odds_only
+
+    print(f"\n  Ready: {len(with_form)} with form, {len(odds_only)} odds-only.")
+    return result
+
+
+# ─── Sportradar Gismo API ─────────────────────────────────────────────────────
+
+SR_GISMO_BASE  = "https://stats.fn.sportradar.com/bet365/en/Europe:Berlin/gismo"
+SR_HEADERS     = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0",
+    "Referer":    "https://s5.sir.sportradar.com/",
+}
+WCQ_SR_SEASON  = 127075   # FIFA WCQ UEFA 2026
+
+# Sportradar name → The Odds API name (when they differ)
+_SR_TO_ODDS = {
+    "Turkiye":                "Turkey",
+    "Bosnia and Herzegovina": "Bosnia & Herzegovina",
+}
+
+
+def _sr_get(path):
+    url  = SR_GISMO_BASE + "/" + path.lstrip("/")
+    resp = requests.get(url, headers=SR_HEADERS, timeout=20)
+    resp.raise_for_status()
+    return resp.json()
+
+
+def _sr_team_form(team_id, all_matches, n=5):
+    """
+    Compute last n form results for team_id from completed season matches.
+    Returns list of [3=W, 1=D, 0=L], most-recent first.
+    """
+    now_uts = int(time.time())
+    played = [
+        m for m in all_matches
+        if (m["teams"]["home"]["_id"] == team_id or m["teams"]["away"]["_id"] == team_id)
+        and m["time"]["uts"] < now_uts
+        and m.get("periods", {}).get("ft", {}).get("home") is not None
+    ]
+    played.sort(key=lambda m: m["time"]["uts"], reverse=True)
+    form = []
+    for m in played:
+        if len(form) >= n:
+            break
+        is_home = m["teams"]["home"]["_id"] == team_id
+        h = m["periods"]["ft"]["home"]
+        a = m["periods"]["ft"]["away"]
+        if h > a:
+            form.append(3 if is_home else 0)
+        elif h < a:
+            form.append(0 if is_home else 3)
+        else:
+            form.append(1)
+    return form
+
+
+def scrap_fixtures_wcq_sr(days_ahead=8):
+    """
+    Scrape WCQ Europe upcoming fixtures via Sportradar gismo API (no browser).
+    Form is computed from the season's completed matches.
+    Odds are fetched from The Odds API.
+    Returns { round_label: [ fixture, ... ] }
+    """
+    today      = datetime.date.today()
+    label_date = today.strftime("%d/%m/%Y")
+    now_uts    = int(time.time())
+    cutoff_uts = now_uts + days_ahead * 86400
+
+    print(f"\n  [WCQ-SR] Fetching season fixtures from Sportradar gismo API...")
+    try:
+        data = _sr_get(f"stats_season_fixtures2/{WCQ_SR_SEASON}/1")
+    except Exception as e:
+        print(f"  [error] Sportradar API failed: {e}")
+        return {}
+
+    all_matches = data["doc"][0]["data"]["matches"]
+
+    # Upcoming real matches (exclude TBD playoff slots like "Wsf1")
+    _tbd = {"Wsf1", "Wsf2", "Wsf3", "Wsf4", "Wsf5", "Wsf6", "Wsf7", "Wsf8"}
+    upcoming = [
+        m for m in all_matches
+        if now_uts <= m["time"]["uts"] < cutoff_uts
+        and m["teams"]["home"]["name"] not in _tbd
+        and m["teams"]["away"]["name"] not in _tbd
+    ]
+
+    if not upcoming:
+        print("  No WCQ fixtures found in the given date range.")
+        return {}
+
+    print(f"  Found {len(upcoming)} upcoming fixtures.")
+
+    # ── Odds from The Odds API ──────────────────────────────────────────────
+    print(f"\n  [WCQ-SR] Fetching odds from The Odds API...")
+    odds_lookup = {}   # (_norm(home), _norm(away)) → {"3":..., "1":..., "0":...}
+    try:
+        games = _odds_get("/sports/soccer_fifa_world_cup_qualifiers_europe/odds/", params={
+            "apiKey":     ODDS_API_KEY,
+            "regions":    "eu",
+            "markets":    "h2h",
+            "oddsFormat": "decimal",
+            "dateFormat": "iso",
+        })
+        for g in games:
+            for bm in g.get("bookmakers", []):
+                for mkt in bm.get("markets", []):
+                    if mkt.get("key") != "h2h":
+                        continue
+                    out = {o["name"]: o["price"] for o in mkt.get("outcomes", [])}
+                    hv = out.get(g["home_team"], 2.00)
+                    av = out.get(g["away_team"], 3.00)
+                    dv = next((v for k, v in out.items()
+                               if k not in (g["home_team"], g["away_team"])), 3.50)
+                    odds_lookup[(_norm(g["home_team"]), _norm(g["away_team"]))] = {
+                        "3": str(round(hv, 2)),
+                        "1": str(round(dv, 2)),
+                        "0": str(round(av, 2)),
+                    }
+                    break
+                break
+    except Exception as e:
+        print(f"  [warn] Could not fetch Odds API data: {e}")
+
+    # ── Build fixtures ──────────────────────────────────────────────────────
+    with_form = []
+    odds_only = []
+
+    for m in sorted(upcoming, key=lambda x: x["time"]["uts"]):
+        sr_home  = m["teams"]["home"]["name"]
+        sr_away  = m["teams"]["away"]["name"]
+        home_id  = m["teams"]["home"]["_id"]
+        away_id  = m["teams"]["away"]["_id"]
+        match_id = str(m["_id"])
+
+        # "26/03/26" + "18:00" → "2026-03-26 18:00"
+        dd, mm, yy = m["time"]["date"].split("/")
+        date_str = f"20{yy}-{mm}-{dd} {m['time']['time']}"
+
+        # Look up odds with fallback aliases
+        odds_home = _SR_TO_ODDS.get(sr_home, sr_home)
+        odds_away = _SR_TO_ODDS.get(sr_away, sr_away)
+        odds = odds_lookup.get((_norm(odds_home), _norm(odds_away)))
+        if odds is None:
+            # Fuzzy scan (substring match)
+            nh, na = _norm(odds_home), _norm(odds_away)
+            for (kh, ka), v in odds_lookup.items():
+                if (nh in kh or kh in nh) and (na in ka or ka in na):
+                    odds = v
+                    break
+        if odds is None:
+            odds = {"3": "2.00", "1": "3.50", "0": "3.00"}
+
+        # Form from season data
+        h_form   = _sr_team_form(home_id, all_matches)
+        a_form   = _sr_team_form(away_id, all_matches)
+        last5vec = h_form[:5] + a_form[:5]
+
+        fixture = {
+            "event_id": match_id,
+            "cotes":    odds,
+            "info": {
+                "teams":       f"{sr_home} vs {sr_away}",
+                "competition": "WCQ Europe",
+                "date":        date_str,
+            },
+            "last5vec": last5vec,
+        }
+
+        if len(last5vec) >= 6:
+            print(f"    ✓ {sr_home} vs {sr_away}  (form OK, odds {odds['3']}/{odds['1']}/{odds['0']})")
+            with_form.append(fixture)
+        else:
+            print(f"    ~ {sr_home} vs {sr_away}  (no form, odds only)")
+            odds_only.append(fixture)
+
+    result = {}
+    if with_form:
+        result[f"WCQ Europe – {label_date}"] = with_form
+    if odds_only:
+        result[f"WCQ Europe odds-only – {label_date}"] = odds_only
+
+    print(f"\n  Ready: {len(with_form)} with form, {len(odds_only)} odds-only.")
+    return result
+
+
+def verify_bet_wcq(bet_obj, betkey):
+    """Verify a WCQ bet result via API-Football."""
+    try:
+        bd         = bet_obj["bet_data"]
+        home_name, away_name = bd["info"]["teams"].split(" vs ", 1)
+        date_str   = bd["info"].get("date", "")[:10]
+        prediction = int(bd.get("prediction", -1))
+
+        cache_key = (_norm(home_name), _norm(away_name), date_str)
+        if cache_key in _af_result_cache:
+            truth = _af_result_cache[cache_key]
+            if truth is None:
+                print(f"  Not finished yet (cached).")
+                return False
+            print(f"  {bd['info']['teams']} | truth={truth} prediction={prediction} (cached)")
+            return prediction == truth
+
+        home_af = _af_team_cache.get(_norm(home_name))
+        if not home_af:
+            print(f"  [warn] No AF ID for '{home_name}' — cannot verify.")
+            return False
+        away_af = _af_team_cache.get(_norm(away_name))
+
+        data = _af_get("/fixtures", params={"team": home_af, "date": date_str})
+        time.sleep(7)
+
+        for m in data.get("response", []):
+            af_away_id = m["teams"]["away"]["id"]
+            if away_af and af_away_id != away_af:
+                continue
+            if not away_af:
+                if _norm(m["teams"]["away"]["name"]) != _norm(away_name):
+                    continue
+
+            status = m["fixture"]["status"]["short"]
+            if status != "FT":
+                _af_result_cache[cache_key] = None
+                print(f"  Match not finished (status={status}).")
+                return False
+
+            h = m["goals"]["home"]
+            a = m["goals"]["away"]
+            if h is None or a is None:
+                _af_result_cache[cache_key] = None
+                print(f"  Match not finished yet.")
+                return False
+
+            truth = 3 if h > a else (1 if h == a else 0)
+            _af_result_cache[cache_key] = truth
+            print(f"  {m['teams']['home']['name']} {h}–{a} {m['teams']['away']['name']}"
+                  f"  | truth={truth} prediction={prediction}")
+            return prediction == truth
+
+        print(f"  Result not found for '{bd['info']['teams']}' on {date_str}.")
+        return False
+    except Exception as e:
+        print(f"  [error] {betkey}: {e}")
+        return False
 
 
 # ─── Main scraping function ───────────────────────────────────────────────────

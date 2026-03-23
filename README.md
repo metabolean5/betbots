@@ -85,6 +85,60 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ---
 
+## Paris — WCQ Europe (Playoffs, 26 mars 2026)
+
+> Qualifications Coupe du Monde 2026 – Demi-finales playoffs UEFA. Données scrappées via l'API Sportradar gismo.
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+| Match | Pronostic | Cote | Gain potentiel |
+|---|---|---|---|
+| Italy vs Northern Ireland | **Italy W** | @1.33 | +€46.55 |
+| Ukraine vs Sweden | **Ukraine W** | @3.07 | +€107.45 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+| Match | Pronostic | Cote | Gain potentiel |
+|---|---|---|---|
+| Czechia vs Ireland | **Czechia W** | @2.03 | +€50.75 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+| Match | Pronostic | Cote | Gain potentiel |
+|---|---|---|---|
+| Ukraine vs Sweden | **Ukraine W** | @3.07 | +€30.70 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote |
+|---|---|---|
+| Turkiye vs Romania | Turkiye W | @1.40 |
+| Italy vs Northern Ireland | Italy W | @1.33 |
+| Denmark vs North Macedonia | Denmark W | @1.36 |
+
+Gain potentiel combiné : **+€37.98**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote |
+|---|---|---|
+| Turkiye vs Romania | Turkiye W | @1.40 |
+| Italy vs Northern Ireland | Italy W | @1.33 |
+| Denmark vs North Macedonia | Denmark W | @1.36 |
+
+Gain potentiel combiné : **+€50.65**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Pronostic | EV estimé | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Turkiye vs Romania | **Romania W** | — | €50 | +€330 |
+| Wales vs Bosnia and Herzegovina | **Bosnia W** | — | €35 | +€148.75 |
+| Poland vs Albania | **Albania W** | — | €50 | +€297 |
+| Slovakia vs Kosovo | **Kosovo W** | — | €35 | +€145.60 |
+| Czechia vs Ireland | **Ireland W** | — | €35 | +€145.60 |
+| Italy vs Northern Ireland | **Northern Ireland W** | — | €50 | +€620 |
+| Ukraine vs Sweden | **Ukraine W** | — | €50 | +€153.50 |
+| Denmark vs North Macedonia | **North Macedonia W** | — | €50 | +€530 |
+
+> Way to Claude joue tous les outsiders (sauf Ukraine) — stratégie contrariante maximale.
+
+---
+
 ## Résultats — Week-end 20–22 mars 2026 (EPL / Ligue 1)
 
 ### Résultats des matchs
