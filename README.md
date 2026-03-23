@@ -89,6 +89,19 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 > Qualifications Coupe du Monde 2026 – Demi-finales playoffs UEFA. Données scrappées via l'API Sportradar gismo.
 
+### Programme du 26 mars 2026
+
+| Heure | Match | Stade |
+|---|---|---|
+| 18:00 | Turkiye vs Romania | Tupras Stadium, Istanbul |
+| 20:45 | Wales vs Bosnia and Herzegovina | Cardiff City Stadium, Cardiff |
+| 20:45 | Poland vs Albania | National Stadium Warsaw, Varsovie |
+| 20:45 | Slovakia vs Kosovo | Tehelne Pole Stadion, Bratislava |
+| 20:45 | Czechia vs Ireland | Fortuna Arena, Prague |
+| 20:45 | Italy vs Northern Ireland | Gewiss Stadium, Bergame |
+| 20:45 | Ukraine vs Sweden | Ciutat de Valencia, Valence |
+| 20:45 | Denmark vs North Macedonia | Parken Stadium, Copenhague |
+
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
 | Match | Pronostic | Cote | Gain potentiel |
 |---|---|---|---|
