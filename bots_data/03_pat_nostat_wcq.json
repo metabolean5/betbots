@@ -1,8 +1,145 @@
 {
-    "total_bets_made": 1,
+    "total_bets_made": 2,
     "successful_bets": 0,
     "unsuccessful_bets": 1,
-    "money": -10,
-    "current_bets": {},
-    "confirmed_bets": {}
+    "money": -20,
+    "current_bets": {
+        "WCQ Europe \u2013 27/03/2026": [
+            {
+                "event_id": "65901000",
+                "cotes": {
+                    "3": "6.35",
+                    "1": "3.78",
+                    "0": "1.64"
+                },
+                "info": {
+                    "teams": "Bosnia and Herzegovina vs Italy",
+                    "competition": "WCQ Europe",
+                    "date": "2026-03-31 20:45"
+                },
+                "last5vec": [
+                    1,
+                    1,
+                    3,
+                    1,
+                    0,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "event_id": "65901002",
+                "cotes": {
+                    "3": "2.02",
+                    "1": "3.37",
+                    "0": "3.47"
+                },
+                "info": {
+                    "teams": "Sweden vs Poland",
+                    "competition": "WCQ Europe",
+                    "date": "2026-03-31 20:45"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3,
+                    3,
+                    1,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "event_id": "65901008",
+                "cotes": {
+                    "3": "4.1",
+                    "1": "3.75",
+                    "0": "1.92"
+                },
+                "info": {
+                    "teams": "Kosovo vs Turkiye",
+                    "competition": "WCQ Europe",
+                    "date": "2026-03-31 20:45"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    3,
+                    3,
+                    1,
+                    3,
+                    1,
+                    3,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "65901016",
+                "cotes": {
+                    "3": "4.0",
+                    "1": "3.38",
+                    "0": "2.06"
+                },
+                "info": {
+                    "teams": "Czechia vs Denmark",
+                    "competition": "WCQ Europe",
+                    "date": "2026-03-31 20:45"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    0,
+                    1,
+                    3,
+                    3,
+                    0,
+                    1,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            }
+        ]
+    },
+    "confirmed_bets": {
+        "1": {
+            "bet_data": {
+                "event_id": "65901002",
+                "cotes": {
+                    "3": "2.02",
+                    "1": "3.37",
+                    "0": "3.47"
+                },
+                "info": {
+                    "teams": "Sweden vs Poland",
+                    "competition": "WCQ Europe",
+                    "date": "2026-03-31 20:45"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3,
+                    3,
+                    1,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 34.7
+        }
+    }
 }

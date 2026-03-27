@@ -153,6 +153,56 @@ Gain potentiel combiné : **+€50.65**
 
 ---
 
+## Paris — WCQ Europe (Finales Playoffs, 31 mars 2026)
+
+> Qualifications Coupe du Monde 2026 – Finales playoffs UEFA. Données scrappées via `betting_arena_wcq.py`.
+
+### Programme du 31 mars 2026
+
+| Heure | Match | Cotes (dom / nul / ext) |
+|---|---|---|
+| 20:45 | Bosnia and Herzegovina vs Italy | @6.35 / @3.78 / @1.64 |
+| 20:45 | Sweden vs Poland | @2.02 / @3.37 / @3.47 |
+| 20:45 | Kosovo vs Turkiye | @4.10 / @3.75 / @1.92 |
+| 20:45 | Czechia vs Denmark | @4.00 / @3.38 / @2.06 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+Aucun pari ce round (aucune prédiction ne dépasse le seuil de confiance de 60%).
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Bosnia and Herzegovina vs Italy | **Italy W** | @1.64 | €25 | €41.00 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Sweden vs Poland | **Poland W** | @3.47 | €10 | €34.70 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote |
+|---|---|---|
+| Bosnia and Herzegovina vs Italy | Italy W | @1.64 |
+
+Mise combinée : **€15** — Gain potentiel : **€24.60**
+
+> Seule Italy @1.64 passe le seuil < 1.65.
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky
+Aucun pari ce round (aucune cote ne passe le seuil < 1.50).
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Bosnia and Herzegovina vs Italy | **Bosnia W** | @6.35 | €50 | €317.50 |
+| Sweden vs Poland | **Poland W** | @3.47 | €50 | €173.50 |
+| Kosovo vs Turkiye | **Kosovo W** | @4.10 | €35 | €143.50 |
+| Czechia vs Denmark | **Czechia W** | @4.00 | €35 | €140.00 |
+
+> Way to Claude joue les 4 outsiders à domicile — stratégie EV contrariante.
+
+---
+
 ## Résultats — WCQ Europe (Playoffs, 26 mars 2026)
 
 ### Résultats des matchs
