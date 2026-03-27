@@ -75,81 +75,13 @@ array([[0.07342209, 0.14820677, 0.77837113],
 | Rang | Bot | Net total | Paris ✅ | Paris ❌ | Total |
 |------|-----|-----------|---------|---------|-------|
 | 🥇 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> **Way to Claude** | **€+117.15** | 10 | 27 | 37 |
-| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> **Billy Bayes** | **€+77.70** | 7 | 2 | 9 |
-| 🥉 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | **€+28.50** | 6 | 10 | 16 |
+| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | **€+79.25** | 7 | 9 | 16 |
+| 🥉 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> **Billy Bayes** | **€+77.70** | 7 | 2 | 9 |
 | #4 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> **Vent d'Ofsky** | **€+13.24** | 2 | 2 | 7 |
 | #5 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> **Risky Vent d'Ofsky** | **€-37.02** | 1 | 4 | 10 |
 | #6 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> **Pat Nostat** | **€-49.40** | 2 | 4 | 6 |
 
-> Week-end 20–22/03 : Bournemouth vs Manchester United remboursé (match reporté).
-> WCQ 26/03 : Way to Claude survit grâce à Kosovo ✅ + Bosnia ✅ (résultat incluant tirs au but) = -€60.65 sur la journée. Les combinés Turkiye+Italy+Denmark gagnent pour Vent d'Ofsky et Risky Vent d'Ofsky.
-
----
-
-## Paris — WCQ Europe (Playoffs, 26 mars 2026)
-
-> Qualifications Coupe du Monde 2026 – Demi-finales playoffs UEFA. Données scrappées via l'API Sportradar gismo.
-
-### Programme du 26 mars 2026
-
-| Heure | Match | Stade |
-|---|---|---|
-| 18:00 | Turkiye vs Romania | Tupras Stadium, Istanbul |
-| 20:45 | Wales vs Bosnia and Herzegovina | Cardiff City Stadium, Cardiff |
-| 20:45 | Poland vs Albania | National Stadium Warsaw, Varsovie |
-| 20:45 | Slovakia vs Kosovo | Tehelne Pole Stadion, Bratislava |
-| 20:45 | Czechia vs Ireland | Fortuna Arena, Prague |
-| 20:45 | Italy vs Northern Ireland | Gewiss Stadium, Bergame |
-| 20:45 | Ukraine vs Sweden | Ciutat de Valencia, Valence |
-| 20:45 | Denmark vs North Macedonia | Parken Stadium, Copenhague |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
-| Match | Pronostic | Cote | Gain potentiel |
-|---|---|---|---|
-| Italy vs Northern Ireland | **Italy W** | @1.33 | +€46.55 |
-| Ukraine vs Sweden | **Ukraine W** | @3.07 | +€107.45 |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
-| Match | Pronostic | Cote | Gain potentiel |
-|---|---|---|---|
-| Czechia vs Ireland | **Czechia W** | @2.03 | +€50.75 |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
-| Match | Pronostic | Cote | Gain potentiel |
-|---|---|---|---|
-| Ukraine vs Sweden | **Ukraine W** | @3.07 | +€30.70 |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
-| Match | Pronostic | Cote |
-|---|---|---|
-| Turkiye vs Romania | Turkiye W | @1.40 |
-| Italy vs Northern Ireland | Italy W | @1.33 |
-| Denmark vs North Macedonia | Denmark W | @1.36 |
-
-Gain potentiel combiné : **+€37.98**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
-| Match | Pronostic | Cote |
-|---|---|---|
-| Turkiye vs Romania | Turkiye W | @1.40 |
-| Italy vs Northern Ireland | Italy W | @1.33 |
-| Denmark vs North Macedonia | Denmark W | @1.36 |
-
-Gain potentiel combiné : **+€50.65**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
-| Match | Pronostic | EV estimé | Mise | Gain potentiel |
-|---|---|---|---|---|
-| Turkiye vs Romania | **Romania W** | — | €50 | +€330 |
-| Wales vs Bosnia and Herzegovina | **Bosnia W** | — | €35 | +€148.75 |
-| Poland vs Albania | **Albania W** | — | €50 | +€297 |
-| Slovakia vs Kosovo | **Kosovo W** | — | €35 | +€145.60 |
-| Czechia vs Ireland | **Ireland W** | — | €35 | +€145.60 |
-| Italy vs Northern Ireland | **Northern Ireland W** | — | €50 | +€620 |
-| Ukraine vs Sweden | **Ukraine W** | — | €50 | +€153.50 |
-| Denmark vs North Macedonia | **North Macedonia W** | — | €50 | +€530 |
-
-> Way to Claude joue tous les outsiders (sauf Ukraine) — stratégie contrariante maximale.
+> WCQ 26/03 : résultats comptant la qualification (tirs au but inclus). Way to Claude : Kosovo ✅ + Bosnia ✅ (-€60.65). Risky Rifki : Czechia ✅ (+€25.75). Les combinés Turkiye+Italy+Denmark gagnent pour les Vent d'Ofsky.
 
 ---
 
@@ -219,58 +151,58 @@ Aucun pari ce round (aucune cote ne passe le seuil < 1.50).
 | 20:45 | Denmark vs North Macedonia | **4–0** | Victoire Denmark |
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
-| Match | Pronostic | Résultat | Gain |
-|---|---|---|---|
-| Italy vs Northern Ireland | Italy W @1.33 | ✅ 2–0 | **+€11.55** |
-| Ukraine vs Sweden | Ukraine W @3.07 | ❌ 1–3 | -€35 |
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Italy vs Northern Ireland | Italy W | @1.33 | €35 | ✅ 2–0 | **+€11.55** |
+| Ukraine vs Sweden | Ukraine W | @3.07 | €35 | ❌ 1–3 | -€35 |
 
-Bilan WCQ : **1✅ 1❌** — **€-23.45**
+Bilan : **1✅ 1❌** — **€-23.45**
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
-| Match | Pronostic | Résultat | Gain |
-|---|---|---|---|
-| Czechia vs Ireland | Czechia W @2.03 | ❌ 2–2 (nul 90') | -€25 |
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Czechia vs Ireland | **Czechia W** | @2.03 | €25 | ✅ 2–2 (qualifiée pen. 4–3) | **+€25.75** |
 
-Bilan WCQ : **0✅ 1❌** — **€-25**
+Bilan : **1✅ 0❌** — **+€25.75**
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
-| Match | Pronostic | Résultat | Gain |
-|---|---|---|---|
-| Ukraine vs Sweden | Ukraine W @3.07 | ❌ 1–3 | -€10 |
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Ukraine vs Sweden | Ukraine W | @3.07 | €10 | ❌ 1–3 | -€10 |
 
-Bilan WCQ : **0✅ 1❌** — **€-10**
+Bilan : **0✅ 1❌** — **€-10**
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
-| Match | Pronostic | Résultat |
-|---|---|---|
-| Turkiye vs Romania | Turkiye W @1.40 | ✅ 1–0 |
-| Italy vs Northern Ireland | Italy W @1.33 | ✅ 2–0 |
-| Denmark vs North Macedonia | Denmark W @1.36 | ✅ 4–0 |
+| Match | Pronostic | Cote | Résultat |
+|---|---|---|---|
+| Turkiye vs Romania | Turkiye W | @1.40 | ✅ 1–0 |
+| Italy vs Northern Ireland | Italy W | @1.33 | ✅ 2–0 |
+| Denmark vs North Macedonia | Denmark W | @1.36 | ✅ 4–0 |
 
-Combiné **GAGNÉ** — **+€22.98**
+Mise : **€15** — Combiné **GAGNÉ** — **+€22.98**
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
-| Match | Pronostic | Résultat |
-|---|---|---|
-| Turkiye vs Romania | Turkiye W @1.40 | ✅ 1–0 |
-| Italy vs Northern Ireland | Italy W @1.33 | ✅ 2–0 |
-| Denmark vs North Macedonia | Denmark W @1.36 | ✅ 4–0 |
+| Match | Pronostic | Cote | Résultat |
+|---|---|---|---|
+| Turkiye vs Romania | Turkiye W | @1.40 | ✅ 1–0 |
+| Italy vs Northern Ireland | Italy W | @1.33 | ✅ 2–0 |
+| Denmark vs North Macedonia | Denmark W | @1.36 | ✅ 4–0 |
 
-Combiné **GAGNÉ** — **+€30.65**
+Mise : **€20** — Combiné **GAGNÉ** — **+€30.65**
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
-| Match | Pronostic | Résultat | Gain |
-|---|---|---|---|
-| Turkiye vs Romania | Romania W @6.60 | ❌ 1–0 | -€50 |
-| Wales vs Bosnia | **Bosnia W** @4.25 | ✅ qualifiée (1–1, pen. 2–4) | **+€113.75** |
-| Poland vs Albania | Albania W @5.94 | ❌ 2–1 | -€50 |
-| Slovakia vs Kosovo | **Kosovo W** @4.16 | ✅ 3–4 | **+€110.60** |
-| Czechia vs Ireland | Ireland W @4.16 | ❌ 2–2 (Czechia qualifiée pen.) | -€35 |
-| Italy vs Northern Ireland | Northern Ireland W @12.40 | ❌ 2–0 | -€50 |
-| Ukraine vs Sweden | Ukraine W @3.07 | ❌ 1–3 | -€50 |
-| Denmark vs North Macedonia | North Macedonia W @10.60 | ❌ 4–0 | -€50 |
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Turkiye vs Romania | Romania W | @6.60 | €50 | ❌ 1–0 | -€50 |
+| Wales vs Bosnia | **Bosnia W** | @4.25 | €35 | ✅ qualifiée (1–1, pen. 2–4) | **+€113.75** |
+| Poland vs Albania | Albania W | @5.94 | €50 | ❌ 2–1 | -€50 |
+| Slovakia vs Kosovo | **Kosovo W** | @4.16 | €35 | ✅ 3–4 | **+€110.60** |
+| Czechia vs Ireland | Ireland W | @4.16 | €35 | ❌ 2–2 (Czechia qualifiée pen.) | -€35 |
+| Italy vs Northern Ireland | Northern Ireland W | @12.40 | €50 | ❌ 2–0 | -€50 |
+| Ukraine vs Sweden | Ukraine W | @3.07 | €50 | ❌ 1–3 | -€50 |
+| Denmark vs North Macedonia | North Macedonia W | @10.60 | €50 | ❌ 4–0 | -€50 |
 
-Bilan WCQ : **2✅ 6❌** — **€-60.65** (Kosovo + Bosnia outsiders sauvent la mise)
+Bilan : **2✅ 6❌** — **€-60.65**
 
 ---
 
@@ -280,7 +212,6 @@ Bilan WCQ : **2✅ 6❌** — **€-60.65** (Kosovo + Bosnia outsiders sauvent l
 
 | Match | Score | Résultat |
 |---|---|---|
-| RC Lens vs Angers | — | — |
 | Bournemouth vs Manchester United | — | **Reporté** |
 | Fulham vs Burnley | 3–1 | Victoire Fulham |
 | Everton vs Chelsea | 3–0 | Victoire Everton |
@@ -298,58 +229,60 @@ Bilan WCQ : **2✅ 6❌** — **€-60.65** (Kosovo + Bosnia outsiders sauvent l
 Aucun pari ce week-end.
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
-| Match | Pronostic | Résultat | Gain |
-|---|---|---|---|
-| Bournemouth vs Manchester United | Home Win @3.32 | Reporté | €+25 (remb.) |
-| Auxerre vs Brest | **Home Win** @2.38 | ✅ Auxerre 3–0 | **+€59.50** |
-| Nantes vs Strasbourg | **Away Win** @2.03 | ✅ Nantes 2–3 | **+€50.75** |
-| Leeds United vs Brentford | Home Win @2.51 | ❌ 0–0 | -€25 |
-| Tottenham vs Nottingham Forest | Home Win @2.29 | ❌ 0–3 | -€25 |
-| Toulouse vs Lorient | Away Win @4.72 | ❌ 1–0 | -€25 |
-| Nice vs Paris Saint Germain | Draw @5.82 | ❌ 0–4 | -€25 |
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Bournemouth vs Manchester United | Home Win | @3.32 | €25 | Reporté | €+25 (remb.) |
+| Auxerre vs Brest | **Home Win** | @2.38 | €25 | ✅ 3–0 | **+€59.50** |
+| Nantes vs Strasbourg | **Away Win** | @2.03 | €25 | ✅ 2–3 | **+€50.75** |
+| Leeds United vs Brentford | Home Win | @2.51 | €25 | ❌ 0–0 | -€25 |
+| Tottenham vs Nottingham Forest | Home Win | @2.29 | €25 | ❌ 0–3 | -€25 |
+| Toulouse vs Lorient | Away Win | @4.72 | €25 | ❌ 1–0 | -€25 |
+| Nice vs Paris Saint Germain | Draw | @5.82 | €25 | ❌ 0–4 | -€25 |
 
-Bilan week-end : **2✅ 4❌** — **€-44.75**
+Bilan : **2✅ 4❌** — **€-44.75**
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
-| Match | Pronostic | Résultat | Gain |
-|---|---|---|---|
-| Auxerre vs Brest | Away Win @3.24 | ❌ 3–0 | -€10 |
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Auxerre vs Brest | Away Win | @3.24 | €10 | ❌ 3–0 | -€10 |
 
-Bilan week-end : **0✅ 1❌** — **€-10**
+Bilan : **0✅ 1❌** — **€-10**
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
-| Match | Pronostic | Résultat |
-|---|---|---|
-| Fulham vs Burnley | Home Win @1.57 | ✅ 3–1 |
-| Nice vs PSG | Away Win (PSG) @1.35 | ✅ 0–4 |
-| Everton vs Chelsea | Home Win @3.56 | ✅ 3–0 |
-| Newcastle vs Sunderland | **Home Win** @1.67 | ❌ 1–2 |
+| Match | Pronostic | Cote | Résultat |
+|---|---|---|---|
+| Fulham vs Burnley | Home Win | @1.57 | ✅ 3–1 |
+| Nice vs PSG | Away Win (PSG) | @1.35 | ✅ 0–4 |
+| Everton vs Chelsea | Home Win | @3.56 | ✅ 3–0 |
+| Newcastle vs Sunderland | **Home Win** | @1.67 | ❌ 1–2 |
 
-Combiné **PERDU** (Sunderland upset Newcastle) — **€-15**
+Mise : **€15** — Combiné **PERDU** (Sunderland upset) — **€-15**
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
-| Match | Pronostic | Résultat |
-|---|---|---|
-| Nice vs PSG | Away Win (PSG) @1.35 | ✅ 0–4 |
-| Everton vs Chelsea | Home Win @3.56 | ✅ 3–0 |
-| Newcastle vs Sunderland | **Home Win** @1.67 | ❌ 1–2 |
+| Match | Pronostic | Cote | Résultat |
+|---|---|---|---|
+| Nice vs PSG | Away Win (PSG) | @1.35 | ✅ 0–4 |
+| Everton vs Chelsea | Home Win | @3.56 | ✅ 3–0 |
+| Newcastle vs Sunderland | **Home Win** | @1.67 | ❌ 1–2 |
 
-Combiné **PERDU** (Sunderland upset Newcastle) — **€-20**
+Mise : **€20** — Combiné **PERDU** (Sunderland upset) — **€-20**
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
-| Match | Pronostic | EV | Mise | Résultat | Gain |
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
 |---|---|---|---|---|---|
-| Everton vs Chelsea | **Home Win** (Everton) @3.56 | 0.602 | €50 | ✅ 3–0 | **+€178.00** |
-| Newcastle vs Sunderland | **Away Win** (Sunderland) @5.38 | 0.614 | €50 | ✅ 1–2 | **+€269.00** |
-| Marseille vs Lille | **Away Win** (Lille) @3.91 | 0.434 | €35 | ✅ 1–2 | **+€136.85** |
-| Fulham vs Burnley | Away Win (Burnley) @6.14 | 0.944 | €50 | ❌ 3–1 | -€50 |
-| Toulouse vs Lorient | Away Win (Lorient) @4.72 | 1.045 | €50 | ❌ 1–0 | -€50 |
-| Auxerre vs Brest | Away Win (Brest) @3.24 | 0.404 | €35 | ❌ 3–0 | -€35 |
-| Nice vs PSG | Home Win (Nice) @8.00 | 1.400 | €50 | ❌ 0–4 | -€50 |
-| Paris FC vs Le Havre | Away Win (Le Havre) @4.44 | 0.406 | €35 | ❌ 3–2 | -€35 |
-| Nantes vs Strasbourg | Home Win (Nantes) @3.66 | 0.220 | €20 | ❌ 2–3 | -€20 |
+| Everton vs Chelsea | **Home Win** (Everton) | @3.56 | €50 | ✅ 3–0 | **+€178.00** |
+| Newcastle vs Sunderland | **Away Win** (Sunderland) | @5.38 | €50 | ✅ 1–2 | **+€269.00** |
+| Marseille vs Lille | **Away Win** (Lille) | @3.91 | €35 | ✅ 1–2 | **+€136.85** |
+| Fulham vs Burnley | Away Win (Burnley) | @6.14 | €50 | ❌ 3–1 | -€50 |
+| Toulouse vs Lorient | Away Win (Lorient) | @4.72 | €50 | ❌ 1–0 | -€50 |
+| Auxerre vs Brest | Away Win (Brest) | @3.24 | €35 | ❌ 3–0 | -€35 |
+| Nice vs PSG | Home Win (Nice) | @8.00 | €50 | ❌ 0–4 | -€50 |
+| Paris FC vs Le Havre | Away Win (Le Havre) | @4.44 | €35 | ❌ 3–2 | -€35 |
+| Nantes vs Strasbourg | Home Win (Nantes) | @3.66 | €20 | ❌ 2–3 | -€20 |
 
-Bilan week-end : **3✅ 6❌** — **+€134.80** (Newcastle/Sunderland upset = jackpot)
+Bilan : **3✅ 6❌** — **+€134.80**
+
+---
 
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 <br/>Turfutodays's betbots is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Attribution-ShareAlike 2.0 France (CC BY-SA 2.0 FR)</a>.
