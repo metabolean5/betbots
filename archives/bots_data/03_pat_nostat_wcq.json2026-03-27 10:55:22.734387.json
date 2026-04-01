@@ -1,8 +1,8 @@
 {
     "total_bets_made": 2,
-    "successful_bets": 1,
+    "successful_bets": 0,
     "unsuccessful_bets": 1,
-    "money": 25.75,
+    "money": -20,
     "current_bets": {
         "WCQ Europe \u2013 27/03/2026": [
             {
@@ -112,35 +112,34 @@
         ]
     },
     "confirmed_bets": {
-        "0": {
+        "1": {
             "bet_data": {
-                "event_id": "65901000",
+                "event_id": "65901002",
                 "cotes": {
-                    "3": "6.35",
-                    "1": "3.78",
-                    "0": "1.64"
+                    "3": "2.02",
+                    "1": "3.37",
+                    "0": "3.47"
                 },
                 "info": {
-                    "teams": "Bosnia and Herzegovina vs Italy",
+                    "teams": "Sweden vs Poland",
                     "competition": "WCQ Europe",
                     "date": "2026-03-31 20:45"
                 },
                 "last5vec": [
-                    1,
-                    1,
                     3,
                     1,
                     0,
-                    3,
+                    0,
                     0,
                     3,
+                    3,
+                    1,
                     3,
                     3
                 ],
                 "prediction": 0
             },
-            "potential_gain": 41.0,
-            "result": "lost"
+            "potential_gain": 34.7
         }
     }
 }

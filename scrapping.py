@@ -234,6 +234,7 @@ def get_team_form(team_id, n=5):
 
 _AF_NAME_ALIASES = {
     "bosnia & herzegovina": "bosnia",
+    "bosnia and herzegovina": "bosnia",
     "north macedonia":      "north macedonia",
     "northern ireland":     "northern ireland",
     "czechia":              "czech republic",

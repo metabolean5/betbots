@@ -70,18 +70,18 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ## Classement Saison 3
 
-> UCL R16 (10–18 mars 2026) + mode week-end (EPL / Ligue 1) + WCQ Europe playoffs (26 mars 2026). UEL/UECL non vérifiables via l'API gratuite.
+> UCL R16 (10–18 mars 2026) + mode week-end (EPL / Ligue 1) + WCQ Europe playoffs (26 et 31 mars 2026). UEL/UECL non vérifiables via l'API gratuite.
 
 | Rang | Bot | Net total | Paris ✅ | Paris ❌ | Total |
 |------|-----|-----------|---------|---------|-------|
-| 🥇 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> **Way to Claude** | **€+117.15** | 10 | 27 | 37 |
-| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | **€+79.25** | 7 | 9 | 16 |
+| 🥇 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> **Way to Claude** | **€+404.65** | 12 | 29 | 41 |
+| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | **€+79.25** | 7 | 10 | 17 |
 | 🥉 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> **Billy Bayes** | **€+77.70** | 7 | 2 | 9 |
-| #4 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> **Vent d'Ofsky** | **€+13.24** | 2 | 2 | 7 |
-| #5 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> **Risky Vent d'Ofsky** | **€-37.02** | 1 | 4 | 10 |
-| #6 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> **Pat Nostat** | **€-49.40** | 2 | 4 | 6 |
+| #4 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> **Vent d'Ofsky** | **€+13.24** | 3 | 2 | 5 |
+| #5 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> **Risky Vent d'Ofsky** | **€-52.02** | 1 | 5 | 9 |
+| #6 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> **Pat Nostat** | **€-59.40** | 2 | 5 | 7 |
 
-> WCQ 26/03 : résultats comptant la qualification (tirs au but inclus). Way to Claude : Kosovo ✅ + Bosnia ✅ (-€60.65). Risky Rifki : Czechia ✅ (+€25.75). Les combinés Turkiye+Italy+Denmark gagnent pour les Vent d'Ofsky.
+> WCQ 26/03 : Way to Claude Kosovo ✅ + Bosnia ✅ (-€60.65). Risky Rifki Czechia ✅ (+€25.75). Les combinés Turkiye+Italy+Denmark gagnent pour les Vent d'Ofsky. WCQ 31/03 : Way to Claude joue les qualifiés Bosnia ✅ (+€317.50) et Czechia ✅ (+€140.00) — remonte en tête.
 
 ---
 
@@ -132,6 +132,56 @@ Aucun pari ce round (aucune cote ne passe le seuil < 1.50).
 | Czechia vs Denmark | **Czechia W** | @4.00 | €35 | €140.00 |
 
 > Way to Claude joue les 4 outsiders à domicile — stratégie EV contrariante.
+
+---
+
+## Résultats — WCQ Europe (Finales Playoffs, 31 mars 2026)
+
+### Résultats des matchs
+
+| Heure | Match | Score | Résultat |
+|---|---|---|---|
+| 20:45 | Bosnia and Herzegovina vs Italy | **1–1** | Nul — Bosnia qualifiée (pen. 4–1) |
+| 20:45 | Sweden vs Poland | **3–2** | Victoire Sweden |
+| 20:45 | Kosovo vs Turkiye | **0–1** | Victoire Turkiye |
+| 20:45 | Czechia vs Denmark | **2–2** | Nul — Czechia qualifiée (pen. 3–1) |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+Aucun pari ce round.
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Bosnia and Herzegovina vs Italy | Italy W | @1.64 | €25 | ❌ 1–1 | -€25 |
+
+Bilan : **0✅ 1❌** — **€-25**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Sweden vs Poland | Poland W | @3.47 | €10 | ❌ 3–2 | -€10 |
+
+Bilan : **0✅ 1❌** — **€-10**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote | Résultat |
+|---|---|---|---|
+| Bosnia and Herzegovina vs Italy | Italy W | @1.64 | ❌ 1–1 |
+
+Mise : **€15** — Combiné **PERDU** — **€-15**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky
+Aucun pari ce round (aucune cote ne passe le seuil < 1.50).
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Bosnia and Herzegovina vs Italy | **Bosnia W** | @6.35 | €50 | ✅ qualifiée (1–1, pen. 4–1) | **+€317.50** |
+| Sweden vs Poland | Poland W | @3.47 | €50 | ❌ 3–2 | -€50 |
+| Kosovo vs Turkiye | Kosovo W | @4.10 | €35 | ❌ 0–1 | -€35 |
+| Czechia vs Denmark | **Czechia W** | @4.00 | €35 | ✅ qualifiée (2–2, pen. 3–1) | **+€140.00** |
+
+Bilan : **2✅ 2❌** — **+€372.50**
 
 ---
 

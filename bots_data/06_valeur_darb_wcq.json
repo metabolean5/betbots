@@ -1,8 +1,8 @@
 {
     "total_bets_made": 12,
-    "successful_bets": 2,
-    "unsuccessful_bets": 6,
-    "money": -230.65,
+    "successful_bets": 4,
+    "unsuccessful_bets": 8,
+    "money": 226.85,
     "current_bets": {
         "WCQ Europe \u2013 27/03/2026": [
             {
@@ -139,7 +139,8 @@
                 ],
                 "prediction": 3
             },
-            "potential_gain": 317.5
+            "potential_gain": 317.5,
+            "result": "won"
         },
         "1": {
             "bet_data": {
@@ -168,7 +169,8 @@
                 ],
                 "prediction": 0
             },
-            "potential_gain": 173.5
+            "potential_gain": 173.5,
+            "result": "lost"
         },
         "2": {
             "bet_data": {
@@ -197,7 +199,8 @@
                 ],
                 "prediction": 3
             },
-            "potential_gain": 143.5
+            "potential_gain": 143.5,
+            "result": "lost"
         },
         "3": {
             "bet_data": {
@@ -226,7 +229,8 @@
                 ],
                 "prediction": 3
             },
-            "potential_gain": 140.0
+            "potential_gain": 140.0,
+            "result": "won"
         }
     }
 }
