@@ -135,6 +135,66 @@ Aucun pari ce round (aucune cote ne passe le seuil < 1.50).
 
 ---
 
+## Paris — Week-end 3–5 avril 2026 (Ligue 1)
+
+> Données scrappées via `betting_arena_weekend.py`. Pas de fixtures EPL ce week-end.
+
+### Programme
+
+| Date | Match | Cotes (dom / nul / ext) |
+|---|---|---|
+| Ven 03/04 18:45 | Paris Saint Germain vs Toulouse | @1.32 / @5.88 / @11.40 |
+| Sam 04/04 15:00 | Strasbourg vs Nice | @1.90 / @3.76 / @4.47 |
+| Sam 04/04 17:00 | Brest vs Rennes | @3.21 / @3.64 / @2.33 *(sans forme)* |
+| Sam 04/04 19:05 | Lille vs RC Lens | @2.75 / @3.43 / @2.77 |
+| Dim 05/04 13:00 | Angers vs Lyon | @4.88 / @3.67 / @1.86 *(sans forme)* |
+| Dim 05/04 15:15 | Le Havre vs Auxerre | @2.53 / @3.23 / @3.23 |
+| Dim 05/04 15:15 | Lorient vs Paris FC | @2.38 / @3.37 / @3.35 |
+| Dim 05/04 15:15 | Metz vs Nantes | @3.07 / @3.38 / @2.54 *(sans forme)* |
+| Dim 05/04 18:45 | AS Monaco vs Marseille | @2.29 / @3.75 / @3.21 *(sans forme)* |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Paris Saint Germain vs Toulouse | **PSG W** | @1.32 | €35 | €46.20 |
+| Strasbourg vs Nice | **Strasbourg W** | @1.90 | €35 | €66.50 |
+| Lille vs RC Lens | **Lille W** | @2.75 | €35 | €96.25 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Le Havre vs Auxerre | **Nul** | @3.23 | €25 | €80.75 |
+| Lorient vs Paris FC | **Paris FC W** | @3.35 | €25 | €83.75 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+Aucun pari ce week-end.
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote |
+|---|---|---|
+| Paris Saint Germain vs Toulouse | PSG W | @1.32 |
+
+Mise combinée : **€15** — Gain potentiel : **€19.80**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote |
+|---|---|---|
+| Paris Saint Germain vs Toulouse | PSG W | @1.32 |
+
+Mise combinée : **€20** — Gain potentiel : **€26.40**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Paris Saint Germain vs Toulouse | **Toulouse W** | @11.40 | €50 | €570.00 |
+| Lille vs RC Lens | **Lille W** | @2.75 | €35 | €96.25 |
+| Le Havre vs Auxerre | **Auxerre W** | @3.23 | €35 | €113.05 |
+| Lorient vs Paris FC | **Paris FC W** | @3.35 | €35 | €117.25 |
+
+> Way to Claude joue Toulouse à @11.40 (EV=2.04) — paris contrarian maximal contre le leader PSG.
+
+---
+
 ## Résultats — WCQ Europe (Finales Playoffs, 31 mars 2026)
 
 ### Résultats des matchs
