@@ -85,56 +85,6 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ---
 
-## Paris — WCQ Europe (Finales Playoffs, 31 mars 2026)
-
-> Qualifications Coupe du Monde 2026 – Finales playoffs UEFA. Données scrappées via `betting_arena_wcq.py`.
-
-### Programme du 31 mars 2026
-
-| Heure | Match | Cotes (dom / nul / ext) |
-|---|---|---|
-| 20:45 | Bosnia and Herzegovina vs Italy | @6.35 / @3.78 / @1.64 |
-| 20:45 | Sweden vs Poland | @2.02 / @3.37 / @3.47 |
-| 20:45 | Kosovo vs Turkiye | @4.10 / @3.75 / @1.92 |
-| 20:45 | Czechia vs Denmark | @4.00 / @3.38 / @2.06 |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
-Aucun pari ce round (aucune prédiction ne dépasse le seuil de confiance de 60%).
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
-| Match | Pronostic | Cote | Mise | Gain potentiel |
-|---|---|---|---|---|
-| Bosnia and Herzegovina vs Italy | **Italy W** | @1.64 | €25 | €41.00 |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
-| Match | Pronostic | Cote | Mise | Gain potentiel |
-|---|---|---|---|---|
-| Sweden vs Poland | **Poland W** | @3.47 | €10 | €34.70 |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
-| Match | Pronostic | Cote |
-|---|---|---|
-| Bosnia and Herzegovina vs Italy | Italy W | @1.64 |
-
-Mise combinée : **€15** — Gain potentiel : **€24.60**
-
-> Seule Italy @1.64 passe le seuil < 1.65.
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky
-Aucun pari ce round (aucune cote ne passe le seuil < 1.50).
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
-| Match | Pronostic | Cote | Mise | Gain potentiel |
-|---|---|---|---|---|
-| Bosnia and Herzegovina vs Italy | **Bosnia W** | @6.35 | €50 | €317.50 |
-| Sweden vs Poland | **Poland W** | @3.47 | €50 | €173.50 |
-| Kosovo vs Turkiye | **Kosovo W** | @4.10 | €35 | €143.50 |
-| Czechia vs Denmark | **Czechia W** | @4.00 | €35 | €140.00 |
-
-> Way to Claude joue les 4 outsiders à domicile — stratégie EV contrariante.
-
----
-
 ## Paris — Week-end 3–5 avril 2026 (Ligue 1)
 
 > Données scrappées via `betting_arena_weekend.py`. Pas de fixtures EPL ce week-end.
@@ -195,6 +145,56 @@ Mise combinée : **€20** — Gain potentiel : **€26.40**
 
 ---
 
+## Paris — WCQ Europe (Finales Playoffs, 31 mars 2026)
+
+> Qualifications Coupe du Monde 2026 – Finales playoffs UEFA. Données scrappées via `betting_arena_wcq.py`.
+
+### Programme du 31 mars 2026
+
+| Heure | Match | Cotes (dom / nul / ext) |
+|---|---|---|
+| 20:45 | Bosnia and Herzegovina vs Italy | @6.35 / @3.78 / @1.64 |
+| 20:45 | Sweden vs Poland | @2.02 / @3.37 / @3.47 |
+| 20:45 | Kosovo vs Turkiye | @4.10 / @3.75 / @1.92 |
+| 20:45 | Czechia vs Denmark | @4.00 / @3.38 / @2.06 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+Aucun pari ce round (aucune prédiction ne dépasse le seuil de confiance de 60%).
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Bosnia and Herzegovina vs Italy | **Italy W** | @1.64 | €25 | €41.00 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Sweden vs Poland | **Poland W** | @3.47 | €10 | €34.70 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote |
+|---|---|---|
+| Bosnia and Herzegovina vs Italy | Italy W | @1.64 |
+
+Mise combinée : **€15** — Gain potentiel : **€24.60**
+
+> Seule Italy @1.64 passe le seuil < 1.65.
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky
+Aucun pari ce round (aucune cote ne passe le seuil < 1.50).
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Bosnia and Herzegovina vs Italy | **Bosnia W** | @6.35 | €50 | €317.50 |
+| Sweden vs Poland | **Poland W** | @3.47 | €50 | €173.50 |
+| Kosovo vs Turkiye | **Kosovo W** | @4.10 | €35 | €143.50 |
+| Czechia vs Denmark | **Czechia W** | @4.00 | €35 | €140.00 |
+
+> Way to Claude joue les 4 outsiders à domicile — stratégie EV contrariante.
+
+---
+
 ## Résultats — WCQ Europe (Finales Playoffs, 31 mars 2026)
 
 ### Résultats des matchs
@@ -242,155 +242,6 @@ Aucun pari ce round (aucune cote ne passe le seuil < 1.50).
 | Czechia vs Denmark | **Czechia W** | @4.00 | €35 | ✅ qualifiée (2–2, pen. 3–1) | **+€140.00** |
 
 Bilan : **2✅ 2❌** — **+€372.50**
-
----
-
-## Résultats — WCQ Europe (Playoffs, 26 mars 2026)
-
-### Résultats des matchs
-
-| Heure | Match | Score | Résultat |
-|---|---|---|---|
-| 18:00 | Turkiye vs Romania | **1–0** | Victoire Turkiye |
-| 20:45 | Wales vs Bosnia and Herzegovina | **1–1** | Nul (Bosnia qualifiée aux tirs au but 4–2) |
-| 20:45 | Poland vs Albania | **2–1** | Victoire Poland |
-| 20:45 | Slovakia vs Kosovo | **3–4** | **Victoire Kosovo** (surprise) |
-| 20:45 | Czechia vs Ireland | **2–2** | Nul (Czechia qualifiée aux tirs au but 4–3) |
-| 20:45 | Italy vs Northern Ireland | **2–0** | Victoire Italy |
-| 20:45 | Ukraine vs Sweden | **1–3** | Victoire Sweden (hat-trick Gyökeres) |
-| 20:45 | Denmark vs North Macedonia | **4–0** | Victoire Denmark |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
-| Match | Pronostic | Cote | Mise | Résultat | Gain |
-|---|---|---|---|---|---|
-| Italy vs Northern Ireland | Italy W | @1.33 | €35 | ✅ 2–0 | **+€11.55** |
-| Ukraine vs Sweden | Ukraine W | @3.07 | €35 | ❌ 1–3 | -€35 |
-
-Bilan : **1✅ 1❌** — **€-23.45**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
-| Match | Pronostic | Cote | Mise | Résultat | Gain |
-|---|---|---|---|---|---|
-| Czechia vs Ireland | **Czechia W** | @2.03 | €25 | ✅ 2–2 (qualifiée pen. 4–3) | **+€25.75** |
-
-Bilan : **1✅ 0❌** — **+€25.75**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
-| Match | Pronostic | Cote | Mise | Résultat | Gain |
-|---|---|---|---|---|---|
-| Ukraine vs Sweden | Ukraine W | @3.07 | €10 | ❌ 1–3 | -€10 |
-
-Bilan : **0✅ 1❌** — **€-10**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
-| Match | Pronostic | Cote | Résultat |
-|---|---|---|---|
-| Turkiye vs Romania | Turkiye W | @1.40 | ✅ 1–0 |
-| Italy vs Northern Ireland | Italy W | @1.33 | ✅ 2–0 |
-| Denmark vs North Macedonia | Denmark W | @1.36 | ✅ 4–0 |
-
-Mise : **€15** — Combiné **GAGNÉ** — **+€22.98**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
-| Match | Pronostic | Cote | Résultat |
-|---|---|---|---|
-| Turkiye vs Romania | Turkiye W | @1.40 | ✅ 1–0 |
-| Italy vs Northern Ireland | Italy W | @1.33 | ✅ 2–0 |
-| Denmark vs North Macedonia | Denmark W | @1.36 | ✅ 4–0 |
-
-Mise : **€20** — Combiné **GAGNÉ** — **+€30.65**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
-| Match | Pronostic | Cote | Mise | Résultat | Gain |
-|---|---|---|---|---|---|
-| Turkiye vs Romania | Romania W | @6.60 | €50 | ❌ 1–0 | -€50 |
-| Wales vs Bosnia | **Bosnia W** | @4.25 | €35 | ✅ qualifiée (1–1, pen. 2–4) | **+€113.75** |
-| Poland vs Albania | Albania W | @5.94 | €50 | ❌ 2–1 | -€50 |
-| Slovakia vs Kosovo | **Kosovo W** | @4.16 | €35 | ✅ 3–4 | **+€110.60** |
-| Czechia vs Ireland | Ireland W | @4.16 | €35 | ❌ 2–2 (Czechia qualifiée pen.) | -€35 |
-| Italy vs Northern Ireland | Northern Ireland W | @12.40 | €50 | ❌ 2–0 | -€50 |
-| Ukraine vs Sweden | Ukraine W | @3.07 | €50 | ❌ 1–3 | -€50 |
-| Denmark vs North Macedonia | North Macedonia W | @10.60 | €50 | ❌ 4–0 | -€50 |
-
-Bilan : **2✅ 6❌** — **€-60.65**
-
----
-
-## Résultats — Week-end 20–22 mars 2026 (EPL / Ligue 1)
-
-### Résultats des matchs
-
-| Match | Score | Résultat |
-|---|---|---|
-| Bournemouth vs Manchester United | — | **Reporté** |
-| Fulham vs Burnley | 3–1 | Victoire Fulham |
-| Everton vs Chelsea | 3–0 | Victoire Everton |
-| Leeds United vs Brentford | 0–0 | Nul |
-| Toulouse vs Lorient | 1–0 | Victoire Toulouse |
-| Auxerre vs Brest | 3–0 | Victoire Auxerre |
-| Nice vs Paris Saint-Germain | 0–4 | Victoire PSG |
-| Newcastle United vs Sunderland | 1–2 | **Victoire Sunderland** (surprise) |
-| Tottenham Hotspur vs Nottingham Forest | 0–3 | Victoire Nottingham Forest |
-| Paris FC vs Le Havre | 3–2 | Victoire Paris FC |
-| Marseille vs Lille | 1–2 | Victoire Lille |
-| Nantes vs Strasbourg | 2–3 | Victoire Strasbourg |
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
-Aucun pari ce week-end.
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
-| Match | Pronostic | Cote | Mise | Résultat | Gain |
-|---|---|---|---|---|---|
-| Bournemouth vs Manchester United | Home Win | @3.32 | €25 | Reporté | €+25 (remb.) |
-| Auxerre vs Brest | **Home Win** | @2.38 | €25 | ✅ 3–0 | **+€59.50** |
-| Nantes vs Strasbourg | **Away Win** | @2.03 | €25 | ✅ 2–3 | **+€50.75** |
-| Leeds United vs Brentford | Home Win | @2.51 | €25 | ❌ 0–0 | -€25 |
-| Tottenham vs Nottingham Forest | Home Win | @2.29 | €25 | ❌ 0–3 | -€25 |
-| Toulouse vs Lorient | Away Win | @4.72 | €25 | ❌ 1–0 | -€25 |
-| Nice vs Paris Saint Germain | Draw | @5.82 | €25 | ❌ 0–4 | -€25 |
-
-Bilan : **2✅ 4❌** — **€-44.75**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
-| Match | Pronostic | Cote | Mise | Résultat | Gain |
-|---|---|---|---|---|---|
-| Auxerre vs Brest | Away Win | @3.24 | €10 | ❌ 3–0 | -€10 |
-
-Bilan : **0✅ 1❌** — **€-10**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
-| Match | Pronostic | Cote | Résultat |
-|---|---|---|---|
-| Fulham vs Burnley | Home Win | @1.57 | ✅ 3–1 |
-| Nice vs PSG | Away Win (PSG) | @1.35 | ✅ 0–4 |
-| Everton vs Chelsea | Home Win | @3.56 | ✅ 3–0 |
-| Newcastle vs Sunderland | **Home Win** | @1.67 | ❌ 1–2 |
-
-Mise : **€15** — Combiné **PERDU** (Sunderland upset) — **€-15**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
-| Match | Pronostic | Cote | Résultat |
-|---|---|---|---|
-| Nice vs PSG | Away Win (PSG) | @1.35 | ✅ 0–4 |
-| Everton vs Chelsea | Home Win | @3.56 | ✅ 3–0 |
-| Newcastle vs Sunderland | **Home Win** | @1.67 | ❌ 1–2 |
-
-Mise : **€20** — Combiné **PERDU** (Sunderland upset) — **€-20**
-
-### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
-| Match | Pronostic | Cote | Mise | Résultat | Gain |
-|---|---|---|---|---|---|
-| Everton vs Chelsea | **Home Win** (Everton) | @3.56 | €50 | ✅ 3–0 | **+€178.00** |
-| Newcastle vs Sunderland | **Away Win** (Sunderland) | @5.38 | €50 | ✅ 1–2 | **+€269.00** |
-| Marseille vs Lille | **Away Win** (Lille) | @3.91 | €35 | ✅ 1–2 | **+€136.85** |
-| Fulham vs Burnley | Away Win (Burnley) | @6.14 | €50 | ❌ 3–1 | -€50 |
-| Toulouse vs Lorient | Away Win (Lorient) | @4.72 | €50 | ❌ 1–0 | -€50 |
-| Auxerre vs Brest | Away Win (Brest) | @3.24 | €35 | ❌ 3–0 | -€35 |
-| Nice vs PSG | Home Win (Nice) | @8.00 | €50 | ❌ 0–4 | -€50 |
-| Paris FC vs Le Havre | Away Win (Le Havre) | @4.44 | €35 | ❌ 3–2 | -€35 |
-| Nantes vs Strasbourg | Home Win (Nantes) | @3.66 | €20 | ❌ 2–3 | -€20 |
-
-Bilan : **3✅ 6❌** — **+€134.80**
 
 ---
 
