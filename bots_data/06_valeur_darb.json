@@ -1,82 +1,56 @@
 {
-    "total_bets_made": 11,
+    "total_bets_made": 13,
     "successful_bets": 3,
     "unsuccessful_bets": 8,
-    "money": 43.0,
+    "money": -42.0,
     "current_bets": {
-        "Round \u2013 16/03/2026": [
+        "Round \u2013 06/04/2026": [
             {
-                "event_id": "193500d339a47b5fa883fbbc23b8795e",
+                "event_id": "59588b6ac97dcdf15b4de0652d9aebca",
                 "cotes": {
-                    "3": "1.64",
-                    "1": "5.02",
-                    "0": "4.88"
+                    "3": "4.6",
+                    "1": "3.75",
+                    "0": "1.75"
                 },
                 "info": {
-                    "teams": "Sporting Lisbon vs Bod\u00f8/Glimt",
+                    "teams": "Sporting Lisbon vs Arsenal",
                     "competition": "UEFA Champions League",
-                    "date": "2026-03-17 17:45"
+                    "date": "2026-04-07 19:00"
                 },
                 "last5vec": [
+                    3,
+                    3,
+                    3,
                     0,
                     1,
                     3,
                     3,
-                    3,
-                    3,
-                    3,
-                    3,
+                    1,
                     3,
                     3
                 ],
                 "prediction": 3
             },
             {
-                "event_id": "283cc3f3e87a270fe181353c3db55118",
+                "event_id": "59fe57b2fc5fe8a6ab3f7699f388f7f0",
                 "cotes": {
-                    "3": "1.29",
-                    "1": "5.95",
-                    "0": "11.0"
+                    "3": "2.85",
+                    "1": "3.95",
+                    "0": "2.22"
                 },
                 "info": {
-                    "teams": "Arsenal vs Bayer Leverkusen",
+                    "teams": "Real Madrid vs Bayern Munich",
                     "competition": "UEFA Champions League",
-                    "date": "2026-03-17 20:00"
-                },
-                "last5vec": [
-                    3,
-                    1,
-                    3,
-                    3,
-                    3,
-                    1,
-                    1,
-                    1,
-                    3,
-                    1
-                ],
-                "prediction": 3
-            },
-            {
-                "event_id": "7841dd955295660c61e31ae373fe2285",
-                "cotes": {
-                    "3": "2.05",
-                    "1": "4.0",
-                    "0": "2.9"
-                },
-                "info": {
-                    "teams": "Chelsea vs Paris Saint Germain",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-03-17 20:00"
+                    "date": "2026-04-07 19:00"
                 },
                 "last5vec": [
                     0,
-                    0,
                     3,
-                    0,
-                    1,
                     3,
-                    0,
+                    3,
+                    3,
+                    3,
+                    3,
                     3,
                     1,
                     3
@@ -84,132 +58,54 @@
                 "prediction": 3
             },
             {
-                "event_id": "52b31feeb945ee25598f8d16ac09530c",
+                "event_id": "68c250a354dfc0a238ee73466465a9f9",
                 "cotes": {
                     "3": "1.5",
-                    "1": "5.55",
-                    "0": "5.25"
+                    "1": "5.0",
+                    "0": "5.6"
                 },
                 "info": {
-                    "teams": "Manchester City vs Real Madrid",
+                    "teams": "Barcelona vs Atl\u00e9tico Madrid",
                     "competition": "UEFA Champions League",
-                    "date": "2026-03-17 20:00"
+                    "date": "2026-04-08 19:00"
                 },
                 "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
                     1,
                     0,
-                    1,
-                    3,
-                    3,
-                    3,
-                    3,
-                    3,
                     0,
+                    0,
+                    3,
                     3
                 ],
                 "prediction": 3
             },
             {
-                "event_id": "84a52f6bed227ab75cacc1e93a7faed5",
+                "event_id": "df0b1a0f35307c661511183f7865f9e5",
                 "cotes": {
-                    "3": "1.52",
-                    "1": "4.7",
-                    "0": "5.0"
+                    "3": "1.7",
+                    "1": "4.2",
+                    "0": "4.6"
                 },
                 "info": {
-                    "teams": "Barcelona vs Newcastle United",
+                    "teams": "Paris Saint Germain vs Liverpool",
                     "competition": "UEFA Champions League",
-                    "date": "2026-03-18 17:45"
+                    "date": "2026-04-08 19:00"
                 },
                 "last5vec": [
                     3,
-                    1,
                     3,
                     3,
-                    3,
-                    3,
-                    1,
                     3,
                     0,
-                    3
-                ],
-                "prediction": 3
-            },
-            {
-                "event_id": "c3ac09fbb8372fd9a48dc5cdb68502f7",
-                "cotes": {
-                    "3": "1.31",
-                    "1": "5.85",
-                    "0": "8.61"
-                },
-                "info": {
-                    "teams": "Bayern Munich vs Atalanta BC",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-03-18 20:00"
-                },
-                "last5vec": [
-                    1,
-                    3,
-                    3,
-                    3,
+                    0,
                     3,
                     1,
                     0,
-                    1,
-                    0,
-                    3
-                ],
-                "prediction": 3
-            },
-            {
-                "event_id": "f4e19a3e5cb563921d4f031f9a4e470c",
-                "cotes": {
-                    "3": "2.64",
-                    "1": "3.91",
-                    "0": "2.62"
-                },
-                "info": {
-                    "teams": "Tottenham Hotspur vs Atl\u00e9tico Madrid",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-03-18 20:00"
-                },
-                "last5vec": [
-                    1,
-                    0,
-                    0,
-                    0,
-                    0,
-                    3,
-                    3,
-                    3,
-                    3,
-                    3
-                ],
-                "prediction": 0
-            },
-            {
-                "event_id": "a142e47748a46aa75f8c4f6488850819",
-                "cotes": {
-                    "3": "1.26",
-                    "1": "6.22",
-                    "0": "9.64"
-                },
-                "info": {
-                    "teams": "Liverpool vs Galatasaray",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-03-18 20:00"
-                },
-                "last5vec": [
-                    1,
-                    0,
-                    0,
-                    3,
-                    3,
-                    3,
-                    0,
-                    3,
-                    0,
-                    1
+                    0
                 ],
                 "prediction": 3
             }
@@ -218,243 +114,61 @@
     "confirmed_bets": {
         "0": {
             "bet_data": {
-                "event_id": "193500d339a47b5fa883fbbc23b8795e",
+                "event_id": "59588b6ac97dcdf15b4de0652d9aebca",
                 "cotes": {
-                    "3": "1.64",
-                    "1": "5.02",
-                    "0": "4.88"
+                    "3": "4.6",
+                    "1": "3.75",
+                    "0": "1.75"
                 },
                 "info": {
-                    "teams": "Sporting Lisbon vs Bod\u00f8/Glimt",
+                    "teams": "Sporting Lisbon vs Arsenal",
                     "competition": "UEFA Champions League",
-                    "date": "2026-03-17 17:45"
+                    "date": "2026-04-07 19:00"
                 },
                 "last5vec": [
+                    3,
+                    3,
+                    3,
                     0,
                     1,
                     3,
                     3,
-                    3,
-                    3,
-                    3,
-                    3,
+                    1,
                     3,
                     3
                 ],
-                "prediction": 0
+                "prediction": 3
             },
-            "potential_gain": 244.0,
-            "result": "lost"
-        },
-        "1": {
-            "bet_data": {
-                "event_id": "283cc3f3e87a270fe181353c3db55118",
-                "cotes": {
-                    "3": "1.29",
-                    "1": "5.95",
-                    "0": "11.0"
-                },
-                "info": {
-                    "teams": "Arsenal vs Bayer Leverkusen",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-03-17 20:00"
-                },
-                "last5vec": [
-                    3,
-                    1,
-                    3,
-                    3,
-                    3,
-                    1,
-                    1,
-                    1,
-                    3,
-                    1
-                ],
-                "prediction": 0
-            },
-            "potential_gain": 550.0,
-            "result": "lost"
+            "potential_gain": 229.99999999999997
         },
         "2": {
             "bet_data": {
-                "event_id": "7841dd955295660c61e31ae373fe2285",
-                "cotes": {
-                    "3": "2.05",
-                    "1": "4.0",
-                    "0": "2.9"
-                },
-                "info": {
-                    "teams": "Chelsea vs Paris Saint Germain",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-03-17 20:00"
-                },
-                "last5vec": [
-                    0,
-                    0,
-                    3,
-                    0,
-                    1,
-                    3,
-                    0,
-                    3,
-                    1,
-                    3
-                ],
-                "prediction": 0
-            },
-            "potential_gain": 101.5,
-            "result": "won"
-        },
-        "3": {
-            "bet_data": {
-                "event_id": "52b31feeb945ee25598f8d16ac09530c",
+                "event_id": "68c250a354dfc0a238ee73466465a9f9",
                 "cotes": {
                     "3": "1.5",
-                    "1": "5.55",
-                    "0": "5.25"
+                    "1": "5.0",
+                    "0": "5.6"
                 },
                 "info": {
-                    "teams": "Manchester City vs Real Madrid",
+                    "teams": "Barcelona vs Atl\u00e9tico Madrid",
                     "competition": "UEFA Champions League",
-                    "date": "2026-03-17 20:00"
-                },
-                "last5vec": [
-                    1,
-                    0,
-                    1,
-                    3,
-                    3,
-                    3,
-                    3,
-                    3,
-                    0,
-                    3
-                ],
-                "prediction": 0
-            },
-            "potential_gain": 262.5,
-            "result": "won"
-        },
-        "4": {
-            "bet_data": {
-                "event_id": "84a52f6bed227ab75cacc1e93a7faed5",
-                "cotes": {
-                    "3": "1.52",
-                    "1": "4.7",
-                    "0": "5.0"
-                },
-                "info": {
-                    "teams": "Barcelona vs Newcastle United",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-03-18 17:45"
+                    "date": "2026-04-08 19:00"
                 },
                 "last5vec": [
                     3,
-                    1,
-                    3,
-                    3,
-                    3,
-                    3,
-                    1,
-                    3,
-                    0,
-                    3
-                ],
-                "prediction": 0
-            },
-            "potential_gain": 175.0,
-            "result": "lost"
-        },
-        "5": {
-            "bet_data": {
-                "event_id": "c3ac09fbb8372fd9a48dc5cdb68502f7",
-                "cotes": {
-                    "3": "1.31",
-                    "1": "5.85",
-                    "0": "8.61"
-                },
-                "info": {
-                    "teams": "Bayern Munich vs Atalanta BC",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-03-18 20:00"
-                },
-                "last5vec": [
-                    1,
-                    3,
                     3,
                     3,
                     3,
                     1,
                     0,
-                    1,
-                    0,
-                    3
-                ],
-                "prediction": 0
-            },
-            "potential_gain": 430.5,
-            "result": "lost"
-        },
-        "6": {
-            "bet_data": {
-                "event_id": "f4e19a3e5cb563921d4f031f9a4e470c",
-                "cotes": {
-                    "3": "2.64",
-                    "1": "3.91",
-                    "0": "2.62"
-                },
-                "info": {
-                    "teams": "Tottenham Hotspur vs Atl\u00e9tico Madrid",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-03-18 20:00"
-                },
-                "last5vec": [
-                    1,
                     0,
                     0,
-                    0,
-                    0,
-                    3,
-                    3,
-                    3,
                     3,
                     3
                 ],
                 "prediction": 0
             },
-            "potential_gain": 91.7,
-            "result": "lost"
-        },
-        "7": {
-            "bet_data": {
-                "event_id": "a142e47748a46aa75f8c4f6488850819",
-                "cotes": {
-                    "3": "1.26",
-                    "1": "6.22",
-                    "0": "9.64"
-                },
-                "info": {
-                    "teams": "Liverpool vs Galatasaray",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-03-18 20:00"
-                },
-                "last5vec": [
-                    1,
-                    0,
-                    0,
-                    3,
-                    3,
-                    3,
-                    0,
-                    3,
-                    0,
-                    1
-                ],
-                "prediction": 0
-            },
-            "potential_gain": 482.0,
-            "result": "lost"
+            "potential_gain": 196.0
         }
     }
 }

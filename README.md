@@ -85,6 +85,55 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ---
 
+## Paris — UCL QF (7–8 avril 2026)
+
+> Données scrappées via `betting_arena.py`.
+
+### Programme
+
+| Date | Match | Cotes (dom / nul / ext) |
+|---|---|---|
+| Mar 07/04 19:00 | Sporting Lisbon vs Arsenal | @4.60 / @3.75 / @1.75 |
+| Mar 07/04 19:00 | Real Madrid vs Bayern Munich | @2.85 / @3.95 / @2.22 |
+| Mer 08/04 19:00 | Barcelona vs Atlético Madrid | @1.50 / @5.00 / @5.60 |
+| Mer 08/04 19:00 | Paris Saint Germain vs Liverpool | @1.70 / @4.20 / @4.60 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Real Madrid vs Bayern Munich | **Real Madrid W** | @2.85 | €35 | €99.75 |
+| Barcelona vs Atlético Madrid | **Barcelona W** | @1.50 | €35 | €52.50 |
+| PSG vs Liverpool | **PSG W** | @1.70 | €35 | €59.50 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+Aucun pari ce round.
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Barcelona vs Atlético Madrid | **Barcelona W** | @1.50 | €50 | €75.00 |
+| PSG vs Liverpool | **PSG W** | @1.70 | €10 | €17.00 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote |
+|---|---|---|
+| Barcelona vs Atlético Madrid | Barcelona W | @1.50 |
+
+Mise combinée : **€15** — Gain potentiel : **€22.50**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky
+Aucun pari ce round.
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Sporting Lisbon vs Arsenal | **Sporting W** | @4.60 | €50 | €230.00 |
+| Barcelona vs Atlético Madrid | **Atlético W** | @5.60 | €35 | €196.00 |
+
+> Way to Claude joue l'upset Sporting @4.60 (EV=0.61) et Atlético @5.60 (EV=0.31) — deux paris contrarians à haute valeur.
+
+---
+
 ## Paris — Week-end 3–5 avril 2026 (Ligue 1)
 
 > Données scrappées via `betting_arena_weekend.py`. Pas de fixtures EPL ce week-end.
