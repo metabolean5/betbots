@@ -74,14 +74,14 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 | Rang | Bot | Net total | Paris ✅ | Paris ❌ | Total |
 |------|-----|-----------|---------|---------|-------|
-| 🥇 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> **Way to Claude** | **€+404.65** | 12 | 29 | 41 |
-| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | **€+79.25** | 7 | 10 | 17 |
-| 🥉 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> **Billy Bayes** | **€+77.70** | 7 | 2 | 9 |
-| #4 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> **Vent d'Ofsky** | **€+13.24** | 3 | 2 | 5 |
-| #5 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> **Risky Vent d'Ofsky** | **€-52.02** | 1 | 5 | 9 |
+| 🥇 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> **Way to Claude** | **€+345.90** | 13 | 32 | 45 |
+| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> **Billy Bayes** | **€+181.65** | 10 | 2 | 12 |
+| 🥉 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | **€+110.00** | 8 | 11 | 19 |
+| #4 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> **Vent d'Ofsky** | **€+19.64** | 4 | 2 | 6 |
+| #5 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> **Risky Vent d'Ofsky** | **€-47.22** | 2 | 5 | 10 |
 | #6 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> **Pat Nostat** | **€-59.40** | 2 | 5 | 7 |
 
-> WCQ 26/03 : Way to Claude Kosovo ✅ + Bosnia ✅ (-€60.65). Risky Rifki Czechia ✅ (+€25.75). Les combinés Turkiye+Italy+Denmark gagnent pour les Vent d'Ofsky. WCQ 31/03 : Way to Claude joue les qualifiés Bosnia ✅ (+€317.50) et Czechia ✅ (+€140.00) — remonte en tête.
+> WCQ 26/03 : Way to Claude Kosovo ✅ + Bosnia ✅ (-€60.65). Risky Rifki Czechia ✅ (+€25.75). Les combinés Turkiye+Italy+Denmark gagnent pour les Vent d'Ofsky. WCQ 31/03 : Way to Claude joue les qualifiés Bosnia ✅ (+€317.50) et Czechia ✅ (+€140.00) — remonte en tête. Week-end 3–5/04 : Billy Bayes parfait 3/3 ✅✅✅ (+€209 brut). Risky Rifki 1/2. Way to Claude 1/4 (Lille ✅).
 
 ---
 

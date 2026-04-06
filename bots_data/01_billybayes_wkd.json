@@ -1,8 +1,8 @@
 {
     "total_bets_made": 5,
-    "successful_bets": 1,
+    "successful_bets": 4,
     "unsuccessful_bets": 1,
-    "money": -114.80000000000001,
+    "money": 94.14999999999999,
     "current_bets": {
         "Weekend EPL/FL1 \u2013 01/04/2026": [
             {
@@ -223,7 +223,8 @@
                 ],
                 "prediction": 3
             },
-            "potential_gain": 46.2
+            "potential_gain": 46.2,
+            "result": "won"
         },
         "1": {
             "bet_data": {
@@ -252,7 +253,8 @@
                 ],
                 "prediction": 3
             },
-            "potential_gain": 66.5
+            "potential_gain": 66.5,
+            "result": "won"
         },
         "2": {
             "bet_data": {
@@ -281,7 +283,8 @@
                 ],
                 "prediction": 3
             },
-            "potential_gain": 96.25
+            "potential_gain": 96.25,
+            "result": "won"
         }
     }
 }
