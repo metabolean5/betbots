@@ -68,23 +68,16 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ```
 
-## Classement Saison 3
-
-> UCL R16 (10–18 mars 2026) + mode week-end (EPL / Ligue 1) + WCQ Europe playoffs (26 et 31 mars 2026). UEL/UECL non vérifiables via l'API gratuite.
+## Classement Saison 3 – QF (7–8 avril 2026)
 
 | Rang | Bot | Net total | Paris ✅ | Paris ❌ | Total |
 |------|-----|-----------|---------|---------|-------|
-| 🥇 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="30"> **Way to Claude** | **€+345.90** | 13 | 32 | 45 |
-| 🥈 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="30"> **Billy Bayes** | **€+181.65** | 10 | 2 | 12 |
-| 🥉 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="30"> **Risky Rifki** | **€+110.00** | 8 | 11 | 19 |
-| #4 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="30"> **Vent d'Ofsky** | **€+19.64** | 4 | 2 | 6 |
-| #5 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="30"> **Risky Vent d'Ofsky** | **€-47.22** | 2 | 5 | 10 |
-| #6 | <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="30"> **Pat Nostat** | **€-59.40** | 2 | 5 | 7 |
-
-> WCQ 26/03 : Way to Claude Kosovo ✅ + Bosnia ✅ (-€60.65). Risky Rifki Czechia ✅ (+€25.75). Les combinés Turkiye+Italy+Denmark gagnent pour les Vent d'Ofsky. WCQ 31/03 : Way to Claude joue les qualifiés Bosnia ✅ (+€317.50) et Czechia ✅ (+€140.00) — remonte en tête. Week-end 3–5/04 : Billy Bayes parfait 3/3 ✅✅✅ (+€209 brut). Risky Rifki 1/2. Way to Claude 1/4 (Lille ✅).
-
----
-
+| 🥇 | **Way to Claude** | **€+491.90** | 14 | 33 | 47 |
+| 🥈 | **Billy Bayes** | **€+171.15** | 11 | 4 | 15 |
+| 🥉 | **Risky Rifki** | **€+110.00** | 8 | 11 | 19 |
+| #4 | **Vent d'Ofsky** | **€+19.64** | 4 | 2 | 6 |
+| #5 | **Risky Vent d'Ofsky** | **€-62.22** | 2 | 6 | 11 |
+| #6 | **Pat Nostat** | **€-92.40** | 3 | 6 | 9 |
 ## Paris — UCL QF (7–8 avril 2026)
 
 > Données scrappées via `betting_arena.py`.
@@ -132,65 +125,140 @@ Aucun pari ce round.
 
 > Way to Claude joue l'upset Sporting @4.60 (EV=0.61) et Atlético @5.60 (EV=0.31) — deux paris contrarians à haute valeur.
 
+## Résultats — UCL QF (7–8 avril 2026)
+
+### Résultats des matchs
+
+| Date | Match | Score | Résultat |
+|---|---|---|---|
+| Mar 07/04 | Sporting Lisbon vs Arsenal | **0–1** | Victoire Arsenal |
+| Mar 07/04 | Real Madrid vs Bayern Munich | **1–2** | Victoire Bayern Munich |
+| Mer 08/04 | Barcelona vs Atlético Madrid | **0–2** | Victoire Atlético Madrid |
+| Mer 08/04 | PSG vs Liverpool | **2–0** | Victoire PSG |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Real Madrid vs Bayern Munich | Real Madrid W | @2.85 | €35 | ❌ 1–2 | -€35 |
+| Barcelona vs Atlético Madrid | Barcelona W | @1.50 | €35 | ❌ 0–2 | -€35 |
+| PSG vs Liverpool | **PSG W** | @1.70 | €35 | ✅ 2–0 | **+€59.50** |
+
+Bilan : **1✅ 2❌** — **-€10.50**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+Aucun pari ce round.
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Barcelona vs Atlético Madrid | Barcelona W | @1.50 | €50 | ❌ 0–2 | -€50 |
+| PSG vs Liverpool | **PSG W** | @1.70 | €10 | ✅ 2–0 | **+€17.00** |
+
+Bilan : **1✅ 1❌** — **-€33.00**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote | Résultat |
+|---|---|---|---|
+| Barcelona vs Atlético Madrid | Barcelona W | @1.50 | ❌ 0–2 |
+
+Mise : **€15** — Combiné **PERDU** — **-€15**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky
+Aucun pari ce round.
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Sporting Lisbon vs Arsenal | Sporting W | @4.60 | €50 | ❌ 0–1 | -€50 |
+| Barcelona vs Atlético Madrid | **Atlético W** | @5.60 | €35 | ✅ 0–2 | **+€196.00** |
+
+Bilan : **1✅ 1❌** — **+€146.00**
+
 ---
 
-## Paris — Week-end 3–5 avril 2026 (Ligue 1)
+## Paris — Week-end 11–13 avril 2026 (EPL / Ligue 1)
 
-> Données scrappées via `betting_arena_weekend.py`. Pas de fixtures EPL ce week-end.
+> Données scrappées via `betting_arena_weekend.py`.
 
 ### Programme
 
+**Premier League**
+
 | Date | Match | Cotes (dom / nul / ext) |
 |---|---|---|
-| Ven 03/04 18:45 | Paris Saint Germain vs Toulouse | @1.32 / @5.88 / @11.40 |
-| Sam 04/04 15:00 | Strasbourg vs Nice | @1.90 / @3.76 / @4.47 |
-| Sam 04/04 17:00 | Brest vs Rennes | @3.21 / @3.64 / @2.33 *(sans forme)* |
-| Sam 04/04 19:05 | Lille vs RC Lens | @2.75 / @3.43 / @2.77 |
-| Dim 05/04 13:00 | Angers vs Lyon | @4.88 / @3.67 / @1.86 *(sans forme)* |
-| Dim 05/04 15:15 | Le Havre vs Auxerre | @2.53 / @3.23 / @3.23 |
-| Dim 05/04 15:15 | Lorient vs Paris FC | @2.38 / @3.37 / @3.35 |
-| Dim 05/04 15:15 | Metz vs Nantes | @3.07 / @3.38 / @2.54 *(sans forme)* |
-| Dim 05/04 18:45 | AS Monaco vs Marseille | @2.29 / @3.75 / @3.21 *(sans forme)* |
+| Sam 11/04 11:30 | Arsenal vs Bournemouth | @1.40 / @4.50 / @6.75 |
+| Sam 11/04 14:00 | Brentford vs Everton | @2.05 / @3.30 / @3.35 |
+| Sam 11/04 14:00 | Burnley vs Brighton | @4.20 / @3.95 / @1.66 *(sans forme)* |
+| Sam 11/04 16:30 | Liverpool vs Fulham | @1.60 / @4.10 / @4.60 |
+| Dim 12/04 13:00 | Nottingham Forest vs Aston Villa | @2.60 / @3.40 / @2.75 |
+| Dim 12/04 13:00 | Crystal Palace vs Newcastle United | @3.25 / @3.45 / @2.28 |
+| Dim 12/04 13:00 | Sunderland vs Tottenham Hotspur | @2.50 / @3.35 / @2.55 |
+| Dim 12/04 15:30 | Chelsea vs Manchester City | @2.90 / @3.95 / @2.05 |
+| Lun 13/04 19:00 | Manchester United vs Leeds United | @1.69 / @4.32 / @5.23 |
+
+**Ligue 1**
+
+| Date | Match | Cotes (dom / nul / ext) |
+|---|---|---|
+| Sam 11/04 17:00 | Auxerre vs Nantes | @1.97 / @3.44 / @4.24 |
+| Dim 12/04 15:15 | Nice vs Le Havre | @1.94 / @3.20 / @4.77 |
+| Dim 12/04 15:15 | Toulouse vs Lille | @3.24 / @3.25 / @2.40 |
+| Dim 12/04 18:45 | Lyon vs Lorient | @1.70 / @3.94 / @5.16 |
+| Ven 17/04 18:45 | RC Lens vs Toulouse | @1.61 / @4.12 / @5.25 |
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
 | Match | Pronostic | Cote | Mise | Gain potentiel |
 |---|---|---|---|---|
-| Paris Saint Germain vs Toulouse | **PSG W** | @1.32 | €35 | €46.20 |
-| Strasbourg vs Nice | **Strasbourg W** | @1.90 | €35 | €66.50 |
-| Lille vs RC Lens | **Lille W** | @2.75 | €35 | €96.25 |
+| Arsenal vs Bournemouth | **Arsenal W** | @1.40 | €35 | €49.00 |
+| Manchester United vs Leeds United | **Man United W** | @1.69 | €35 | €59.15 |
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
 | Match | Pronostic | Cote | Mise | Gain potentiel |
 |---|---|---|---|---|
-| Le Havre vs Auxerre | **Nul** | @3.23 | €25 | €80.75 |
-| Lorient vs Paris FC | **Paris FC W** | @3.35 | €25 | €83.75 |
+| Brentford vs Everton | **Brentford W** | @2.05 | €25 | €51.25 |
+| Nottingham Forest vs Aston Villa | **Forest W** | @2.60 | €25 | €65.00 |
+| Chelsea vs Manchester City | **Man City W** | @2.05 | €25 | €51.25 |
+| Nice vs Le Havre | **Nice W** | @1.94 | €25 | €48.50 |
+| Toulouse vs Lille | **Lille W** | @2.40 | €25 | €60.00 |
+| Lyon vs Lorient | **Lyon W** | @1.70 | €25 | €42.50 |
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
-Aucun pari ce week-end.
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Arsenal vs Bournemouth | **Arsenal W** | @1.40 | €10 | €14.00 |
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
 | Match | Pronostic | Cote |
 |---|---|---|
-| Paris Saint Germain vs Toulouse | PSG W | @1.32 |
+| Arsenal vs Bournemouth | Arsenal W | @1.40 |
+| Liverpool vs Fulham | Liverpool W | @1.60 |
+| Nottingham Forest vs Aston Villa | Forest W | @2.60 |
+| RC Lens vs Toulouse | RC Lens W | @1.61 |
 
-Mise combinée : **€15** — Gain potentiel : **€19.80**
+Mise combinée : **€15** — Gain potentiel : **€80.29**
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
 | Match | Pronostic | Cote |
 |---|---|---|
-| Paris Saint Germain vs Toulouse | PSG W | @1.32 |
+| Arsenal vs Bournemouth | Arsenal W | @1.40 |
+| Liverpool vs Fulham | Liverpool W | @1.60 |
+| Nottingham Forest vs Aston Villa | Forest W | @2.60 |
 
-Mise combinée : **€20** — Gain potentiel : **€26.40**
+Mise combinée : **€20** — Gain potentiel : **€41.56**
 
 ### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
 | Match | Pronostic | Cote | Mise | Gain potentiel |
 |---|---|---|---|---|
-| Paris Saint Germain vs Toulouse | **Toulouse W** | @11.40 | €50 | €570.00 |
-| Lille vs RC Lens | **Lille W** | @2.75 | €35 | €96.25 |
-| Le Havre vs Auxerre | **Auxerre W** | @3.23 | €35 | €113.05 |
-| Lorient vs Paris FC | **Paris FC W** | @3.35 | €35 | €117.25 |
+| Arsenal vs Bournemouth | **Bournemouth W** | @6.75 | €35 | €236.25 |
+| Brentford vs Everton | **Everton W** | @3.35 | €35 | €117.25 |
+| Liverpool vs Fulham | **Fulham W** | @4.60 | €50 | €230.00 |
+| Crystal Palace vs Newcastle United | **Crystal Palace W** | @3.25 | €35 | €113.75 |
+| Manchester United vs Leeds United | **Leeds W** | @5.23 | €20 | €104.60 |
+| Auxerre vs Nantes | **Nantes W** | @4.24 | €35 | €148.40 |
+| Nice vs Le Havre | **Le Havre W** | @4.77 | €35 | €166.95 |
+| Lyon vs Lorient | **Lorient W** | @5.16 | €50 | €258.00 |
 
-> Way to Claude joue Toulouse à @11.40 (EV=2.04) — paris contrarian maximal contre le leader PSG.
+> Way to Claude joue les outsiders à domicile (Bournemouth @6.75, EV=0.76) et les upsets en Ligue 1 (Lorient @5.16, EV=0.58).
 
 ---
 

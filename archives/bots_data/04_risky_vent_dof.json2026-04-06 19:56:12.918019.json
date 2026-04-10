@@ -1,8 +1,8 @@
 {
-    "total_bets_made": 5,
-    "successful_bets": 3,
+    "total_bets_made": 6,
+    "successful_bets": 0,
     "unsuccessful_bets": 2,
-    "money": -62.400000000000006,
+    "money": -45,
     "current_bets": {
         "Round \u2013 06/04/2026": [
             {
@@ -138,39 +138,8 @@
                     3
                 ],
                 "prediction": 3
-            },
-            "potential_gain": 75.0,
-            "result": "lost"
+            }
         },
-        "3": {
-            "bet_data": {
-                "event_id": "df0b1a0f35307c661511183f7865f9e5",
-                "cotes": {
-                    "3": "1.7",
-                    "1": "4.2",
-                    "0": "4.6"
-                },
-                "info": {
-                    "teams": "Paris Saint Germain vs Liverpool",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-04-08 19:00"
-                },
-                "last5vec": [
-                    3,
-                    3,
-                    3,
-                    3,
-                    0,
-                    0,
-                    3,
-                    1,
-                    0,
-                    0
-                ],
-                "prediction": 3
-            },
-            "potential_gain": 17.0,
-            "result": "won"
-        }
+        "potential_gain": 22.5
     }
 }

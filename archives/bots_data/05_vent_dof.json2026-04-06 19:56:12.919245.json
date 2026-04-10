@@ -1,8 +1,8 @@
 {
-    "total_bets_made": 5,
-    "successful_bets": 3,
-    "unsuccessful_bets": 2,
-    "money": -62.400000000000006,
+    "total_bets_made": 2,
+    "successful_bets": 1,
+    "unsuccessful_bets": 0,
+    "money": 22.585480000000004,
     "current_bets": {
         "Round \u2013 06/04/2026": [
             {
@@ -112,65 +112,6 @@
         ]
     },
     "confirmed_bets": {
-        "2": {
-            "bet_data": {
-                "event_id": "68c250a354dfc0a238ee73466465a9f9",
-                "cotes": {
-                    "3": "1.5",
-                    "1": "5.0",
-                    "0": "5.6"
-                },
-                "info": {
-                    "teams": "Barcelona vs Atl\u00e9tico Madrid",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-04-08 19:00"
-                },
-                "last5vec": [
-                    3,
-                    3,
-                    3,
-                    3,
-                    1,
-                    0,
-                    0,
-                    0,
-                    3,
-                    3
-                ],
-                "prediction": 3
-            },
-            "potential_gain": 75.0,
-            "result": "lost"
-        },
-        "3": {
-            "bet_data": {
-                "event_id": "df0b1a0f35307c661511183f7865f9e5",
-                "cotes": {
-                    "3": "1.7",
-                    "1": "4.2",
-                    "0": "4.6"
-                },
-                "info": {
-                    "teams": "Paris Saint Germain vs Liverpool",
-                    "competition": "UEFA Champions League",
-                    "date": "2026-04-08 19:00"
-                },
-                "last5vec": [
-                    3,
-                    3,
-                    3,
-                    3,
-                    0,
-                    0,
-                    3,
-                    1,
-                    0,
-                    0
-                ],
-                "prediction": 3
-            },
-            "potential_gain": 17.0,
-            "result": "won"
-        }
+        "potential_gain": 0
     }
 }
