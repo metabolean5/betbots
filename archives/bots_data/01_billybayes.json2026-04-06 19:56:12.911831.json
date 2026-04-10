@@ -1,8 +1,8 @@
 {
-    "total_bets_made": 5,
-    "successful_bets": 3,
-    "unsuccessful_bets": 2,
-    "money": -62.400000000000006,
+    "total_bets_made": 8,
+    "successful_bets": 5,
+    "unsuccessful_bets": 0,
+    "money": 5.949999999999989,
     "current_bets": {
         "Round \u2013 06/04/2026": [
             {
@@ -112,6 +112,35 @@
         ]
     },
     "confirmed_bets": {
+        "1": {
+            "bet_data": {
+                "event_id": "59fe57b2fc5fe8a6ab3f7699f388f7f0",
+                "cotes": {
+                    "3": "2.85",
+                    "1": "3.95",
+                    "0": "2.22"
+                },
+                "info": {
+                    "teams": "Real Madrid vs Bayern Munich",
+                    "competition": "UEFA Champions League",
+                    "date": "2026-04-07 19:00"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    3
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 99.75
+        },
         "2": {
             "bet_data": {
                 "event_id": "68c250a354dfc0a238ee73466465a9f9",
@@ -139,8 +168,7 @@
                 ],
                 "prediction": 3
             },
-            "potential_gain": 75.0,
-            "result": "lost"
+            "potential_gain": 52.5
         },
         "3": {
             "bet_data": {
@@ -169,8 +197,7 @@
                 ],
                 "prediction": 3
             },
-            "potential_gain": 17.0,
-            "result": "won"
+            "potential_gain": 59.5
         }
     }
 }

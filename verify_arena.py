@@ -215,7 +215,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 medal = {1: "🥇", 2: "🥈", 3: "🥉"}
 
 leaderboard_lines = [
-    "## Classement Saison 3 – R16 (10–12 mars 2026)\n",
+    "## Classement Saison 3 – QF (7–8 avril 2026)\n",
     "\n",
     "| Rang | Bot | Mise totale | Argent | Paris gagnés | Paris perdus |\n",
     "|------|-----|------------|--------|--------------|---------------|\n",

@@ -36,6 +36,15 @@ UCL_DATA = {
     "06": "bots_data/06_valeur_darb.json",
 }
 
+WCQ_DATA = {
+    "01": "bots_data/01_billybayes_wcq.json",
+    "02": "bots_data/02_risky_rifky_wcq.json",
+    "03": "bots_data/03_pat_nostat_wcq.json",
+    "04": "bots_data/04_risky_vent_dof_wcq.json",
+    "05": "bots_data/05_vent_dof_wcq.json",
+    "06": "bots_data/06_valeur_darb_wcq.json",
+}
+
 print("=" * 60)
 print("  BETBOTS WEEKEND VERIFY  –  EPL / LIGUE 1")
 print("=" * 60)
@@ -204,23 +213,25 @@ print("=" * 60)
 for bot in botlist:
     verify_bot(bot)
 
-# ─── Combined standings (UCL + weekend) ───────────────────────────────────────
+# ─── Combined standings (UCL + WCQ + weekend) ────────────────────────────────
 
 print("\n" + "=" * 60)
-print("  COMBINED STANDINGS (UCL + WEEKEND)")
+print("  COMBINED STANDINGS (UCL + WCQ + WEEKEND)")
 print("=" * 60)
 
 combined = {}
 for idn, wkd_path in WKD_DATA.items():
     ucl_path = UCL_DATA[idn]
+    wcq_path = WCQ_DATA[idn]
     wkd = json.load(open(wkd_path))
     ucl = json.load(open(ucl_path))
+    wcq = json.load(open(wcq_path))
     name = [b.getName() for b in botlist if b.id == idn][0]
     combined[name] = {
-        "money":      ucl["money"] + wkd["money"],
-        "bets_won":   ucl["successful_bets"] + wkd["successful_bets"],
-        "bets_lost":  ucl["unsuccessful_bets"] + wkd["unsuccessful_bets"],
-        "total_bets": ucl["total_bets_made"] + wkd["total_bets_made"],
+        "money":      ucl["money"] + wcq["money"] + wkd["money"],
+        "bets_won":   ucl["successful_bets"] + wcq["successful_bets"] + wkd["successful_bets"],
+        "bets_lost":  ucl["unsuccessful_bets"] + wcq["unsuccessful_bets"] + wkd["unsuccessful_bets"],
+        "total_bets": ucl["total_bets_made"] + wcq["total_bets_made"] + wkd["total_bets_made"],
     }
 
 sorted_bots = sorted(combined.items(), key=lambda x: x[1]["money"], reverse=True)

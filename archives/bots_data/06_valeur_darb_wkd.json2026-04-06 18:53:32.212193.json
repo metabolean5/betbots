@@ -1,0 +1,320 @@
+{
+    "total_bets_made": 22,
+    "successful_bets": 6,
+    "unsuccessful_bets": 16,
+    "money": 76.05000000000004,
+    "current_bets": {
+        "Weekend EPL/FL1 \u2013 01/04/2026": [
+            {
+                "event_id": "e7567f1b35dff2942700c64fd9514cb3",
+                "cotes": {
+                    "3": "1.32",
+                    "1": "5.88",
+                    "0": "11.4"
+                },
+                "info": {
+                    "teams": "Paris Saint Germain vs Toulouse",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-03 18:45"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    0,
+                    0,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "c6b303dea1551810acb0eb3bbc238ab2",
+                "cotes": {
+                    "3": "1.9",
+                    "1": "3.76",
+                    "0": "4.47"
+                },
+                "info": {
+                    "teams": "Strasbourg vs Nice",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-04 15:00"
+                },
+                "last5vec": [
+                    3,
+                    1,
+                    1,
+                    1,
+                    3,
+                    0,
+                    3,
+                    0,
+                    0,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "4dc4098b179fbfdbf44efac87bc64917",
+                "cotes": {
+                    "3": "2.75",
+                    "1": "3.43",
+                    "0": "2.77"
+                },
+                "info": {
+                    "teams": "Lille vs RC Lens",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-04 19:05"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    1,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "273a71fd48f3acd95fc90d3984769f18",
+                "cotes": {
+                    "3": "2.53",
+                    "1": "3.23",
+                    "0": "3.23"
+                },
+                "info": {
+                    "teams": "Le Havre vs Auxerre",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-05 15:15"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "prediction": 1
+            },
+            {
+                "event_id": "c8484cd6cf5211a276f65fcabc0a657a",
+                "cotes": {
+                    "3": "2.38",
+                    "1": "3.37",
+                    "0": "3.35"
+                },
+                "info": {
+                    "teams": "Lorient vs Paris FC",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-05 15:15"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    1,
+                    1,
+                    1,
+                    3,
+                    1,
+                    1,
+                    3,
+                    1
+                ],
+                "prediction": 3
+            }
+        ],
+        "Weekend EPL/FL1 odds-only \u2013 01/04/2026": [
+            {
+                "event_id": "ea83c2e347a7f55f8265fe49489708f2",
+                "cotes": {
+                    "3": "3.21",
+                    "1": "3.64",
+                    "0": "2.33"
+                },
+                "info": {
+                    "teams": "Brest vs Rennes",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-04 17:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "9834da029f6f9df59c317bc2d7ca8eb5",
+                "cotes": {
+                    "3": "4.88",
+                    "1": "3.67",
+                    "0": "1.86"
+                },
+                "info": {
+                    "teams": "Angers vs Lyon",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-05 13:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "9ab57447db837d4f2e655655a8a2369d",
+                "cotes": {
+                    "3": "3.07",
+                    "1": "3.38",
+                    "0": "2.54"
+                },
+                "info": {
+                    "teams": "Metz vs Nantes",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-05 15:15"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "6711a91275c7b1630162aba2511e6559",
+                "cotes": {
+                    "3": "2.29",
+                    "1": "3.75",
+                    "0": "3.21"
+                },
+                "info": {
+                    "teams": "AS Monaco vs Marseille",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-05 18:45"
+                },
+                "last5vec": []
+            }
+        ]
+    },
+    "confirmed_bets": {
+        "0": {
+            "bet_data": {
+                "event_id": "e7567f1b35dff2942700c64fd9514cb3",
+                "cotes": {
+                    "3": "1.32",
+                    "1": "5.88",
+                    "0": "11.4"
+                },
+                "info": {
+                    "teams": "Paris Saint Germain vs Toulouse",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-03 18:45"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    3,
+                    3,
+                    0,
+                    0,
+                    1
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 570.0,
+            "result": "lost"
+        },
+        "2": {
+            "bet_data": {
+                "event_id": "4dc4098b179fbfdbf44efac87bc64917",
+                "cotes": {
+                    "3": "2.75",
+                    "1": "3.43",
+                    "0": "2.77"
+                },
+                "info": {
+                    "teams": "Lille vs RC Lens",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-04 19:05"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    1,
+                    3,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1,
+                    0
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 96.25,
+            "result": "won"
+        },
+        "3": {
+            "bet_data": {
+                "event_id": "273a71fd48f3acd95fc90d3984769f18",
+                "cotes": {
+                    "3": "2.53",
+                    "1": "3.23",
+                    "0": "3.23"
+                },
+                "info": {
+                    "teams": "Le Havre vs Auxerre",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-05 15:15"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0,
+                    1,
+                    1,
+                    0
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 113.05,
+            "result": "lost"
+        },
+        "4": {
+            "bet_data": {
+                "event_id": "c8484cd6cf5211a276f65fcabc0a657a",
+                "cotes": {
+                    "3": "2.38",
+                    "1": "3.37",
+                    "0": "3.35"
+                },
+                "info": {
+                    "teams": "Lorient vs Paris FC",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-05 15:15"
+                },
+                "last5vec": [
+                    0,
+                    3,
+                    1,
+                    1,
+                    1,
+                    3,
+                    1,
+                    1,
+                    3,
+                    1
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 117.25,
+            "result": "lost"
+        }
+    }
+}
