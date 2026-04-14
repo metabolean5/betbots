@@ -68,16 +68,16 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ```
 
-## Classement Saison 3 – QF (7–8 avril 2026)
+## Classement Saison 3 – Week-end (11–13 avril 2026)
 
 | Rang | Bot | Net total | Paris ✅ | Paris ❌ | Total |
 |------|-----|-----------|---------|---------|-------|
-| 🥇 | **Way to Claude** | **€+491.90** | 14 | 33 | 47 |
-| 🥈 | **Billy Bayes** | **€+171.15** | 11 | 4 | 15 |
-| 🥉 | **Risky Rifki** | **€+110.00** | 8 | 11 | 19 |
-| #4 | **Vent d'Ofsky** | **€+19.64** | 4 | 2 | 6 |
-| #5 | **Risky Vent d'Ofsky** | **€-62.22** | 2 | 6 | 11 |
-| #6 | **Pat Nostat** | **€-92.40** | 3 | 6 | 9 |
+| 🥇 | **Way to Claude** | **€+566.50** | 17 | 39 | 56 |
+| 🥈 | **Risky Rifki** | **€+113.75** | 11 | 14 | 25 |
+| 🥉 | **Billy Bayes** | **€+66.15** | 11 | 6 | 17 |
+| #4 | **Vent d'Ofsky** | **€-0.36** | 5 | 3 | 7 |
+| #5 | **Risky Vent d'Ofsky** | **€-77.22** | 2 | 7 | 12 |
+| #6 | **Pat Nostat** | **€-112.40** | 3 | 7 | 10 |
 ## Paris — UCL QF (7–8 avril 2026)
 
 > Données scrappées via `betting_arena.py`.
@@ -259,6 +259,96 @@ Mise combinée : **€20** — Gain potentiel : **€41.56**
 | Lyon vs Lorient | **Lorient W** | @5.16 | €50 | €258.00 |
 
 > Way to Claude joue les outsiders à domicile (Bournemouth @6.75, EV=0.76) et les upsets en Ligue 1 (Lorient @5.16, EV=0.58).
+
+---
+
+## Résultats — Week-end 11–13 avril 2026 (EPL / Ligue 1)
+
+### Résultats des matchs
+
+**Premier League**
+
+| Date | Match | Score | Résultat |
+|---|---|---|---|
+| Sam 11/04 | Arsenal vs Bournemouth | **1–2** | Victoire Bournemouth |
+| Sam 11/04 | Brentford vs Everton | **2–2** | Nul |
+| Sam 11/04 | Burnley vs Brighton | **0–2** | Victoire Brighton |
+| Sam 11/04 | Liverpool vs Fulham | **2–0** | Victoire Liverpool |
+| Dim 12/04 | Sunderland vs Tottenham | **1–0** | Victoire Sunderland |
+| Dim 12/04 | Crystal Palace vs Newcastle | **2–1** | Victoire Crystal Palace |
+| Dim 12/04 | Nottingham Forest vs Aston Villa | **1–1** | Nul |
+| Dim 12/04 | Chelsea vs Manchester City | **0–3** | Victoire Manchester City |
+| Lun 13/04 | Manchester United vs Leeds United | **1–2** | Victoire Leeds United |
+
+**Ligue 1**
+
+| Date | Match | Score | Résultat |
+|---|---|---|---|
+| Sam 11/04 | Auxerre vs Nantes | **0–0** | Nul |
+| Dim 12/04 | Nice vs Le Havre | **1–1** | Nul |
+| Dim 12/04 | Toulouse vs Lille | **0–4** | Victoire Lille |
+| Dim 12/04 | Lyon vs Lorient | **2–0** | Victoire Lyon |
+| Ven 17/04 | RC Lens vs Toulouse | — | *Pas encore joué* |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Arsenal vs Bournemouth | Arsenal W | @1.40 | €35 | ❌ 1–2 | -€35 |
+| Manchester United vs Leeds United | Man United W | @1.69 | €35 | ❌ 1–2 | -€35 |
+
+Bilan : **0✅ 2❌** — **-€70**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Brentford vs Everton | Brentford W | @2.05 | €25 | ❌ 2–2 | -€25 |
+| Nottingham Forest vs Aston Villa | Forest W | @2.60 | €25 | ❌ 1–1 | -€25 |
+| Chelsea vs Manchester City | **Man City W** | @2.05 | €25 | ✅ 0–3 | **+€51.25** |
+| Nice vs Le Havre | Nice W | @1.94 | €25 | ❌ 1–1 | -€25 |
+| Toulouse vs Lille | **Lille W** | @2.40 | €25 | ✅ 0–4 | **+€60.00** |
+| Lyon vs Lorient | **Lyon W** | @1.70 | €25 | ✅ 2–0 | **+€42.50** |
+
+Bilan : **3✅ 3❌** — **+€78.75**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Arsenal vs Bournemouth | Arsenal W | @1.40 | €10 | ❌ 1–2 | -€10 |
+
+Bilan : **0✅ 1❌** — **-€10**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote | Résultat |
+|---|---|---|---|
+| Arsenal vs Bournemouth | Arsenal W | @1.40 | ❌ 1–2 |
+| Liverpool vs Fulham | Liverpool W | @1.60 | ✅ 2–0 |
+| Nottingham Forest vs Aston Villa | Forest W | @2.60 | ❌ 1–1 |
+| RC Lens vs Toulouse | RC Lens W | @1.61 | — *17/04* |
+
+Mise : **€15** — Combiné **PERDU** (Arsenal éliminé) — **-€15**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote | Résultat |
+|---|---|---|---|
+| Arsenal vs Bournemouth | Arsenal W | @1.40 | ❌ 1–2 |
+| Liverpool vs Fulham | Liverpool W | @1.60 | ✅ 2–0 |
+| Nottingham Forest vs Aston Villa | Forest W | @2.60 | ❌ 1–1 |
+
+Mise : **€20** — Combiné **PERDU** (Arsenal éliminé) — **-€20**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Arsenal vs Bournemouth | **Bournemouth W** | @6.75 | €35 | ✅ 1–2 | **+€236.25** |
+| Brentford vs Everton | Everton W | @3.35 | €35 | ❌ 2–2 | -€35 |
+| Liverpool vs Fulham | Fulham W | @4.60 | €50 | ❌ 2–0 | -€50 |
+| Crystal Palace vs Newcastle | **Crystal Palace W** | @3.25 | €35 | ✅ 2–1 | **+€113.75** |
+| Manchester United vs Leeds | **Leeds W** | @5.23 | €20 | ✅ 1–2 | **+€104.60** |
+| Auxerre vs Nantes | Nantes W | @4.24 | €35 | ❌ 0–0 | -€35 |
+| Nice vs Le Havre | Le Havre W | @4.77 | €35 | ❌ 1–1 | -€35 |
+| Lyon vs Lorient | Lorient W | @5.16 | €50 | ❌ 2–0 | -€50 |
+
+Bilan : **3✅ 5❌** — **+€249.60**
 
 ---
 
