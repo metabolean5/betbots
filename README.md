@@ -68,16 +68,16 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ```
 
-## Classement Saison 3 – UCL QF 2e manche (14–15 avril 2026)
+## Classement Saison 3 – Week-end (11–13 avril 2026)
 
 | Rang | Bot | Net total | Paris ✅ | Paris ❌ | Total |
 |------|-----|-----------|---------|---------|-------|
-| 🥇 | **Way to Claude** | **€+446.50** | 17 | 39 | 59 |
-| 🥈 | **Risky Rifki** | **€+88.75** | 11 | 14 | 26 |
-| 🥉 | **Billy Bayes** | **€+31.15** | 11 | 6 | 18 |
+| 🥇 | **Way to Claude** | **€+566.50** | 17 | 39 | 56 |
+| 🥈 | **Risky Rifki** | **€+113.75** | 11 | 14 | 25 |
+| 🥉 | **Billy Bayes** | **€+66.15** | 11 | 6 | 17 |
 | #4 | **Vent d'Ofsky** | **€-0.36** | 5 | 3 | 7 |
-| #5 | **Risky Vent d'Ofsky** | **€-92.22** | 2 | 7 | 13 |
-| #6 | **Pat Nostat** | **€-142.40** | 3 | 7 | 13 |
+| #5 | **Risky Vent d'Ofsky** | **€-77.22** | 2 | 7 | 12 |
+| #6 | **Pat Nostat** | **€-112.40** | 3 | 7 | 10 |
 
 ---
 
