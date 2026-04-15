@@ -1,328 +1,250 @@
 {
-    "total_bets_made": 31,
+    "total_bets_made": 44,
     "successful_bets": 9,
     "unsuccessful_bets": 22,
-    "money": 185.6500000000001,
+    "money": -374.3499999999999,
     "current_bets": {
-        "Weekend EPL/FL1 \u2013 10/04/2026": [
+        "Weekend EPL/FL1 \u2013 15/04/2026": [
             {
-                "event_id": "ff027a0ac6a0538a713b46bd753b670d",
+                "event_id": "2c2061ffc9ee67808fd45273089d7795",
                 "cotes": {
-                    "3": "1.4",
-                    "1": "4.5",
-                    "0": "6.75"
+                    "3": "2.18",
+                    "1": "3.81",
+                    "0": "3.4"
                 },
                 "info": {
-                    "teams": "Arsenal vs Bournemouth",
+                    "teams": "Brentford vs Fulham",
                     "competition": "Premier League",
-                    "date": "2026-04-11 11:30"
+                    "date": "2026-04-18 11:30"
                 },
                 "last5vec": [
+                    1,
+                    1,
+                    1,
+                    1,
                     3,
-                    3,
-                    3,
-                    1,
+                    0,
                     3,
                     1,
-                    1,
-                    1,
-                    1,
-                    1
+                    0,
+                    3
                 ],
                 "prediction": 3
             },
             {
-                "event_id": "0b8adb16f16b2490e3fbd514a2d86190",
+                "event_id": "be6cdb6ddd27d099b5291f0d1e051d92",
                 "cotes": {
-                    "3": "2.05",
-                    "1": "3.3",
-                    "0": "3.35"
+                    "3": "2.02",
+                    "1": "3.96",
+                    "0": "3.72"
                 },
                 "info": {
-                    "teams": "Brentford vs Everton",
+                    "teams": "Newcastle United vs Bournemouth",
                     "competition": "Premier League",
-                    "date": "2026-04-11 14:00"
+                    "date": "2026-04-18 14:00"
                 },
                 "last5vec": [
-                    1,
-                    1,
-                    1,
-                    3,
+                    0,
+                    0,
                     0,
                     3,
-                    0,
+                    1,
                     3,
-                    3,
-                    0
+                    1,
+                    1,
+                    1,
+                    1
                 ],
                 "prediction": 1
             },
             {
-                "event_id": "f022ab37b6c69f588015498186a9694b",
+                "event_id": "933e20e0892b28ca075a9ab5465d5c6d",
                 "cotes": {
-                    "3": "1.6",
-                    "1": "4.1",
-                    "0": "4.6"
+                    "3": "2.32",
+                    "1": "3.62",
+                    "0": "3.25"
                 },
                 "info": {
-                    "teams": "Liverpool vs Fulham",
+                    "teams": "Chelsea vs Manchester United",
                     "competition": "Premier League",
-                    "date": "2026-04-11 16:30"
-                },
-                "last5vec": [
-                    0,
-                    0,
-                    3,
-                    1,
-                    0,
-                    3,
-                    1,
-                    0,
-                    3,
-                    3
-                ],
-                "prediction": 3
-            },
-            {
-                "event_id": "542c7cb070f6d66aa7003cd825d5c199",
-                "cotes": {
-                    "3": "2.6",
-                    "1": "3.4",
-                    "0": "2.75"
-                },
-                "info": {
-                    "teams": "Nottingham Forest vs Aston Villa",
-                    "competition": "Premier League",
-                    "date": "2026-04-12 13:00"
-                },
-                "last5vec": [
-                    3,
-                    1,
-                    1,
-                    0,
-                    0,
-                    3,
-                    0,
-                    0,
-                    0,
-                    1
-                ],
-                "prediction": 3
-            },
-            {
-                "event_id": "aa83ffb32d9d72361f2cca8c1d3c2b19",
-                "cotes": {
-                    "3": "3.25",
-                    "1": "3.45",
-                    "0": "2.28"
-                },
-                "info": {
-                    "teams": "Crystal Palace vs Newcastle United",
-                    "competition": "Premier League",
-                    "date": "2026-04-12 13:00"
-                },
-                "last5vec": [
-                    1,
-                    3,
-                    0,
-                    3,
-                    0,
-                    0,
-                    0,
-                    3,
-                    1,
-                    3
-                ],
-                "prediction": 3
-            },
-            {
-                "event_id": "5b7b41cabf1a84e8991c9cf3d0a7ab90",
-                "cotes": {
-                    "3": "2.5",
-                    "1": "3.35",
-                    "0": "2.55"
-                },
-                "info": {
-                    "teams": "Sunderland vs Tottenham Hotspur",
-                    "competition": "Premier League",
-                    "date": "2026-04-12 13:00"
-                },
-                "last5vec": [
-                    3,
-                    0,
-                    3,
-                    1,
-                    0,
-                    0,
-                    3,
-                    1,
-                    0,
-                    0
-                ],
-                "prediction": 3
-            },
-            {
-                "event_id": "e4c2f457a464a95a8631ab28ef77b0b9",
-                "cotes": {
-                    "3": "2.9",
-                    "1": "3.95",
-                    "0": "2.05"
-                },
-                "info": {
-                    "teams": "Chelsea vs Manchester City",
-                    "competition": "Premier League",
-                    "date": "2026-04-12 15:30"
+                    "date": "2026-04-18 19:00"
                 },
                 "last5vec": [
                     0,
                     0,
                     0,
                     0,
-                    3,
                     0,
-                    1,
                     0,
-                    1,
-                    3
-                ],
-                "prediction": 3
-            },
-            {
-                "event_id": "7d48c93e68e7403998d0ed38e99caae5",
-                "cotes": {
-                    "3": "1.69",
-                    "1": "4.32",
-                    "0": "5.23"
-                },
-                "info": {
-                    "teams": "Manchester United vs Leeds United",
-                    "competition": "Premier League",
-                    "date": "2026-04-13 19:00"
-                },
-                "last5vec": [
                     1,
                     3,
-                    0,
-                    3,
-                    3,
-                    1,
-                    1,
-                    0,
-                    0,
-                    1
-                ],
-                "prediction": 3
-            },
-            {
-                "event_id": "5061b890abe6e00a4bb580ef5c57dec1",
-                "cotes": {
-                    "3": "1.97",
-                    "1": "3.44",
-                    "0": "4.24"
-                },
-                "info": {
-                    "teams": "Auxerre vs Nantes",
-                    "competition": "Ligue 1",
-                    "date": "2026-04-11 17:00"
-                },
-                "last5vec": [
-                    1,
-                    3,
-                    0,
-                    1,
-                    1,
-                    1,
-                    0,
-                    0,
                     0,
                     3
                 ],
-                "prediction": 3
+                "prediction": 1
             },
             {
-                "event_id": "bc66d1e7b1afd516f0e4fd88414e99a7",
-                "cotes": {
-                    "3": "1.94",
-                    "1": "3.2",
-                    "0": "4.77"
-                },
-                "info": {
-                    "teams": "Nice vs Le Havre",
-                    "competition": "Ligue 1",
-                    "date": "2026-04-12 15:15"
-                },
-                "last5vec": [
-                    0,
-                    0,
-                    3,
-                    0,
-                    0,
-                    1,
-                    0,
-                    1,
-                    0,
-                    0
-                ],
-                "prediction": 3
-            },
-            {
-                "event_id": "36775df2bcf046549c9fa7bd4d6f2dcb",
-                "cotes": {
-                    "3": "3.24",
-                    "1": "3.25",
-                    "0": "2.4"
-                },
-                "info": {
-                    "teams": "Toulouse vs Lille",
-                    "competition": "Ligue 1",
-                    "date": "2026-04-12 15:15"
-                },
-                "last5vec": [
-                    0,
-                    3,
-                    3,
-                    0,
-                    0,
-                    3,
-                    3,
-                    3,
-                    1,
-                    3
-                ],
-                "prediction": 3
-            },
-            {
-                "event_id": "5504a8c750f9af9f20ffa2d3bcb22302",
+                "event_id": "72406c12d6334a8f3475a640ea1f814b",
                 "cotes": {
                     "3": "1.7",
-                    "1": "3.94",
-                    "0": "5.16"
+                    "1": "3.79",
+                    "0": "5.4"
                 },
                 "info": {
-                    "teams": "Lyon vs Lorient",
-                    "competition": "Ligue 1",
-                    "date": "2026-04-12 18:45"
+                    "teams": "Aston Villa vs Sunderland",
+                    "competition": "Premier League",
+                    "date": "2026-04-19 13:00"
                 },
                 "last5vec": [
                     1,
+                    3,
                     0,
+                    0,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1
+                ],
+                "prediction": 0
+            },
+            {
+                "event_id": "95d68f9006aa718d447c759366118c31",
+                "cotes": {
+                    "3": "1.54",
+                    "1": "4.25",
+                    "0": "6.52"
+                },
+                "info": {
+                    "teams": "Nottingham Forest vs Burnley",
+                    "competition": "Premier League",
+                    "date": "2026-04-19 13:00"
+                },
+                "last5vec": [
+                    1,
+                    3,
                     1,
                     1,
                     0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "3e7369c873aed1c62f4d76fd652d73c7",
+                "cotes": {
+                    "3": "3.05",
+                    "1": "3.45",
+                    "0": "2.15"
+                },
+                "info": {
+                    "teams": "Everton vs Liverpool",
+                    "competition": "Premier League",
+                    "date": "2026-04-19 13:00"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    0,
+                    0,
+                    3
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "67946ccfc03197bc48eb7b6c9786b713",
+                "cotes": {
+                    "3": "1.87",
+                    "1": "3.73",
+                    "0": "4.31"
+                },
+                "info": {
+                    "teams": "Manchester City vs Arsenal",
+                    "competition": "Premier League",
+                    "date": "2026-04-19 15:30"
+                },
+                "last5vec": [
+                    3,
+                    0,
+                    1,
+                    0,
+                    1,
                     1,
                     0,
                     3,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "event_id": "690fef3d62fc4c8015481626d5aab274",
+                "cotes": {
+                    "3": "1.96",
+                    "1": "3.4",
+                    "0": "3.3"
+                },
+                "info": {
+                    "teams": "Bournemouth vs Leeds United",
+                    "competition": "Premier League",
+                    "date": "2026-04-22 19:00"
+                },
+                "last5vec": [
+                    3,
                     1,
+                    1,
+                    1,
+                    1,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "4a1a7f4a60859fc3ecc69d05f5729556",
+                "cotes": {
+                    "3": "9.5",
+                    "1": "6.0",
+                    "0": "1.19"
+                },
+                "info": {
+                    "teams": "Burnley vs Manchester City",
+                    "competition": "Premier League",
+                    "date": "2026-04-22 19:00"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    3,
+                    0,
+                    1,
+                    0,
                     1
                 ],
-                "prediction": 1
+                "prediction": 0
             },
             {
                 "event_id": "6856b3123aaf14ce6c63669005568ba1",
                 "cotes": {
-                    "3": "1.61",
-                    "1": "4.12",
-                    "0": "5.25"
+                    "3": "1.57",
+                    "1": "4.41",
+                    "0": "5.72"
                 },
                 "info": {
                     "teams": "RC Lens vs Toulouse",
@@ -336,94 +258,280 @@
                     3,
                     1,
                     0,
+                    0,
                     3,
                     3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "fe782261cb033b4af93a5093bacae6ac",
+                "cotes": {
+                    "3": "4.48",
+                    "1": "4.01",
+                    "0": "1.78"
+                },
+                "info": {
+                    "teams": "Lorient vs Marseille",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-18 15:00"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    0,
+                    3,
+                    1,
+                    3,
+                    0,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "event_id": "f0d901eda17f84d9a8c73c28a170b573",
+                "cotes": {
+                    "3": "1.53",
+                    "1": "4.36",
+                    "0": "6.37"
+                },
+                "info": {
+                    "teams": "Lille vs Nice",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-18 19:05"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    3,
+                    0
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "44f3850c674a5c86de98512df1f7b33f",
+                "cotes": {
+                    "3": "2.37",
+                    "1": "3.31",
+                    "0": "3.23"
+                },
+                "info": {
+                    "teams": "Nantes vs Brest",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-19 15:15"
+                },
+                "last5vec": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            {
+                "event_id": "59534dfb4696032a00bfc20754769c2a",
+                "cotes": {
+                    "3": "1.3",
+                    "1": "6.12",
+                    "0": "8.89"
+                },
+                "info": {
+                    "teams": "Paris Saint Germain vs Lyon",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-19 18:45"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    0,
+                    1,
+                    1
+                ],
+                "prediction": 3
+            },
+            {
+                "event_id": "4a59d2e85b04c8fede5bfe10e8806fc6",
+                "cotes": {
+                    "3": "1.2",
+                    "1": "6.5",
+                    "0": "12.0"
+                },
+                "info": {
+                    "teams": "Paris Saint Germain vs Nantes",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-22 17:00"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    1,
+                    0,
                     0,
                     0
                 ],
                 "prediction": 3
             }
         ],
-        "Weekend EPL/FL1 odds-only \u2013 10/04/2026": [
+        "Weekend EPL/FL1 odds-only \u2013 15/04/2026": [
             {
-                "event_id": "10d3a3a8df4f15a0754da8195a47c41f",
+                "event_id": "d137c5f062243e857803fcebfdda2953",
                 "cotes": {
-                    "3": "1.02",
-                    "1": "20.0",
-                    "0": "85.0"
+                    "3": "1.69",
+                    "1": "4.11",
+                    "0": "5.58"
                 },
                 "info": {
-                    "teams": "West Ham United vs Wolverhampton Wanderers",
+                    "teams": "Leeds United vs Wolverhampton Wanderers",
                     "competition": "Premier League",
-                    "date": "2026-04-10 19:01"
+                    "date": "2026-04-18 14:00"
                 },
                 "last5vec": []
             },
             {
-                "event_id": "44d98d5d5c19eb115a527f1de294f03e",
+                "event_id": "5e7f44119f2e640fdf04c245a764657f",
                 "cotes": {
-                    "3": "4.2",
-                    "1": "3.95",
-                    "0": "1.66"
+                    "3": "2.83",
+                    "1": "3.88",
+                    "0": "2.47"
                 },
                 "info": {
-                    "teams": "Burnley vs Brighton and Hove Albion",
+                    "teams": "Tottenham Hotspur vs Brighton and Hove Albion",
                     "competition": "Premier League",
-                    "date": "2026-04-11 14:00"
+                    "date": "2026-04-18 16:30"
                 },
                 "last5vec": []
             },
             {
-                "event_id": "86fa33dc4f47a556a3f97799c74f5ec6",
+                "event_id": "ea28653ebcd7743146869e2aa7851275",
                 "cotes": {
-                    "3": "1.07",
-                    "1": "7.7",
-                    "0": "39.0"
+                    "3": "2.2",
+                    "1": "3.2",
+                    "0": "3.25"
                 },
                 "info": {
-                    "teams": "Marseille vs Metz",
-                    "competition": "Ligue 1",
-                    "date": "2026-04-10 19:05"
+                    "teams": "Crystal Palace vs West Ham United",
+                    "competition": "Premier League",
+                    "date": "2026-04-20 19:00"
                 },
                 "last5vec": []
             },
             {
-                "event_id": "ae3024de9f152e9a71ef56794c52ca16",
+                "event_id": "e6e88546df45a25ee81d07b597d91167",
                 "cotes": {
-                    "3": "1.36",
-                    "1": "5.16",
-                    "0": "8.94"
+                    "3": "2.43",
+                    "1": "3.55",
+                    "0": "2.58"
                 },
                 "info": {
-                    "teams": "Rennes vs Angers",
+                    "teams": "Brighton and Hove Albion vs Chelsea",
+                    "competition": "Premier League",
+                    "date": "2026-04-21 19:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "e76b1c707308d3a64f6d7e5591ec9414",
+                "cotes": {
+                    "3": "2.96",
+                    "1": "2.99",
+                    "0": "2.77"
+                },
+                "info": {
+                    "teams": "Angers vs Le Havre",
                     "competition": "Ligue 1",
-                    "date": "2026-04-11 19:05"
+                    "date": "2026-04-18 17:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "b8ea03916dfa629d1f7e3923a583c03c",
+                "cotes": {
+                    "3": "1.57",
+                    "1": "4.37",
+                    "0": "5.77"
+                },
+                "info": {
+                    "teams": "AS Monaco vs Auxerre",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-19 13:00"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "db35308a389381716f2841fb7a361daf",
+                "cotes": {
+                    "3": "3.49",
+                    "1": "3.52",
+                    "0": "2.08"
+                },
+                "info": {
+                    "teams": "Metz vs Paris FC",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-19 15:15"
+                },
+                "last5vec": []
+            },
+            {
+                "event_id": "9e279d3e6e661791862286e452987aef",
+                "cotes": {
+                    "3": "2.58",
+                    "1": "3.74",
+                    "0": "2.64"
+                },
+                "info": {
+                    "teams": "Strasbourg vs Rennes",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-19 15:15"
                 },
                 "last5vec": []
             }
         ]
     },
     "confirmed_bets": {
-        "0": {
+        "1": {
             "bet_data": {
-                "event_id": "ff027a0ac6a0538a713b46bd753b670d",
+                "event_id": "be6cdb6ddd27d099b5291f0d1e051d92",
                 "cotes": {
-                    "3": "1.4",
-                    "1": "4.5",
-                    "0": "6.75"
+                    "3": "2.02",
+                    "1": "3.96",
+                    "0": "3.72"
                 },
                 "info": {
-                    "teams": "Arsenal vs Bournemouth",
+                    "teams": "Newcastle United vs Bournemouth",
                     "competition": "Premier League",
-                    "date": "2026-04-11 11:30"
+                    "date": "2026-04-18 14:00"
                 },
                 "last5vec": [
-                    3,
-                    3,
+                    0,
+                    0,
+                    0,
                     3,
                     1,
                     3,
-                    1,
                     1,
                     1,
                     1,
@@ -431,226 +539,189 @@
                 ],
                 "prediction": 0
             },
-            "potential_gain": 236.25,
-            "result": "won"
-        },
-        "1": {
-            "bet_data": {
-                "event_id": "0b8adb16f16b2490e3fbd514a2d86190",
-                "cotes": {
-                    "3": "2.05",
-                    "1": "3.3",
-                    "0": "3.35"
-                },
-                "info": {
-                    "teams": "Brentford vs Everton",
-                    "competition": "Premier League",
-                    "date": "2026-04-11 14:00"
-                },
-                "last5vec": [
-                    1,
-                    1,
-                    1,
-                    3,
-                    0,
-                    3,
-                    0,
-                    3,
-                    3,
-                    0
-                ],
-                "prediction": 0
-            },
-            "potential_gain": 117.25,
-            "result": "lost"
+            "potential_gain": 130.20000000000002
         },
         "2": {
             "bet_data": {
-                "event_id": "f022ab37b6c69f588015498186a9694b",
+                "event_id": "933e20e0892b28ca075a9ab5465d5c6d",
                 "cotes": {
-                    "3": "1.6",
-                    "1": "4.1",
-                    "0": "4.6"
+                    "3": "2.32",
+                    "1": "3.62",
+                    "0": "3.25"
                 },
                 "info": {
-                    "teams": "Liverpool vs Fulham",
+                    "teams": "Chelsea vs Manchester United",
                     "competition": "Premier League",
-                    "date": "2026-04-11 16:30"
+                    "date": "2026-04-18 19:00"
                 },
                 "last5vec": [
                     0,
                     0,
-                    3,
-                    1,
                     0,
-                    3,
-                    1,
                     0,
+                    0,
+                    0,
+                    1,
                     3,
+                    0,
                     3
                 ],
                 "prediction": 0
             },
-            "potential_gain": 229.99999999999997,
-            "result": "lost"
+            "potential_gain": 113.75
+        },
+        "3": {
+            "bet_data": {
+                "event_id": "72406c12d6334a8f3475a640ea1f814b",
+                "cotes": {
+                    "3": "1.7",
+                    "1": "3.79",
+                    "0": "5.4"
+                },
+                "info": {
+                    "teams": "Aston Villa vs Sunderland",
+                    "competition": "Premier League",
+                    "date": "2026-04-19 13:00"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    0,
+                    0,
+                    0,
+                    3,
+                    3,
+                    0,
+                    3,
+                    1
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 270.0
         },
         "4": {
             "bet_data": {
-                "event_id": "aa83ffb32d9d72361f2cca8c1d3c2b19",
+                "event_id": "95d68f9006aa718d447c759366118c31",
                 "cotes": {
-                    "3": "3.25",
-                    "1": "3.45",
-                    "0": "2.28"
+                    "3": "1.54",
+                    "1": "4.25",
+                    "0": "6.52"
                 },
                 "info": {
-                    "teams": "Crystal Palace vs Newcastle United",
+                    "teams": "Nottingham Forest vs Burnley",
                     "competition": "Premier League",
-                    "date": "2026-04-12 13:00"
+                    "date": "2026-04-19 13:00"
+                },
+                "last5vec": [
+                    1,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 326.0
+        },
+        "5": {
+            "bet_data": {
+                "event_id": "3e7369c873aed1c62f4d76fd652d73c7",
+                "cotes": {
+                    "3": "3.05",
+                    "1": "3.45",
+                    "0": "2.15"
+                },
+                "info": {
+                    "teams": "Everton vs Liverpool",
+                    "competition": "Premier League",
+                    "date": "2026-04-19 13:00"
                 },
                 "last5vec": [
                     1,
                     3,
                     0,
                     3,
-                    0,
-                    0,
+                    3,
                     0,
                     3,
-                    1,
+                    0,
+                    0,
                     3
                 ],
                 "prediction": 3
             },
-            "potential_gain": 113.75,
-            "result": "won"
+            "potential_gain": 106.75
         },
-        "7": {
+        "6": {
             "bet_data": {
-                "event_id": "7d48c93e68e7403998d0ed38e99caae5",
+                "event_id": "67946ccfc03197bc48eb7b6c9786b713",
                 "cotes": {
-                    "3": "1.69",
-                    "1": "4.32",
-                    "0": "5.23"
+                    "3": "1.87",
+                    "1": "3.73",
+                    "0": "4.31"
                 },
                 "info": {
-                    "teams": "Manchester United vs Leeds United",
+                    "teams": "Manchester City vs Arsenal",
                     "competition": "Premier League",
-                    "date": "2026-04-13 19:00"
+                    "date": "2026-04-19 15:30"
                 },
                 "last5vec": [
-                    1,
-                    3,
-                    0,
-                    3,
-                    3,
-                    1,
-                    1,
-                    0,
-                    0,
-                    1
-                ],
-                "prediction": 0
-            },
-            "potential_gain": 104.60000000000001,
-            "result": "won"
-        },
-        "8": {
-            "bet_data": {
-                "event_id": "5061b890abe6e00a4bb580ef5c57dec1",
-                "cotes": {
-                    "3": "1.97",
-                    "1": "3.44",
-                    "0": "4.24"
-                },
-                "info": {
-                    "teams": "Auxerre vs Nantes",
-                    "competition": "Ligue 1",
-                    "date": "2026-04-11 17:00"
-                },
-                "last5vec": [
-                    1,
                     3,
                     0,
                     1,
+                    0,
                     1,
                     1,
                     0,
-                    0,
-                    0,
+                    3,
+                    3,
                     3
                 ],
                 "prediction": 0
             },
-            "potential_gain": 148.4,
-            "result": "lost"
+            "potential_gain": 215.49999999999997
+        },
+        "8": {
+            "bet_data": {
+                "event_id": "4a1a7f4a60859fc3ecc69d05f5729556",
+                "cotes": {
+                    "3": "9.5",
+                    "1": "6.0",
+                    "0": "1.19"
+                },
+                "info": {
+                    "teams": "Burnley vs Manchester City",
+                    "competition": "Premier League",
+                    "date": "2026-04-22 19:00"
+                },
+                "last5vec": [
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    3,
+                    0,
+                    1,
+                    0,
+                    1
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 475.0
         },
         "9": {
             "bet_data": {
-                "event_id": "bc66d1e7b1afd516f0e4fd88414e99a7",
-                "cotes": {
-                    "3": "1.94",
-                    "1": "3.2",
-                    "0": "4.77"
-                },
-                "info": {
-                    "teams": "Nice vs Le Havre",
-                    "competition": "Ligue 1",
-                    "date": "2026-04-12 15:15"
-                },
-                "last5vec": [
-                    0,
-                    0,
-                    3,
-                    0,
-                    0,
-                    1,
-                    0,
-                    1,
-                    0,
-                    0
-                ],
-                "prediction": 0
-            },
-            "potential_gain": 166.95,
-            "result": "lost"
-        },
-        "11": {
-            "bet_data": {
-                "event_id": "5504a8c750f9af9f20ffa2d3bcb22302",
-                "cotes": {
-                    "3": "1.7",
-                    "1": "3.94",
-                    "0": "5.16"
-                },
-                "info": {
-                    "teams": "Lyon vs Lorient",
-                    "competition": "Ligue 1",
-                    "date": "2026-04-12 18:45"
-                },
-                "last5vec": [
-                    1,
-                    0,
-                    1,
-                    1,
-                    0,
-                    1,
-                    0,
-                    3,
-                    1,
-                    1
-                ],
-                "prediction": 0
-            },
-            "potential_gain": 258.0,
-            "result": "lost"
-        },
-        "12": {
-            "bet_data": {
                 "event_id": "6856b3123aaf14ce6c63669005568ba1",
                 "cotes": {
-                    "3": "1.61",
-                    "1": "4.12",
-                    "0": "5.25"
+                    "3": "1.57",
+                    "1": "4.41",
+                    "0": "5.72"
                 },
                 "info": {
                     "teams": "RC Lens vs Toulouse",
@@ -664,15 +735,159 @@
                     3,
                     1,
                     0,
-                    3,
-                    3,
                     0,
+                    3,
+                    3,
                     0
                 ],
                 "prediction": 0
             },
-            "potential_gain": 262.5,
-            "result": "lost"
+            "potential_gain": 286.0
+        },
+        "10": {
+            "bet_data": {
+                "event_id": "fe782261cb033b4af93a5093bacae6ac",
+                "cotes": {
+                    "3": "4.48",
+                    "1": "4.01",
+                    "0": "1.78"
+                },
+                "info": {
+                    "teams": "Lorient vs Marseille",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-18 15:00"
+                },
+                "last5vec": [
+                    0,
+                    1,
+                    0,
+                    3,
+                    1,
+                    3,
+                    0,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 3
+            },
+            "potential_gain": 156.8
+        },
+        "11": {
+            "bet_data": {
+                "event_id": "f0d901eda17f84d9a8c73c28a170b573",
+                "cotes": {
+                    "3": "1.53",
+                    "1": "4.36",
+                    "0": "6.37"
+                },
+                "info": {
+                    "teams": "Lille vs Nice",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-18 19:05"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    3,
+                    0
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 222.95000000000002
+        },
+        "12": {
+            "bet_data": {
+                "event_id": "44f3850c674a5c86de98512df1f7b33f",
+                "cotes": {
+                    "3": "2.37",
+                    "1": "3.31",
+                    "0": "3.23"
+                },
+                "info": {
+                    "teams": "Nantes vs Brest",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-19 15:15"
+                },
+                "last5vec": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    3
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 113.05
+        },
+        "13": {
+            "bet_data": {
+                "event_id": "59534dfb4696032a00bfc20754769c2a",
+                "cotes": {
+                    "3": "1.3",
+                    "1": "6.12",
+                    "0": "8.89"
+                },
+                "info": {
+                    "teams": "Paris Saint Germain vs Lyon",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-19 18:45"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    0,
+                    1,
+                    1
+                ],
+                "prediction": 0
+            },
+            "potential_gain": 444.5
+        },
+        "14": {
+            "bet_data": {
+                "event_id": "4a59d2e85b04c8fede5bfe10e8806fc6",
+                "cotes": {
+                    "3": "1.2",
+                    "1": "6.5",
+                    "0": "12.0"
+                },
+                "info": {
+                    "teams": "Paris Saint Germain vs Nantes",
+                    "competition": "Ligue 1",
+                    "date": "2026-04-22 17:00"
+                },
+                "last5vec": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0
+                ],
+                "prediction": 1
+            },
+            "potential_gain": 325.0
         }
     }
 }
