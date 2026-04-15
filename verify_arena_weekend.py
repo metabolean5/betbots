@@ -169,10 +169,12 @@ def verify_bot(bot):
     bets = mem["confirmed_bets"]
 
     if bot.id in ("04", "05"):
+        real_bets = {k: v for k, v in bets.items() if k != "potential_gain"}
+        if not real_bets:
+            print(f"  → No bets placed this round, skipping.")
+            return
         all_won = True
-        for key, val in bets.items():
-            if key == "potential_gain":
-                continue
+        for key, val in real_bets.items():
             if not verify_bet_robust(val, key):
                 all_won = False
         if all_won:
