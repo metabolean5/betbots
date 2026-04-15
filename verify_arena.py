@@ -130,10 +130,12 @@ def verify_bot(bot):
 
     # ── combined-bet bots (04, 05) ──────────────────────────────────────────
     if bot.id in ("04", "05"):
+        real_bets = {k: v for k, v in bets.items() if k != "potential_gain"}
+        if not real_bets:
+            print(f"  → No bets placed this round, skipping.")
+            return
         all_won = True
-        for key, val in bets.items():
-            if key == "potential_gain":
-                continue
+        for key, val in real_bets.items():
             if not verify_bet_robust(val, key):
                 all_won = False
         if all_won:
@@ -215,10 +217,10 @@ with open("README.md", "r", encoding="utf-8") as f:
 medal = {1: "🥇", 2: "🥈", 3: "🥉"}
 
 leaderboard_lines = [
-    "## Classement Saison 3 – QF (7–8 avril 2026)\n",
+    "## Classement Saison 3 – QF 2e manche (14–15 avril 2026)\n",
     "\n",
-    "| Rang | Bot | Mise totale | Argent | Paris gagnés | Paris perdus |\n",
-    "|------|-----|------------|--------|--------------|---------------|\n",
+    "| Rang | Bot | Net total | Paris ✅ | Paris ❌ | Total |\n",
+    "|------|-----|-----------|---------|---------|-------|\n",
 ]
 
 # Compute total stake per bot (money is always negative = stakes spent)
@@ -234,11 +236,11 @@ stakes = {
 for rank, (name, stats) in enumerate(sorted_bots, 1):
     m     = medal.get(rank, f"#{rank}")
     money = stats["money"]
-    stake = stakes.get(name, "?")
     sign  = "+" if money >= 0 else ""
+    total = stats["bets_won"] + stats["bets_lost"]
     leaderboard_lines.append(
-        f"| {m} | **{name}** | €{stake} | **€{sign}{money:.2f}** "
-        f"| {stats['bets_won']} | {stats['bets_lost']} |\n"
+        f"| {m} | **{name}** | **€{sign}{money:.2f}** "
+        f"| {stats['bets_won']} | {stats['bets_lost']} | {total} |\n"
     )
 
 leaderboard_lines.append("\n")

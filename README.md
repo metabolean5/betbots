@@ -68,16 +68,172 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ```
 
-## Classement Saison 3 – Week-end (11–13 avril 2026)
+## Classement Saison 3 – QF 2e manche (14–15 avril 2026)
 
 | Rang | Bot | Net total | Paris ✅ | Paris ❌ | Total |
 |------|-----|-----------|---------|---------|-------|
-| 🥇 | **Way to Claude** | **€+566.50** | 17 | 39 | 56 |
-| 🥈 | **Risky Rifki** | **€+113.75** | 11 | 14 | 25 |
-| 🥉 | **Billy Bayes** | **€+66.15** | 11 | 6 | 17 |
-| #4 | **Vent d'Ofsky** | **€-0.36** | 5 | 3 | 7 |
-| #5 | **Risky Vent d'Ofsky** | **€-77.22** | 2 | 7 | 12 |
-| #6 | **Pat Nostat** | **€-112.40** | 3 | 7 | 10 |
+| 🥇 | **Way to Claude** | **€+541.35** | 18 | 41 | 59 |
+| 🥈 | **Risky Rifki** | **€+156.50** | 12 | 14 | 26 |
+| 🥉 | **Billy Bayes** | **€+85.40** | 12 | 6 | 18 |
+| #4 | **Vent d'Ofsky** | **€-0.36** | 3 | 3 | 7 |
+| #5 | **Pat Nostat** | **€-81.80** | 6 | 7 | 13 |
+| #6 | **Risky Vent d'Ofsky** | **€-92.22** | 2 | 8 | 13 |
+
+---
+
+## Paris — Week-end (17–22 avril 2026)
+
+> Données scrappées via `betting_arena_weekend.py`.
+
+### Programme
+
+**Premier League**
+
+| Date | Match | Cotes (dom / nul / ext) |
+|---|---|---|
+| Ven 18/04 | Brentford vs Fulham | @2.18 / @3.81 / @3.40 |
+| Ven 18/04 | Newcastle United vs Bournemouth | @2.02 / @3.96 / @3.72 |
+| Ven 18/04 | Chelsea vs Manchester United | @2.32 / @3.62 / @3.25 |
+| Sam 19/04 | Aston Villa vs Sunderland | @1.70 / @3.79 / @5.40 |
+| Sam 19/04 | Nottingham Forest vs Burnley | @1.54 / @4.25 / @6.52 |
+| Sam 19/04 | Everton vs Liverpool | @3.05 / @3.45 / @2.15 |
+| Sam 19/04 | Manchester City vs Arsenal | @1.87 / @3.73 / @4.31 |
+| Mar 22/04 | Bournemouth vs Leeds United | @1.96 / @3.40 / @3.30 |
+| Mar 22/04 | Burnley vs Manchester City | @9.50 / @6.00 / @1.19 |
+
+**Ligue 1**
+
+| Date | Match | Cotes (dom / nul / ext) |
+|---|---|---|
+| Jeu 17/04 | RC Lens vs Toulouse | @1.57 / @4.41 / @5.72 |
+| Ven 18/04 | Lorient vs Marseille | @4.48 / @4.01 / @1.78 |
+| Ven 18/04 | Lille vs Nice | @1.53 / @4.36 / @6.37 |
+| Sam 19/04 | Nantes vs Brest | @2.37 / @3.31 / @3.23 |
+| Sam 19/04 | Paris Saint Germain vs Lyon | @1.30 / @6.12 / @8.89 |
+| Mar 22/04 | Paris Saint Germain vs Nantes | @1.20 / @6.50 / @12.00 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Everton vs Liverpool | **Everton W** | @3.05 | €35 | €106.75 |
+| Lille vs Nice | **Lille W** | @1.53 | €35 | €53.55 |
+| Paris Saint Germain vs Lyon | **PSG W** | @1.30 | €50 | €65.00 |
+| Paris Saint Germain vs Nantes | **PSG W** | @1.20 | €50 | €60.00 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Newcastle United vs Bournemouth | **Newcastle W** | @2.02 | €25 | €50.50 |
+| Chelsea vs Manchester United | **Nul** | @3.62 | €25 | €90.50 |
+| Aston Villa vs Sunderland | **Sunderland W** | @5.40 | €25 | €135.00 |
+| Manchester City vs Arsenal | **Arsenal W** | @4.31 | €25 | €107.75 |
+| Burnley vs Manchester City | **Nul** | @6.00 | €25 | €150.00 |
+| Lorient vs Marseille | **Marseille W** | @1.78 | €25 | €44.50 |
+| Nantes vs Brest | **Brest W** | @3.23 | €25 | €80.75 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Lille vs Nice | **Lille W** | @1.53 | €10 | €15.30 |
+| Paris Saint Germain vs Lyon | **PSG W** | @1.30 | €10 | €13.00 |
+| Paris Saint Germain vs Nantes | **PSG W** | @1.20 | €50 | €60.00 |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote |
+|---|---|---|
+| Nottingham Forest vs Burnley | Forest W | @1.54 |
+| Burnley vs Manchester City | Man City W | @1.19 |
+| RC Lens vs Toulouse | RC Lens W | @1.57 |
+| Lille vs Nice | Lille W | @1.53 |
+| Paris Saint Germain vs Lyon | PSG W | @1.30 |
+| Paris Saint Germain vs Nantes | PSG W | @1.20 |
+| Everton vs Liverpool | Everton W | @3.05 |
+
+Mise combinée : **€15** — Gain potentiel : **€161.72**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote |
+|---|---|---|
+| Burnley vs Manchester City | Man City W | @1.19 |
+| Paris Saint Germain vs Lyon | PSG W | @1.30 |
+| Paris Saint Germain vs Nantes | PSG W | @1.20 |
+
+Mise combinée : **€20** — Gain potentiel : **€37.13**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Pronostic | Cote | Mise | Gain potentiel |
+|---|---|---|---|---|
+| Newcastle United vs Bournemouth | **Bournemouth W** | @3.72 | €35 | €130.20 |
+| Chelsea vs Manchester United | **Man United W** | @3.25 | €35 | €113.75 |
+| Aston Villa vs Sunderland | **Sunderland W** | @5.40 | €50 | €270.00 |
+| Nottingham Forest vs Burnley | **Burnley W** | @6.52 | €50 | €326.00 |
+| Everton vs Liverpool | **Everton W** | @3.05 | €35 | €106.75 |
+| Manchester City vs Arsenal | **Arsenal W** | @4.31 | €50 | €215.50 |
+| Burnley vs Manchester City | **Burnley W** | @9.50 | €50 | €475.00 |
+| RC Lens vs Toulouse | **Toulouse W** | @5.72 | €50 | €286.00 |
+| Lorient vs Marseille | **Lorient W** | @4.48 | €35 | €156.80 |
+| Lille vs Nice | **Nice W** | @6.37 | €35 | €222.95 |
+| Nantes vs Brest | **Brest W** | @3.23 | €35 | €113.05 |
+| Paris Saint Germain vs Lyon | **Lyon W** | @8.89 | €50 | €444.50 |
+| Paris Saint Germain vs Nantes | **Nul** | @6.50 | €50 | €325.00 |
+
+> Way to Claude joue massivement l'upset ce round : 11 paris contrarians sur 13, dont Lyon @8.89 et Burnley @9.50.
+
+---
+
+## Résultats — UCL QF 2e manche (14–15 avril 2026)
+
+### Résultats des matchs
+
+| Date | Match | Score | Résultat |
+|---|---|---|---|
+| Mar 14/04 | Atlético Madrid vs Barcelona | **1–2** | Victoire Barcelona |
+| Mar 14/04 | Liverpool vs Paris Saint Germain | **0–2** | Victoire PSG |
+| Mer 15/04 | Arsenal vs Sporting Lisbon | **0–0** | Nul |
+| Mer 15/04 | Bayern Munich vs Real Madrid | **4–3** | Victoire Bayern Munich |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Bayern Munich vs Real Madrid | **Bayern W** | @1.55 | €35 | ✅ 4–3 | **+€54.25** |
+
+Bilan : **1✅ 0❌** — **+€54.25**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Liverpool vs Paris Saint Germain | **PSG W** | @2.71 | €25 | ✅ 0–2 | **+€67.75** |
+
+Bilan : **1✅ 0❌** — **+€67.75**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Atlético Madrid vs Barcelona | **Barcelona W** | @1.80 | €10 | ✅ 1–2 | **+€18.00** |
+| Liverpool vs Paris Saint Germain | **PSG W** | @2.71 | €10 | ✅ 0–2 | **+€27.10** |
+| Bayern Munich vs Real Madrid | **Bayern W** | @1.55 | €10 | ✅ 4–3 | **+€15.50** |
+
+Bilan : **3✅ 0❌** — **+€60.60**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote | Résultat |
+|---|---|---|---|
+| Arsenal vs Sporting Lisbon | Arsenal W | @1.50 | ❌ 0–0 |
+| Bayern Munich vs Real Madrid | Bayern W | @1.55 | ✅ 4–3 |
+
+Mise : **€15** — Combiné **PERDU** (Arsenal match nul) — **-€15**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky
+Aucun pari ce round (aucune cote ne passe le seuil < 1.50).
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Liverpool vs Paris Saint Germain | **PSG W** | @2.71 | €35 | ✅ 0–2 | **+€94.85** |
+| Arsenal vs Sporting Lisbon | Sporting W | @7.20 | €50 | ❌ 0–0 | -€50 |
+| Bayern Munich vs Real Madrid | Nul | @5.06 | €35 | ❌ 4–3 | -€35 |
+
+Bilan : **1✅ 2❌** — **+€9.85**
 
 ---
 
