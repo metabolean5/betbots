@@ -215,10 +215,10 @@ with open("README.md", "r", encoding="utf-8") as f:
 medal = {1: "🥇", 2: "🥈", 3: "🥉"}
 
 leaderboard_lines = [
-    "## Classement Saison 3 – QF (7–8 avril 2026)\n",
+    "## Classement Saison 3 – QF 2e manche (14–15 avril 2026)\n",
     "\n",
-    "| Rang | Bot | Mise totale | Argent | Paris gagnés | Paris perdus |\n",
-    "|------|-----|------------|--------|--------------|---------------|\n",
+    "| Rang | Bot | Net total | Paris ✅ | Paris ❌ | Total |\n",
+    "|------|-----|-----------|---------|---------|-------|\n",
 ]
 
 # Compute total stake per bot (money is always negative = stakes spent)
@@ -234,11 +234,11 @@ stakes = {
 for rank, (name, stats) in enumerate(sorted_bots, 1):
     m     = medal.get(rank, f"#{rank}")
     money = stats["money"]
-    stake = stakes.get(name, "?")
     sign  = "+" if money >= 0 else ""
+    total = stats["bets_won"] + stats["bets_lost"]
     leaderboard_lines.append(
-        f"| {m} | **{name}** | €{stake} | **€{sign}{money:.2f}** "
-        f"| {stats['bets_won']} | {stats['bets_lost']} |\n"
+        f"| {m} | **{name}** | **€{sign}{money:.2f}** "
+        f"| {stats['bets_won']} | {stats['bets_lost']} | {total} |\n"
     )
 
 leaderboard_lines.append("\n")

@@ -1,8 +1,8 @@
 {
     "total_bets_made": 16,
-    "successful_bets": 4,
-    "unsuccessful_bets": 9,
-    "money": 34.0,
+    "successful_bets": 5,
+    "unsuccessful_bets": 11,
+    "money": 128.85,
     "current_bets": {
         "Round \u2013 14/04/2026": [
             {
@@ -139,7 +139,8 @@
                 ],
                 "prediction": 0
             },
-            "potential_gain": 94.85
+            "potential_gain": 94.85,
+            "result": "won"
         },
         "2": {
             "bet_data": {
@@ -168,7 +169,8 @@
                 ],
                 "prediction": 0
             },
-            "potential_gain": 360.0
+            "potential_gain": 360.0,
+            "result": "lost"
         },
         "3": {
             "bet_data": {
@@ -197,7 +199,8 @@
                 ],
                 "prediction": 1
             },
-            "potential_gain": 177.1
+            "potential_gain": 177.1,
+            "result": "lost"
         }
     }
 }

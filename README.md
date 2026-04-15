@@ -68,16 +68,72 @@ array([[0.07342209, 0.14820677, 0.77837113],
 
 ```
 
-## Classement Saison 3 – Week-end (11–13 avril 2026)
+## Classement Saison 3 – QF 2e manche (14–15 avril 2026)
 
 | Rang | Bot | Net total | Paris ✅ | Paris ❌ | Total |
 |------|-----|-----------|---------|---------|-------|
-| 🥇 | **Way to Claude** | **€+566.50** | 17 | 39 | 56 |
-| 🥈 | **Risky Rifki** | **€+113.75** | 11 | 14 | 25 |
-| 🥉 | **Billy Bayes** | **€+66.15** | 11 | 6 | 17 |
-| #4 | **Vent d'Ofsky** | **€-0.36** | 5 | 3 | 7 |
-| #5 | **Risky Vent d'Ofsky** | **€-77.22** | 2 | 7 | 12 |
-| #6 | **Pat Nostat** | **€-112.40** | 3 | 7 | 10 |
+| 🥇 | **Risky Rifki** | **€+141.00** | 4 | 2 | 6 |
+| 🥈 | **Way to Claude** | **€+128.85** | 5 | 11 | 16 |
+| 🥉 | **Billy Bayes** | **€+84.70** | 7 | 2 | 9 |
+| #4 | **Vent d'Ofsky** | **€+22.59** | 3 | 0 | 2 |
+| #5 | **Pat Nostat** | **€-31.80** | 6 | 2 | 8 |
+| #6 | **Risky Vent d'Ofsky** | **€-60.00** | 0 | 4 | 7 |
+
+---
+
+## Résultats — UCL QF 2e manche (14–15 avril 2026)
+
+### Résultats des matchs
+
+| Date | Match | Score | Résultat |
+|---|---|---|---|
+| Mar 14/04 | Atlético Madrid vs Barcelona | **1–2** | Victoire Barcelona |
+| Mar 14/04 | Liverpool vs Paris Saint Germain | **0–2** | Victoire PSG |
+| Mer 15/04 | Arsenal vs Sporting Lisbon | **0–0** | Nul |
+| Mer 15/04 | Bayern Munich vs Real Madrid | **4–3** | Victoire Bayern Munich |
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/01.jpg?raw=true" width="40"> Billy Bayes
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Bayern Munich vs Real Madrid | **Bayern W** | @1.55 | €35 | ✅ 4–3 | **+€54.25** |
+
+Bilan : **1✅ 0❌** — **+€54.25**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/02.jpg?raw=true" width="40"> Risky Rifki
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Liverpool vs Paris Saint Germain | **PSG W** | @2.71 | €25 | ✅ 0–2 | **+€67.75** |
+
+Bilan : **1✅ 0❌** — **+€67.75**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/03.jpg?raw=true" width="40"> Pat Nostat
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Atlético Madrid vs Barcelona | **Barcelona W** | @1.80 | €10 | ✅ 1–2 | **+€18.00** |
+| Liverpool vs Paris Saint Germain | **PSG W** | @2.71 | €10 | ✅ 0–2 | **+€27.10** |
+| Bayern Munich vs Real Madrid | **Bayern W** | @1.55 | €10 | ✅ 4–3 | **+€15.50** |
+
+Bilan : **3✅ 0❌** — **+€60.60**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/04.jpg?raw=true" width="40"> Risky Vent d'Ofsky (combiné)
+| Match | Pronostic | Cote | Résultat |
+|---|---|---|---|
+| Arsenal vs Sporting Lisbon | Arsenal W | @1.50 | ❌ 0–0 |
+| Bayern Munich vs Real Madrid | Bayern W | @1.55 | ✅ 4–3 |
+
+Mise : **€15** — Combiné **PERDU** (Arsenal match nul) — **-€15**
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/05.jpg?raw=true" width="40"> Vent d'Ofsky
+Aucun pari ce round (aucune cote ne passe le seuil < 1.50).
+
+### <img src="https://github.com/metabolean5/betbots/blob/master/bot_pics/06.jpeg?raw=true" width="40"> Way to Claude
+| Match | Pronostic | Cote | Mise | Résultat | Gain |
+|---|---|---|---|---|---|
+| Liverpool vs Paris Saint Germain | **PSG W** | @2.71 | €35 | ✅ 0–2 | **+€94.85** |
+| Arsenal vs Sporting Lisbon | Sporting W | @7.20 | €50 | ❌ 0–0 | -€50 |
+| Bayern Munich vs Real Madrid | Nul | @5.06 | €35 | ❌ 4–3 | -€35 |
+
+Bilan : **1✅ 2❌** — **+€9.85**
 
 ---
 

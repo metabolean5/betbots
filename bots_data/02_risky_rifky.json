@@ -1,8 +1,8 @@
 {
     "total_bets_made": 6,
-    "successful_bets": 3,
+    "successful_bets": 4,
     "unsuccessful_bets": 2,
-    "money": 73.25000000000001,
+    "money": 141.0,
     "current_bets": {
         "Round \u2013 14/04/2026": [
             {
@@ -139,7 +139,8 @@
                 ],
                 "prediction": 0
             },
-            "potential_gain": 67.75
+            "potential_gain": 67.75,
+            "result": "won"
         }
     }
 }
